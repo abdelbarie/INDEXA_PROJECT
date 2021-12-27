@@ -15,7 +15,7 @@ export default function Home() {
     setMoreCenters(!moreCenters)
   }
   return (
-    <div className="">
+    <div className="relative overflow-x-hidden">
       <div className="HomePgeHeader grid md:grid-cols-2 px-10 md:px-32">
         <div className="h-fit my-auto ">
           <div className="font-extrabold text-4xl lg:text-6xl py-3">BRIGH YOUR FUTUR</div>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
 
       {/* Questions section */}
-      <div className="px-10 md:mx-32 pb-10">
+      <div className="px-4 md:mx-32 pb-10">
       <div className="text-center font-bold text-4xl mb-16">QUESTIONS</div>
         {
            Questions.map((question ,key)=>(
@@ -85,6 +85,7 @@ export default function Home() {
            ))
         }
       </div>
+      <img src="/imgs/questionMark.svg" className='absolute bottom-64 md:bottom-20 md:-right-52 -right-28 md:w-4/12 w-7/12 -z-50'></img>
     </div>
   );
 }

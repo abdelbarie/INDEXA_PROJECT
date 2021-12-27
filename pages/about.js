@@ -2,10 +2,10 @@ import react from "react";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-2 px-36 pb-20 pt-10">
+    <div className="grid  gird-cols-1 md:grid-cols-2 md:px-36 pb-20 pt-10">
       <div className="h-fit my-auto px-5">
-        <div className="font-bold text-3xl pb-4">A PROPOS DE NOUS</div>
-        <div className=''>
+        <div className="font-bold md:text-3xl text-2xl pb-4">A PROPOS DE NOUS</div>
+        <div className='text-sm'>
           Comme le t-shirt classique, mais en légèrement plus près du corps.
           Coupe ajustée. Si vous préférez une coupe moins près du corps,
           commandez une taille au-dessus ou jetez un coup d'œil au t-shirt
@@ -16,7 +16,7 @@ const About = () => {
           polyester.
         </div>
       </div>
-      <div>
+      <div className="hidden md:block">
           <img src='/imgs/aboutUS.png' className="mx-auto w-1/2"></img>
       </div>
     </div>

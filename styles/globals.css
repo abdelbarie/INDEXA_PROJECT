@@ -11,11 +11,7 @@
     color: var(--dark_blue) ; 
     font-family: poppins;
 }
-hr{
-    background-color: var(--dark_blue);
-    opacity: 0.5;
-    height: 2px;
-}
+
 
 /* Footer*/
 .copyrights{
@@ -92,4 +88,28 @@ hr{
     background-color: var(--light_blue);
     height:200px ;
     width: 220px; 
+}
+
+/* login SignUp */ 
+.connectionCard{
+    background-image: url('../public/imgs/connectionBG.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.connectionBox{
+    height: 450px;
+}
+
+@media only screen and (max-width: 600px){
+    .connectionBox{
+        height: 630px;
+    } 
+}
+/* payment */ 
+.paymentHeader{
+    background-image: url('../public/imgs/paymentBG.svg');
+    height: 240px;
+    background-size: cover;
+    background-repeat: none;
 }
