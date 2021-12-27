@@ -16,7 +16,7 @@ export default function Home() {
   }
   return (
     <div className="relative overflow-x-hidden">
-      <div className="HomePgeHeader grid md:grid-cols-2 px-10 md:px-32">
+      <div className="HomePgeHeader grid md:grid-cols-2 px-10 md:px-20 lg:px-32">
         <div className="h-fit my-auto ">
           <div className="font-extrabold text-4xl lg:text-6xl py-3">BRIGH YOUR FUTUR</div>
           <div className="font-semibold md:text-lg text-base">
@@ -32,9 +32,9 @@ export default function Home() {
       </div>
 
       {/* Product Section */}
-      <div className="Produit py-9">
+      <div className="Produit py-9 relative">
         <div className="text-center font-bold text-4xl">NOS PRODUITS</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 px-10 md:px-32 gap-20 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-10 md:px-16 lg:px-32 gap-20 mt-20">
           {HomeProduct.map((product, key) => (
             <HomeProductBox
               category={product.category}
@@ -43,12 +43,13 @@ export default function Home() {
             ></HomeProductBox>
           ))}
         </div>
+        <img src="/imgs/bordercircle.svg" className='absolute -bottom-10 -right-10 -z-50 w-20'></img>
       </div>
 
       {/* Centers Section */}
-      <div className="py-16">
+      <div className="py-16 relative">
         <div className="text-center font-bold text-4xl">NOS CENTRES</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 mt-20 px-10 md:px-32 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 mt-20 px-10 md:px-16 lg:px-32 gap-y-10">
           {Centres.map((center, key) => (
             <CentreBox
               location={center.location}
@@ -69,23 +70,26 @@ export default function Home() {
             {moreCenters?'VOIR PLUS...':'VOIR MOIN...'}
           </button>
         </div>
+        <img src="/imgs/greenCircle.svg" className='absolute -bottom-2 -left-10 -z-50 w-20'></img>
       </div>
 
       {/* About US Section */}
-      <div className="px- mb-32">
+      <div className="mb-32">
          <AboutUsBox></AboutUsBox>
       </div>
 
       {/* Questions section */}
-      <div className="px-4 md:mx-32 pb-10">
+      <div className="px-4 md:px-16 lg:px-32 pb-20 relative ">
       <div className="text-center font-bold text-4xl mb-16">QUESTIONS</div>
         {
            Questions.map((question ,key)=>(
              <QuestionBox question={question.question} answer={question.answer} key={key}></QuestionBox>
            ))
         }
+        <img src="/imgs/questionMark.svg" className='absolute -top-40 md:bottom-20 md:-right-28 lg:-right-40 -right-20 md:w-3/12 w-5/12 -z-50'></img>
+        <img src="/imgs/smallCircles.svg" className='absolute bottom-5 -left-10 -z-50 w-20'></img>
       </div>
-      <img src="/imgs/questionMark.svg" className='absolute bottom-64 md:bottom-20 md:-right-52 -right-28 md:w-4/12 w-7/12 -z-50'></img>
+      
     </div>
   );
 }

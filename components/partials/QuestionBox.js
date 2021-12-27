@@ -7,7 +7,7 @@ const QuestionBox = (props) => {
         setOpen(!isOpen) ; 
     }
     return (
-        <div className="QAbox flex w-full gap-1 md:w-6/12 mx-auto my-2 md:my-4 border-b-4 questionBox py-2 justify-between">
+        <div className="QAbox flex w-full gap-1 md:w-8/12 lg:w-7/12 mx-auto my-2 md:my-4 border-b-4 questionBox py-2 justify-between">
             <div>
             <div className="font-bold md:text-xl">{props.question}</div>
             <div className={`${isOpen?'block':'hidden'} text-sm md:text-md`}>{props.answer}</div>

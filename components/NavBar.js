@@ -3,7 +3,7 @@ import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher";
 
 const NavBar = () => {
-  const [isConnected, setConnected] = useState(true);
+  const [isConnected, setConnected] = useState(false);
   const [isOpen , setOpen] = useState(false) ; 
   const handleClick = ()=>{
     setOpen(!isOpen) ; 
@@ -17,30 +17,30 @@ const NavBar = () => {
         <div className="px-1">Allez au Menu</div>|
         <LangSwitcher></LangSwitcher>
       </div>
-      <div className="flex px-3 md:px-6 md:py-5 py-3 justify-between clear-right ">
+      <div className="flex px-3 lg:px-6 md:py-5 py-3 justify-between clear-right ">
         <div className="">
           <img src="/imgs/logo-indexa.png" className="w-28 md:w-40"></img>
         </div>
         <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex">
-          <div className="px-6 font-normal text-xl">
+          <div className="lg:px-6 px-4 font-normal lg:text-xl">
             {" "}
             <Link href="/">
               <a>Acceuil</a>
             </Link>
           </div>
-          <div className="px-6 font-normal text-xl">
+          <div className="lg:px-6 px-4 font-normal lg:text-xl">
             {" "}
             <Link href="/products">
               <a>Produit</a>
             </Link>
           </div>
-          <div className="px-6 w-fit font-normal text-xl">
+          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
             {" "}
             <Link href="/about">
               <a>A propos</a>
             </Link>
           </div>
-          <div className="px-6 w-fit font-normal text-xl">
+          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
             <Link href="/contact">
               <a>Contact</a>
             </Link>
@@ -65,15 +65,15 @@ const NavBar = () => {
 
           {/* if user not connected then display login and signUp buttons  */}
           {!isConnected && ( <>
-              <div className="px-3 font-semibold text-xl">
+              <div className="lg:px-3 px-1 font-semibold lg:text-xl ">
                 <Link href="/logIn">
-                  <button className="text-sm font-bold loginButton py-2 rounded-lg">Connectez-vous</button>
+                  <button className="lg:text-sm text-xs font-bold loginButton py-2 rounded-lg">Connectez-vous</button>
                 </Link>
               </div>
           
-              <div className="px-3 font-semibold text-xl">
+              <div className="lg:px-3 px-1 font-semibold lg:text-xl ">
                 <Link href="/signUp">
-                <button className="text-sm font-bold signUpButton py-2 rounded-lg">Inscrivez-vous</button>
+                <button className="lg:text-sm text-xs font-bold signUpButton py-2 rounded-lg">Inscrivez-vous</button>
                 </Link>
               </div>
               </>
