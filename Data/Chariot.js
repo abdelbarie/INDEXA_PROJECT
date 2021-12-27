@@ -15,6 +15,7 @@ const Chariot = [
         product : "VARIOULA 22" , 
         price : 200 , 
     } , 
+
 ]
 
 export default Chariot ; 

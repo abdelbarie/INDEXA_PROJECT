@@ -33,6 +33,7 @@ const ChariotContent = () => {
         </div>
       </div>
       <div className=" grid justify-items-stretch"><button className="mt-5 rounded-lg md:px-8 px-4 py-2 font-semibold hover:text-custom-dark-blue text-white bg-custom-green justify-self-end shadow-md">CONFIRME ORDRE</button></div>
+    
     </div>
   );
 };

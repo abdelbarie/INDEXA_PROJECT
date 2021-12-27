@@ -9,6 +9,7 @@ const Payement = () => {
           <div className="w-fit mx-auto">
             OBTENIR VOTRE <br/> PRODUIT <br/> MAINTENENT 
             <label className="greenText">!!</label>
+            
           </div>
         </div>
       </div>
