@@ -6,11 +6,12 @@ import ProCatSection from "../../components/partials/ProductCategorySection";
 const ProductDetails = (props) => {
   const router = useRouter();
   const id = router.query.id;
+  const proc = ProductsData[id] ; 
   return (
     <div className="md:px-36 px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 py-5 gap-2">
         <div>
-          <img src={ProductsData[id].producImg} className="mx-auto w-1/2"></img>
+          <img src={proc.producImg} className="mx-auto w-1/2"></img>
         </div>
         <div className="h-fit my-auto md:px-20 px-4 ">
           <div className="font-bold text-2xl py-2">
