@@ -11,7 +11,7 @@ const NavBar = () => {
   const userOrder = 0
   return (
     <div className="pt-1 mb-3">
-      <div className="flex w-fit float-right mr-2 text-xs md:text-base font-normal">
+      <div className="flex w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal">
         <div className="px-1">Allez au Menu</div>|
         <div className="px-1">Allez au Menu</div>|
         <div className="px-1">Allez au Menu</div>|

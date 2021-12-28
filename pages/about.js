@@ -2,7 +2,7 @@ import react from "react";
 
 const About = () => {
   return (
-    <div className="grid  gird-cols-1 md:grid-cols-2 md:px-36 pb-20 pt-10">
+    <div className="grid  gird-cols-1 md:grid-cols-2  md:px-16 lg:px-36 pb-20 pt-10">
       <div className="h-fit my-auto px-5">
         <div className="font-bold md:text-3xl text-2xl pb-4">A PROPOS DE NOUS</div>
         <div className='text-sm'>

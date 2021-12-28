@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SignUpCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 rounded-2xl bg-custom-dark-blue md:w-8/12 mx-auto shadow-lg my-10 connectionBox">
+    <div className="grid grid-cols-1 md:grid-cols-2 rounded-2xl bg-custom-dark-blue md:w-10/12 lg:w-8/12 mx-auto shadow-lg my-10 connectionBox">
       <div className="connectionCard md:rounded-l-2xl rounded-t-2xl">
         <div className="bg-custom-dark-blue w-full h-full md:rounded-l-2xl rounded-t-2xl  bg-opacity-70 md:py-32 py-10">
           <div className="text-white text-center h-fit my-auto text-xl font-bold py-4">

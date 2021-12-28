@@ -3,7 +3,7 @@ import LogInCard from '../components/partials/LogInCard'
 
 const LogInPage =()=>{
     return(
-        <div className='md:px-36 px-4'>
+        <div className='lg:px-36 md:px-16 px-4'>
             <LogInCard></LogInCard>
         </div>
     )

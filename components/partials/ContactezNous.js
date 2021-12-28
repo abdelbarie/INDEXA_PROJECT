@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactezNous = () => {
   return (
-    <div className="md:w-8/12 mx-auto pt-4 pb-20 relative">
+    <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20 relative">
       <div className="font-bold text-center py-2 text-2xl mb-5">
         CONTACTEZ NOUS
       </div>
@@ -22,7 +22,6 @@ const ContactezNous = () => {
         <img src="/imgs/greenCircle.svg" className="absolute top-32 -right-6 w-12"></img>
         <img src="/imgs/smallCircles.svg" className="absolute -bottom-6 -left-6 w-16"></img>
       </div>
-     
     </div>
   );
 };

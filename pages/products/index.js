@@ -16,12 +16,12 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="md:px-32 px-4">
+      <div className="lg:px-32 lg:px-16 px-4">
         <div className="py-2 border-b-2 text-4xl font-bold products">
           Produits
         </div>
         <div className="grid md:grid-cols-12 grid-cols-1">
-          <div className="col-span-4">
+          <div className="col-span-3">
             <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
               CATEGORIES{" "}
               <img
@@ -32,8 +32,7 @@ const Products = () => {
             </div>
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
-          <div className="col-span-8">
-             <div>selection</div>
+          <div className="col-span-9">
              <div>
                {
                   ['MATERIEL INFORMATIQUE','LOGICIELS','MACHINES ET ACCESSOIRES',''].map((category , key)=>(

@@ -3,7 +3,7 @@ import SignUpCard from '../components/partials/SignUpCard';
 
 const SignUp = () => {
     return (
-        <div className='md:px-36 px-4'>
+        <div className='lg:px-36 md:px-16 px-4'>
            <SignUpCard></SignUpCard>
         </div>
     );
