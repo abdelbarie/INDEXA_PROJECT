@@ -6,7 +6,7 @@ import AboutUsBox from "../components/partials/AboutUsBox";
 import Questions from "../Data/Questions";
 
 import QuestionBox from "../components/partials/QuestionBox" ; 
-import { useState } from "react/cjs/react.development";
+import React, { useState } from "react";
 
 
 export default function Home() {
