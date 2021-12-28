@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ProCatSection from "../../components/partials/ProductCategorySection";
-import ProductsData from "../../Data/Products";
 
 const Products = () => {
   const [isCategoOpen, setCategoOpen] = useState(false);
