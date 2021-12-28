@@ -12,7 +12,7 @@ const LogInCard = () => {
           <p className='text-white font-light px-4 text-xs text-center'>
             Comme le t-shirt classique, mais en légèrement plus près du corps.
             Coupe ajustée. Si vous préférez une coupe moins près du corps,
-            commandez une taille au-dessus ou jetez un coup d'œil au t-shirt
+            commandez une taille au-dessus ou jetez un coup d œil au t-shirt
             classique
           </p>
         </div>
