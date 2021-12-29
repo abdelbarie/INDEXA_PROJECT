@@ -88,24 +88,24 @@ const NavBar = () => {
           <div className="px-6 font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/">
-              <a>Acceuil</a>
+              <a onClick={handleClick}>Acceuil</a>
             </Link>
           </div>
           <div className="px-6 font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/products">
-              <a>Produit</a>
+              <a onClick={handleClick}>Produit</a>
             </Link>
           </div>
           <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/about">
-              <a>A propos</a>
+              <a onClick={handleClick}>A propos</a>
             </Link>
           </div>
           <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
             <Link href="/contact">
-              <a>Contact</a>
+              <a onClick={handleClick}>Contact</a>
             </Link>
           </div>
 
@@ -113,14 +113,14 @@ const NavBar = () => {
           {isConnected && (<>
               <div className="w-fit ml-auto font-normal text-xl pl-6 pr-4 w-fit mx-auto">
                 <Link href="/profil" >
-                  <a className="flex gap-1 text-lg"><img src="/imgs/profilPic.png" alt="profilPic" className="rounded-full" width="30px"></img>profil</a>
+                  <a className="flex gap-1 text-lg"><img src="/imgs/profilPic.png" alt="profilPic" className="rounded-full" width="30px" onClick={handleClick}></img>profil</a>
                 </Link>
       
               </div>
         
               <div className="font-semibold text-xl justify-between w-fit mx-auto">
                 <Link href="/payment" >
-                  <a className="  w-fit ml-auto flex gap-2"><img src="/imgs/chariot.svg" alt="chariot icon" width='30px' className="-mt-1"></img>{userOrder}</a>
+                  <a className="  w-fit ml-auto flex gap-2" onClick={handleClick}><img src="/imgs/chariot.svg" alt="chariot icon" width='30px' className="-mt-1"></img>{userOrder}</a>
                 </Link>
               </div>
               </>
@@ -129,14 +129,14 @@ const NavBar = () => {
           {/* if user not connected then display login and signUp buttons  */}
           {!isConnected && ( <>
               <div className="px-3 font-semibold text-xl w-fit mx-auto">
-                <Link href="/logIn">
-                  <button className="text-sm font-bold loginButton py-2 rounded-lg">Connectez-vous</button>
+                <Link href="/logIn" >
+                  <button className="text-sm font-bold loginButton py-2 rounded-lg" onClick={handleClick}>Connectez-vous</button>
                 </Link>
               </div>
           
               <div className="px-3 font-semibold text-xl w-fit mx-auto">
                 <Link href="/signUp">
-                <button className="text-sm font-bold signUpButton py-2 rounded-lg">Inscrivez-vous</button>
+                <button className="text-sm font-bold signUpButton py-2 rounded-lg" onClick={handleClick}>Inscrivez-vous</button>
                 </Link>
               </div>
               </>

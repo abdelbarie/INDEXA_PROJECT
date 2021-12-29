@@ -4,7 +4,7 @@ import CentreBox from "../components/partials/CentreBox";
 import Centres from "../Data/Centres";
 import AboutUsBox from "../components/partials/AboutUsBox";
 import Questions from "../Data/Questions";
-
+import Link from "next/link";
 import QuestionBox from "../components/partials/QuestionBox";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -30,11 +30,11 @@ export default function Home() {
             Destiné aussi bien aux enfants qu aux adultes atteints d une perte
             auditive sévère à profonde.
           </div>
-          <div>
+          <Link href='/products'>
             <button className="font-bold text-xl md:text-2xl px-6 py-2 mt-6 shopNowButton text-white">
               SHOP NOW
             </button>
-          </div>
+          </Link >
         </div>
       </div>
 
