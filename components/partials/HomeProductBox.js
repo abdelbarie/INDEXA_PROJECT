@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const HomeProductBox = (props) => {
   return (
@@ -13,10 +14,12 @@ const HomeProductBox = (props) => {
         <img src={props.img} className="w-4/6 mx-auto"></img>
       </div>
       <div className="mx-auto w-fit mt-8">
+        <Link href="/products">
         <button className="px-6 py-1 seeMoreButton text-white font-bold">
-          {" "}
           SEE MORE
         </button>
+        </Link>
+       
       </div>
     </div>
   );

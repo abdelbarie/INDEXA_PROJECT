@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -29,11 +29,11 @@ const Footer = () => {
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto  md:w-full  text-center md:text-left ">
             <img src="/imgs/telephone.svg" width="20px" alt="phone icon"></img>{" "}
-            +213 23 80 40 61
+            +213 23 85 48 61
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto  md:w-full text-center md:text-left">
             <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
-            info@indexapro.com
+            example@gmail.com
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto md:w-full text-center md:text-left">
             <img
@@ -49,13 +49,13 @@ const Footer = () => {
             INFORMATION
           </div>
           <div className="my-1 font-normal w-fit mx-auto md:w-full text-center md:text-left">
-            Nos Produits
+            <Link href='/products'><a>Nos Produits</a></Link>
           </div>
           <div className="my-1 font-normal w-fit mx-auto md:w-full text-center md:text-left">
-            Nos Centres
+          <Link href='/contact'><a>Contact</a></Link>
           </div>
           <div className="my-1 font-normal w-fit mx-auto md:w-full text-center md:text-left">
-            A Propos
+          <Link href='/about'><a>A Propos</a></Link>
           </div>
           <div className="mt-3 flex w-fit mx-auto md:w-full text-center md:text-left">
             <img

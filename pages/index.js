@@ -41,40 +41,38 @@ export default function Home() {
       {/* Product Section */}
       <div className="Produit py-9 relative">
         <div className="text-center font-bold text-4xl">NOS PRODUITS</div>
-        
 
-        <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20" >
-        <Swiper 
-        slidesPerView={1} spaceBetween={10} pagination={{
-          "dynamicBullets": true
-        }}  breakpoints={{
-  "640": {
-    "slidesPerView": 2,
-    "spaceBetween": 20
-  },
-  "768": {
-    "slidesPerView": 3,
-    "spaceBetween": 40
-  },
-  "1024": {
-    "slidesPerView": 3,
-    "spaceBetween": 50
-  }
-}} 
+        <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              dynamicBullets: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            }}
             className="mySwiper"
           >
-
-{HomeProduct.map((product, key) => (
-  <SwiperSlide key={key}>
- <HomeProductBox
-              category={product.category}
-              img={product.productImg}
-              
-            ></HomeProductBox>
-  </SwiperSlide>
-           
-          ))}
-
+            {HomeProduct.map((product, key) => (
+              <SwiperSlide key={key}>
+                <HomeProductBox
+                  category={product.category}
+                  img={product.productImg}
+                ></HomeProductBox>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
 
@@ -87,28 +85,43 @@ export default function Home() {
       {/* Centers Section */}
       <div className="py-16 relative">
         <div className="text-center font-bold text-4xl">NOS CENTRES</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 mt-20 px-10 md:px-16 lg:px-32 gap-y-10">
-          {Centres.map((center, key) => (
-            <CentreBox
-              location={center.location}
-              centerName={center.centerName}
-              phoneNumber={center.phoneNumber}
-              description={center.description}
-              key={key}
-              id={center.id}
-              disp={`${moreCenters && key > 2 ? "hidden" : "block"}`}
-            ></CentreBox>
-          ))}
+        <div className="mt-20 px-10 md:px-16 lg:px-32 gap-y-10">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              dynamicBullets: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            }}
+            className="mySwiper"
+          >
+            {Centres.map((center, key) => (
+              <SwiperSlide key={key}>
+                <CentreBox
+                  location={center.location}
+                  centerName={center.centerName}
+                  phoneNumber={center.phoneNumber}
+                  description={center.description}
+                  id={center.id}
+                ></CentreBox>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
         <div className="grid grid-cols-3 mt-10 px-10 md:px-32"></div>
-        <div className="w-fit mx-auto mt-2">
-          <button
-            className="text-xl font-semibold px-7 py-1 border-2 rounded-xl voirPlusButton"
-            onClick={showCenters}
-          >
-            {moreCenters ? "VOIR PLUS..." : "VOIR MOIN..."}
-          </button>
-        </div>
         <img
           src="/imgs/greenCircle.svg"
           className="absolute -bottom-2 -left-10 -z-50 w-20"

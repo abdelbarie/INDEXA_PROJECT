@@ -2,7 +2,7 @@ import React from "react";
 
 const CentreBox = (props) => {
   return (
-    <div className={`w-full ${props.disp}`}>
+    <div className={`w-full ${props.disp} pb-10`}>
       <div className="centreMap mx-auto relative border-t-4">
         <iframe
           src={props.location}

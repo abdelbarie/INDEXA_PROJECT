@@ -10,11 +10,7 @@ import SwiperCore, { FreeMode, Pagination } from "swiper";
 SwiperCore.use([FreeMode, Pagination]);
 
 const ProCatSection = (props) => {
-  const [moreProducts, setMore] = useState(true);
   let i = 1 ; 
-  const getMoreProducts = () => {
-    setMore(!moreProducts);
-  };
   return (
     <div className="w-full py-5">
       <div className="w-fit mx-auto font-semibold text-xl">
@@ -61,9 +57,8 @@ const ProCatSection = (props) => {
         <Link href={`products/categories/${props.category}`}>
         <button
           className="text-lg font-semibold px-5 py-1 border-2 rounded-xl voirPlusButton"
-          onClick={getMoreProducts}
         >
-          {moreProducts ? "AFFICHER PLUS..." : "AFFICHER MOIN..."}
+        AFFICHER PLUS..
         </button>
         </Link>
         

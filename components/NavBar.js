@@ -18,9 +18,9 @@ const NavBar = () => {
         <LangSwitcher></LangSwitcher>
       </div>
       <div className="flex px-3 lg:px-6 md:py-5 py-3 justify-between clear-right ">
-        <div className="">
-          <img src="/imgs/logo-indexa.png" className="w-28 md:w-40"></img>
-        </div>
+        <Link href="/" className="">
+          <a><img src="/imgs/logo-indexa.png" className="w-28 md:w-40"></img></a>
+        </Link>
         <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex">
           <div className="lg:px-6 px-4 font-normal lg:text-xl">
             {" "}
