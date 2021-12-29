@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeProductBox = (props) => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-5 pb-16">
       <div className="productBox relative w-9/12 mx-auto pt-6">
         <div className="absolute -top-3 px-2 py-1 marks left-2 text-white font-semibold text-sm shadow-md">
           {props.category}
