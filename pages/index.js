@@ -54,8 +54,8 @@ export default function Home() {
         <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20" >
         <Swiper 
         slidesPerView={1} spaceBetween={10} pagination={{
-  "clickable": true
-}} breakpoints={{
+          "dynamicBullets": true
+        }}  breakpoints={{
   "640": {
     "slidesPerView": 2,
     "spaceBetween": 20
