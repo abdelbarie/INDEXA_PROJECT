@@ -5,7 +5,7 @@ const AboutUsBox = () => {
   return (
     <div className="aboutUs w-11/12 md:w-9/12 lg:w-7/12 rounded-3xl relative mx-auto overflow-hidden shadow-xl">
       <img
-        src="/imgs/aboutbg.png"
+        src="/imgs/aboutbg.svg"
         className="absolute -left-20 md:left-0 top-0 aboutimg rounded-l-3xl "
       ></img>
       <div className=" w-full md:w-1/2 h-fit relative float-right my-auto lg:pt-24 md:pt-20 pt-24 pr-8 pl-4">

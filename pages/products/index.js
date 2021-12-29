@@ -34,7 +34,7 @@ const Products = () => {
           <div className="col-span-9">
              <div>
                {
-                  ['MATERIEL INFORMATIQUE','LOGICIELS','MACHINES ET ACCESSOIRES',''].map((category , key)=>(
+                  ['MATERIEL INFORMATIQUE','HORLOGERIE','JEUX EDUCATIFS',].map((category , key)=>(
                     <ProCatSection key={key} category ={category}  id={key}></ProCatSection>
                   ))
                }
