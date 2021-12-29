@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProductBox = (props) => {
   return (
-    <div className={`${props.disp} my-4`}>
+    <div className={`${props.disp} pt-4 pb-8`}>
       <div className="ProductBox relative mx-auto  grid place-content-center">
         <div className="absolute -top-3 px-2 py-1 marks left-2 text-white font-semibold text-xs shadow-md">
           {props.category}

@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import ProductsData from "../../Data/Products";
 import ProductBox from "./ProductBox";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import SwiperCore, { FreeMode, Pagination } from "swiper";
+SwiperCore.use([FreeMode, Pagination]);
 
 const ProCatSection = (props) => {
   const [moreProducts, setMore] = useState(true);
@@ -13,29 +20,53 @@ const ProCatSection = (props) => {
       <div className="w-fit mx-auto font-semibold text-xl">
         {props.category}
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 py-6 mt-5">
+      <div className=" py-6 mt-5">
+      <Swiper 
+        slidesPerView={1} spaceBetween={10} pagination={{
+          "dynamicBullets": true
+        }}  breakpoints={{
+  "640": {
+    "slidesPerView": 2,
+    "spaceBetween": 20
+  },
+  "768": {
+    "slidesPerView": 3,
+    "spaceBetween": 40
+  },
+  "1024": {
+    "slidesPerView": 3,
+    "spaceBetween": 50
+  }
+}} 
+            className="mySwiper"
+          >
         {ProductsData.map((product, key) => (
           <>
-          
             {(product.category == props.category)&&(i++) &&(
+  <SwiperSlide key={key}>
+
               <ProductBox
-                key={key}
-                disp={`${moreProducts && i > 4 ? "hidden" : "block"}`}
+                // disp={`${moreProducts && i > 4 ? "hidden" : "block"}`}
                 product={product}
                 category={props.category}
                 id = {product.id}
               ></ProductBox>
+           </SwiperSlide> 
             )}
           </>
         ))}
+        </Swiper>
       </div>
       <div className={`w-fit mx-auto my-2 ${i<4?'hidden' : 'block'}`}>
+        <Link href={`products/categories/${props.category}`}>
         <button
           className="text-lg font-semibold px-5 py-1 border-2 rounded-xl voirPlusButton"
           onClick={getMoreProducts}
         >
           {moreProducts ? "AFFICHER PLUS..." : "AFFICHER MOIN..."}
         </button>
+        </Link>
+        
       </div>
       <hr/>
     </div>

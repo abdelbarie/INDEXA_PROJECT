@@ -41,15 +41,7 @@ export default function Home() {
       {/* Product Section */}
       <div className="Produit py-9 relative">
         <div className="text-center font-bold text-4xl">NOS PRODUITS</div>
-        {/* <div className="grid grid-cols-1 md:grid-cols-3 px-10 md:px-16 lg:px-32 gap-20 mt-20">
-          {HomeProduct.map((product, key) => (
-            <HomeProductBox
-              category={product.category}
-              img={product.productImg}
-              key={key}
-            ></HomeProductBox>
-          ))}
-        </div> */}
+        
 
         <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20" >
         <Swiper 
