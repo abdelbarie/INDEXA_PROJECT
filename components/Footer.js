@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyrights text-center p-2 text-white">
-        2021 © CREATED BY EDRAAK
+        2022 © CREATED BY EDRAAK
       </div>
     </div>
   );

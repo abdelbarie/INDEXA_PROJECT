@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 :root{
     --light_blue : #E9F1FE ; 
     --dark_blue: #2C3A5E;
@@ -9,7 +9,7 @@
 }
 *{
     color: var(--dark_blue) ; 
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 
