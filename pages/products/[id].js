@@ -16,7 +16,7 @@ const ProductDetails = ({products}) => {
           <div className="font-bold text-2xl py-2">
             {products[id].productName}
           </div>
-          <div className="">{products[id].description}<br/>{products[id].description}</div>
+          <div className="productDetails">{products[id].longDescription}</div>
           <div className="flex mt-2 justify-between">
             <div className="font-bold text-lg">{products[id].price} DA</div>
             <div className="flex w-fit">
@@ -38,7 +38,7 @@ const ProductDetails = ({products}) => {
       </div>
       <div className="md:w-8/12">
           <div className="font-bold text-2xl mt-16">Détails<hr/></div>
-          <div >{products[id].details}</div>
+          <div className="productDetails">{products[id].details}</div>
       </div>
       <div>
           <div className="font-bold text-2xl mt-16">Produits similaire </div>

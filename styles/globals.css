@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 :root{
-    --light_blue : #E9F1FE ; 
+    --light_blue : #e8fcff ; 
     --dark_blue: #2C3A5E;
     --green : #89CDD3 ; 
 }
@@ -84,10 +84,19 @@
    color: var(--green);
 }
 /* Products Page */ 
-.ProductBox{
-    background-color: var(--light_blue);
-    height:200px ;
-    width: 220px; 
+.ProductBox{ 
+    height:220px ;
+    width: 240px;
+    border:solid var(--green);
+    border-width: 2px ; 
+    cursor: pointer;
+    box-shadow: 1px 0 10px 1px rgba(12 , 12 , 12 , 0.1);
+}
+.ProductBox:hover{
+    background-color: rbga(120 , 12 , 12 , 0.8);
+    width: 250px ; 
+    height: 230px;
+    box-shadow: 1px 0 10px 1px rgba(12 , 12 , 12 , 0.1);
 }
 
 /* login SignUp */ 
@@ -99,6 +108,9 @@
 }
 .connectionBox{
     height: 450px;
+}
+.productDetails{
+    white-space: pre-line;
 }
 
 @media only screen and (max-width: 600px){

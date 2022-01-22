@@ -31,10 +31,10 @@ const Products = () => {
             </div>
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
-          <div className="col-span-9">
+          <div className="col-span-9 lg:pr-16 lg:pl-6">
              <div>
                {
-                  ['MATERIEL INFORMATIQUE','HORLOGERIE','JEUX EDUCATIFS',].map((category , key)=>(
+                  ['MATERIEL INFORMATIQUE','HORLOGERIE','JEUX EDUCATIFS','LOGICILE' , 'CALCULE' ,'Machine à écrire' , 'DESSINS' ,'DIVERS'].map((category , key)=>(
                     <ProCatSection key={key} category ={category}  id={key}></ProCatSection>
                   ))
                }

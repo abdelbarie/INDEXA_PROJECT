@@ -1,175 +1,592 @@
 const ProductsData = [
   {
     id: 0,
-    productName: "BRAILLEBOX v5",
+    productName: "Calculatrice Parlante",
     description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    longDescription:
+      "Cette calculatrice munie de gros caractères et d’une fonction vocale, au design moderne et élégant, vous permettra d’effectuer les 4 opérations de base et les pourcentages. Elle vous servira aussi d’horloge avec annonce vocale et de réveil grâce à sa fonction alarme.",
+    details: `- Ecran à cristaux liquides légèrement relevé (10 chiffres d’une hauteur de 21 mm chacun)
+      -	Touches de mémoire : plus, moins, rappel, effacement (elles servent également aux réglages de la date,
+         de l’heure et de l’alarme)
+      -	Possibilité de faire énoncer les nombres soit globalement, soit chiffre par chiffre
+      -	Possibilité de désactiver la synthèse vocale
+      -	Réglage du volume : oui (sur 2 niveaux)
+      -	Touche répétition
+      -	Annonce de l’heure : oui
+      -	Annonce de la date : non, elle sera seulement affichée et réglée mais ne sera jamais énoncée
+      -	Fonction alarme avec réveil par des bips et l’annonce de l’heure
+      -	Prise écouteurs : oui (écouteurs non fournis)
+      `,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch.png",
-    category: "HORLOGERIE",
+    producImg: "/imgs/calculatriceparlante.png",
+    category: "CALCULE",
   },
   {
     id: 1,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Cubarithme",
+    description:
+      "Ce plateau en plastique de 15 rangées de 20 cases sert à l'apprentissage de l'arithmétique ",
+    longDescription: `Ce plateau en plastique de 15 rangées de 20 cases sert à l'apprentissage de l'arithmétique (avec les cubes référence 15001) et de l'algèbre (avec les cubes référence 15002).
+    L'utilisation de cubes algébriques (référence 15002) permet également de composer des grilles de mots croisés
+    `,
+    details: `
+    -	Dimensions du plateau : 19 x 25 cm
+    -	Dimensions d'une case : 10 mm de côté
+    `,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch2.png",
-    category: "HORLOGERIE",
+    producImg: "/imgs/CUBARITHME.png",
+    category: "CALCULE",
   },
   {
     id: 2,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Cubes arithmétiques par 100",
+    description: "Ces cubes arithmétiques en plastique",
+    longDescription: `Ces cubes arithmétiques en plastique, alourdis d'une bille en acier et marqués en relief sur chacune des faces, permettent d'écrire des chiffres braille en les positionnant sur le plateau (référence 15000).`,
+    details: `
+    -	Conditionnés par boîte de 100 cubes
+    -	Dimensions d'un cube : 9 mm de côté
+`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch3.png",
-    category: "HORLOGERIE",
+    producImg: "/imgs/cubesArith.png",
+    category: "CALCULE",
   },
   {
     id: 3,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Feuille à dessin A4",
+    description: "En plastique transparent",
+    longDescription:
+      "En plastique transparent, ces feuilles sont utilisées pour la réalisation de dessins à l'aide de la planche référence.",
+    details: `
+    -	Conditionnées par 600 feuilles environ`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch4.png",
-    category: "HORLOGERIE",
+    producImg: "/imgs/A4.png",
+    category: "DESSINS",
   },
   {
     id: 4,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Ensemble d’équerres",
+    description: "En plastique rigide",
+    longDescription:
+      "En plastique rigide, elles sont graduées en relief sur chacun des côtés de l'angle droit.",
+    details: `
+    •	L'ensemble comprend :
+-	1 équerre à angles de 30° et 60°
+-	1 équerre à angle de 45°
+•	Graduations :
+-	1 point tous les demi-centimètres
+-	2 points tous les centimètres
+-	3 points tous les 5 centimètres
+
+•	Longueur des hypoténuses :
+-	16,5 cm pour l'équerre à 45°
+-	19 cm pour l’équerre de 30° à 60°
+`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch5.png",
-    category: "HORLOGERIE",
+    producImg: "/imgs/kous.png",
+    category: "DESSINS",
   },
   {
     id: 5,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Compas à pointe sèche ",
+    description: "Ce compas est muni d'une pointe sèche ",
+    longDescription:
+      "Ce compas est muni d'une pointe sèche pour effectuer des tracés en relief sur des feuilles plastique références 16500 et 16503 et en prenant pour support la planche à dessiner référence 16000. La pointe sèche peut être remplacée par une mine de crayon ou un crayon.",
+    details: "",
     price: "500",
     stars: "4",
-    producImg: "/imgs/info1.png",
-    category: "MATERIEL INFORMATIQUE",
+    producImg: "/imgs/compa.png",
+    category: "DESSINS",
   },
   {
     id: 6,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Planche à dessiner 25 x 35 cm",
+    description: "en matière caoutchoutée antidérapante",
+    longDescription:
+      "Cette planche à dessiner, en matière caoutchoutée antidérapante, est utilisée pour effectuer des tracés en relief sur une feuille plastifiée, à l'aide d'un stylo, d'un crayon à dessiner, d'une roulette ou d'un poinçon.",
+    details: `
+    Format (largeur x longueur) : 24 x 35 cm`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/watch.png",
-    category: "LOGICIELS",
+    producImg: "/imgs/dessinBlanc.jpg",
+    category: "DESSINS",
   },
   {
     id: 7,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Triple Décimètre en plastique",
+    description: "Cette règle plate en plastique est graduée en relief",
+    longDescription:
+      "Cette règle plate en plastique est graduée en relief. Elle permet aussi aux personnes malvoyantes de se repérer grâce aux deux couleurs contrastées comme le jaune et le noir.",
+    details: `
+    -	Sur un côté de la règle :
+    -	1 petit trait tous les 5 millimètres
+    -	1 trait plus grand tous les centimètres (chaque centimètre est alternativement jaune ou noir)
+    -	1 trait faisant toute la largeur de la règle tous les 5 centimètres
+    -	Sur l'autre côté de la règle :
+    -	1 encoche tous les 5 millimètres
+    -	1 trait tous les centimètres (chaque centimètre est alternativement jaune ou noir)
+    -	Sous la règle sont placées 6 pastilles antidérapantes
+    -	Largeur : 3,2 cm
+    -	Poids : 40 g
+`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/footBall.png",
-    category: "JEUX EDUCATIFS",
+    producImg: "/imgs/regle.jpg",
+    category: "DESSINS",
   },
   {
     id: 8,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Rapporteur",
+    description: "En plastique rigide",
+    longDescription:
+      "En plastique rigide, ce rapporteur est gradué en relief pour vous permettre une lecture précise.",
+    details: `
+    -	1 point tous les 10°
+    -	2 points pour 90°
+    -	Une encoche permet de repérer le centre
+    -	Diamètre : 12 cm
+    -	Poids : 20 g
+`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/jeux1.png",
-    category: "JEUX EDUCATIFS",
+    producImg: "/imgs/RAPPORTEUR.png",
+    category: "DESSINS",
   },
   {
     id: 9,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Roulette à dessiner",
+    description:
+      "Cette roulette à dessiner est munie d'un petite roue métallique crantée fixée au bout d'un manche en bois",
+    longDescription:
+      "Cette roulette à dessiner est munie d'un petite roue métallique crantée fixée au bout d'un manche en bois. Elle permet de dessiner en relief sur des feuilles plastique en prenant pour support la planche à dessiner.",
+    details: `
+    -	Hauteur du manche : 9 cm
+    -	Poids : 10 g
+`,
     price: "500",
     stars: "4",
-    producImg: "/imgs/jeux2.png",
-    category: "JEUX EDUCATIFS",
+    producImg: "/imgs/roullete.png",
+    category: "DESSINS",
   },
   {
     id: 10,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
+    productName: "Canne Française",
+    description: "1,20 M – Embout Tournant",
+    longDescription: `Élastique interchangeable reliant les segments entre eux Dragonne interchangeable
+    `,
     details:
       "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
     price: "500",
     stars: "4",
-    producImg: "/imgs/jeux1.png",
-    category: "JEUX EDUCATIFS",
+    producImg: "/imgs/canne.png",
+    category: "DIVERS",
   },
   {
     id: 11,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    productName: "Podomètre / Radio FM",
+    description: "",
+    longDescription: "",
+    details: `
+    -	Boîtier plastique noir et gris de forme ovale.
+    -	Afficheur à cristaux liquides (hauteur des chiffres 6 mm).
+    -	Touches de réglage et permettant d'activer la synthèse vocale.
+    -	Clip de fixation à la ceinture.
+    -	Livré avec écouteur.
+    -	Alimentation : 2 piles R3 
+    -	Taille en cm (LxPxH) : 7,2 x 5,9 x 2,9.
+    -	Poids (en g) : 40.
+`,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/radio.png",
+    category: "DIVERS",
+  },
+  {
+    id: 12,
+    productName: "Réveil- Calendrier parlant ",
+    description:
+      "Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.",
+    longDescription: `Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.
+    Il se présente sous la forme d'un boîtier noir dont le dessus est beige et rouge. Quatre touches permettent d'accéder à 
+    toutes les fonctions de l'appareil.
+    La voix digitalisée, de bonne qualité, est agréable à entendre.
+    Un couvercle permet de ne laisser apparentes que les deux touches permettant l'annonce de l'heure et de la date.
+    `,
+    details:`
+    Fonctions :
+    -	Montre avec bips horaires à la demande
+    -	Alarme à répétition avec, au choix : 6 sonneries différentes, chant du coq, chant du coucou, sonnerie de réveil à l'ancienne,
+     aboiements, miaulement, soit 11 possibilités.
+    -	Calendrier avec passage automatique de l'heure d'hiver à l'heure d'été et réciproquement.
+    Caractéristiques :
+    -	Clavier 4 touches 
+    -	Volume réglable (8 niveaux)
+    -	Alimentation : 1 pile rectangulaire 9 volts type LR622
+
+`, 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/reveil.png",
+    category: "HORLOGERIE",
+  },
+  {
+    id: 13,
+    productName: "Montre Parlante",
+    description: "Montre parlante avec affichage à cristaux liquides",
+    longDescription : `-	Boîtier en plastique
+    -	Cadran à cristaux liquides (hauteur des chiffres : 4 mm)
+    -	Réglages et annonce de l'heure par pression de boutons placés sur le côté du boîtier
+    -	Bracelet en plastique
+    `,
+    details:`` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/smartwatch.png",
+    category: "HORLOGERIE",
+  },
+  {
+    id: 14,
+    productName: "Réveil parlant de chevet",
+    description: "Ce réveil en forme de demi-lune",
+    longdescription : "Ce réveil en forme de demi-lune, simple d'utilisation et au design sobre, trouvera sa place dans votre intérieur" , 
+    details:`
+    -	Boîtier plastique blanc brillant au toucher doux
+    -	Afficheur à cristaux liquides avec une hauteur des chiffres de 12mm
+    -	Rétro-éclairage bleu de l'afficheur lors de l'annonce vocale de l'heure
+    -	Large touche d'activation de la synthèse vocale sur le dessus du réveil
+    -	Bouton de réglages de l'heure et de l'alarme situé à gauche de l'afficheur
+    -	Boutons de réglages des minutes et des heures situés à droite de l'afficheur
+    -	3 niveaux de volume sonore avec réglage par commutateur situé sur le dessous
+    -	Alimentation : 3 piles rondes de type LR06 
+` ,  
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/reveilparlante.png",
+    category: "HORLOGERIE",
+  },
+  {
+    id: 15,
+    productName: "Ballon de Cécifoot – Torball ",
+    description: "Ce ballon de Cécifoot",
+    longDescription : "Ce ballon de Cécifoot / torball, en plastique rouge, est munie de grelots à l'intérieur permettant aux non-voyants de le localiser lorsqu'il roule." , 
+    details:`
+    -	Diamètre : 21 cm
+    -	Poids : 500 g
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/redball.png",
+    category: "JEUX EDUCATIFS",
+  },
+  {
+    id: 16,
+    productName: "BOITE A POIDS",
+    description: "(12 pièces)",
+    longDescription : `Le jeu se compose de 12 pièces en bois de poids différent.
+    Les 12 pièces sont rangées sur un socle en bois
+    Dimensions socle : 21 x 16,5 cm
+    `, 
+    details:`
+    -	Diamètre : 21 cm
+    -	Poids : 500 g
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/poid.png",
+    category: "JEUX EDUCATIFS",
+  },
+  {
+    id: 17,
+    productName: "BOITE A SON",
+    description: "(12 pièces)",
+    longDescription : `Le jeu se compose de 12 pièces en bois émettant chacune un son différent.
+    Les 12 pièces sont rangées sur un socle en bois
+    Dimensions socle : 31 x 24 cm
+    
+    `, 
+    details:`
+    -	Diamètre : 21 cm
+    -	Poids : 500 g
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/boiteson.jpg",
+    category: "JEUX EDUCATIFS",
+  },
+  {
+    id: 18,
+    productName: "Jeu de domino en bois Points en relief",
+    description: "Pour 2 à 4 joueurs à partir de 6 ans.",
+    longDescription : `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`, 
+    details:`
+    Caractéristiques :
+    Livré dans un plumier en bois.
+    Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
+    Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/domino.png",
+    category: "JEUX EDUCATIFS",
+  },
+  {
+    id: 19,
+    productName: "Memory Tactile",
+    description: "Ce Jeu éducatif est destiné aux enfants à partir de 5 ans.",
+    longDescription : `Le jeu se compose de 32 pièces rondes en bois formant 16 paires de textures différentes.`, 
+    details:`
+    Utilisation du jeu :
+    Pour les plus jeunes, il s'agira de rapprocher les paires identiques.
+    Il peut aussi être utilisé comme un jeu de memory pour jouer à plusieurs.       
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/tactile.png",
+    category: "JEUX EDUCATIFS",
+  },
+  {
+    id: 20,
+    productName: "ZOOM Text Logiciel",
+    description: "des images claires, une navigation aisée",
+    longDescription : `Grâce au logiciel de grossissement ZOOMTEXT édité par AiSquared, les utilisateurs mal-voyants vont découvrir un nouveau concept d'agrandissement et de lecture d’écran : l'accès aux documents, tableurs, pages web et courriers devient plus rapide, plus facile et plus précis que jamais.
+
+    ZOOMTEXT MAGNIFIER : des images claires, une navigation aisée, une facilité incomparable d'utilisation et le plus haut niveau de compatibilité.
+    `, 
+    details:`
+    Caractéristiques techniques :
+
+    -	Agrandissement modulable : un agrandissement de 1 à 36 fois et 8 fenêtres zoom différentes vous permettent de configurer votre vue, agrandie, conformément à vos besoins.
+    -	La nouvelle technologie "xFont" améliore la qualité d'affichage du texte. Les polices de caractères les plus graphiques sont parfaitement lisibles, quel que soit le grossissement utilisé.
+    -	Amélioration des couleurs : des commandes innovantes de gestion des couleurs augmentent la clarté de l'écran et réduisent la fatigue oculaire. Les effets spéciaux incluent le mode teinté, bicolore et autres options permettant le remplacement des couleurs incommodantes.
+    -	Visibilité des pointeurs et curseurs : il est possible de changer la couleur et la taille du pointeur de la souris pour le visualiser plus facilement. Des
+    -	Localisateurs spéciaux rendent également le curseur de texte aisément repérable et facile à suivre.
+    -	Définition de zones de lecture : d'un simple raccourci clavier, l'agrandissement se positionne sur des champs ne définis pas l'utilisateur.
+    -	La nouvelle fonction Recherche de Texte localise rapidement dans l'application le mot ou la phrase saisie.
+    -	L'enregistrement de "profils" sauvegarde les paramètres d'affichage définis pour chaque application.
+      
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/zoomtext.png",
+    category: "LOGICILE",
+  },
+  {
+    id: 21,
+    productName: "Logiciel JAWS pour Windows FR/AR",
+    description: "JAWS (Job Access With Speech)",
+    longDescription : `un logiciel de revue d'écran pour déficients visuels édité par la société Freedom Scientific.
+
+    Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique.
+      `, 
+    details:`
+    Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique. Un afficheur braille peut-être connecter pour une lecture braille.
+
+    Conforme à l'interface de Windows, le lecteur d'écran JAWS n'en redéfinit pas la structure et vous fait appréhender cet environnement de la même manière qu'une personne voyante, ce qui facilite considérablement l'intégration. 
+    
+    JAWS interagit avec l'utilisateur en tirant étroitement partie de nombreux raccourcis claviers proposés en standard sous Windows et n'entre pas en conflit avec les touches utilisées par les autres applications. Très puissant et simple d'utilisation.
+    
+    JAWS présente des caractéristiques jusqu'à ce jour inédites : 
+    
+    -	Des fonctions de lecture regroupées sur le pavé numérique très faciles d'accès.
+    -	4 Curseurs au choix pour naviguer facilement.
+    -	Une configuration "à la carte".
+    -	Une grande flexibilité.
+    -	Un étiqueteur de graphiques manuel ou automatique.
+    -	Une optimisation accrue pour la navigation sur Internet.
+    -	Un éditeur de scripts et son langage intégrés.
+    -	Le support pour de nombreux synthétiseurs vocaux et terminaux braille.
+    -	Synthèse vocal Acapela infovox SAPI5 Français, arabe.    
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/JAWS.png",
+    category: "LOGICILE",
+  },
+  {
+    id: 22,
+    productName: "DBT 11.2",
+    description: "DUXBURY BRAILLE TRANSLATOR",
+    longDescription : `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `, 
+    details:`
+    -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
+-	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
+-	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
+-	 Numérotation automatique des pages, avec possibilité de double Pagination.
+-	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
+-	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
+   
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/DBT.png",
+    category: "LOGICILE",
+  },
+  {
+    id: 23,
+    productName: "DBT 11.2",
+    description: "DUXBURY BRAILLE TRANSLATOR",
+    longDescription : `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `, 
+    details:`
+    -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
+-	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
+-	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
+-	 Numérotation automatique des pages, avec possibilité de double Pagination.
+-	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
+-	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
+   
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/perkins.png",
+    category: "Machine à écrire",
+  },
+  {
+    id: 24,
+    productName: "Papier non perforé ",
+    description: "Format A4 160 G – 250 FEUILes ",
+    longDescription : `
+    Ce papier est recommandé pour l'écriture de documents à conserver. Il peut être utilisé avec la tablette format A3 ou avec une machine à écrire le braille ou avec les imprimantes braille acceptant le feuille à feuille.
+     `, 
+    details:`
+    -	Format : 42 x 29,7 cm, non perforé
+-	Grammage : 160 g
+-	Conditionné par 250 feuilles
+-	Poids : 25 kg
+
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/papier.jpg",
+    category: "Machine à écrire",
+  },
+  {
+    id: 25,
+    productName: "Machine PERKINS Uni-manuelle",
+    description: "Machine à écrire le braille, mécanique et portable.",
+    longDescription : `
+    Mêmes caractéristiques que la machine Perkins référence 11000, mais permettant d'écrire d'une seule main, 2 frappes successives étant nécessaires pour écrire un caractère. `, 
+    details:`-	Couleur grise
+    -	Dimensions (largeur x longueur x hauteur) : 15 x 23 x 39 cm
+    -	Poids : 4,8 kg    
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/mperkins.png",
+    category: "Machine à écrire",
+  },
+  {
+    id: 26,
+    productName: "Papier listing",
+    description: "170 G – 250 FEUILLES",
+    longDescription : `
+    Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
+    `, 
+    details:`-	Format : 12 pouces (24 perforations de part et d'autre de la feuille sur bandes Carroll)
+    -	Conditionnement : 250 feuilles
+    -	Grammage : 170 g
+    -	Dimensions hors bandes Carroll : 21 x 30,5 cm
+    -	Dimensions avec bandes Carroll : 24 x 30,5 cm
+    -	Bande Carroll droite et gauche détachables
+    -	Poids : 3,3 kg
+      
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/papers.jpg",
+    category: "Machine à écrire",
+  },
+  {
+    id: 27,
+    productName: "Feuille pour thermoformage A4",
+    description: "Ces feuilles sont à utiliser avec la thermo formeuse. ",
+    longDescription : `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
+    `, 
+    details:`
+    •	Epaisseur : Fin 0,12 mm
+    •	Format de la feuille : 21 x 29,7 (A4)
+    •	Couleur : Blanc
+    •	Conditionnement : 100 feuilles
+    •	Poids : environ 1 kg
+    
+      
+` , 
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/four.png",
+    category: "Machine à écrire",
+  },
+  {
+    id: 28,
+    productName: "INDEX EVREST DV5",
+    description: "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
+    longDescription : `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
+    C’est une embosseuse braille recto verso ave chargeur feuille à feuille.
+    L’embossage est maintenant possible tant horizontalement que verticalement.
+    L’Evrest -D V5 permet d’embosser textes Braille et éléments graphiques sur des feuilles simples, des livres (Format livret automatique), des étiquettes ainsi que des cartes de visites.
+    C’est l’embosseuse la plus polyvalente du marché. 
+    
+    Très pratique l’embossage peut se faire à partir d’un Smartphone ou d’une Tablette ainsi que le paramétrage, grave au logiciel gratuit Indexa IdB.
+    `, 
+    details:`Amélioration par rapport aux modelés précédents : 
+
+    -	Vitesse d’impression plus rapide et consommation d’énergie inférieure.
+    -	Compatibilité avec les appareils mobiles.
+    -	Logiciel idB d’Index.
+    -	Messages vocaux produits par la voix de synthèse Acapela.
+    -	Port USB pour impression directe à partir d’une clé USB pour la sauvegarde.
+    -	Poids réduit à 12Kg.
+    
+    Les fonctionnalités les plus modernes 
+    Wifi – USB – Connectivité avec appareils mobiles.
+    
+    Caractéristiques 
+    -	Embossage feuille à feuille 
+    -	Vitesse d’impression de 400 pages format A4/ heure
+    -	Résolution 100 dpi et interligne ajustable
+    -	Grammage du papier de 120 à 180 g
+    -	Largeur de la page de 13 cm à 29.7 cm
+    -	Longueur de page de 10 cm à 59 cm 
+    -	Chargeur de papier de 50 pages 
+    -	Impression 6 ou 8 points 
+    -	Jusqu’à 48 caractères par ligne 
+    -	Synthèse vocale pour les commandes, menus et sélections 
+    -	Interface USB, LAN, Wi-Fi et Bluetooth 
+    -	Compatible avec Smartphones et tablettes 
+    -	Drivers pour Windows, Mac et Linux
+    -	Interface Web pour paramétrage et statut 
+    -	Dimension : L56xH45xP18 Cm 
+    -	Poids : 12 Kg
+    -	Bruit : Inf à 60dB avec caisson insonorisant 
+    -	Consommation : 140 W en impression et 5 W en veille 
+       
+` , 
     price: "500",
     stars: "4",
     producImg: "/imgs/info2.png",
     category: "MATERIEL INFORMATIQUE",
   },
   {
-    id: 12,
-    productName: "BRAILLEBOX v10",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      " mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
-    price: "500",
-    stars: "4",
-    producImg: "/imgs/info3.png",
-    category: "MATERIEL INFORMATIQUE",
-  },
-  {
-    id: 13,
-    productName: "BRAILLEBOX v5",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique,  Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
-    price: "500",
-    stars: "4",
-    producImg: "/imgs/info4.png",
-    category: "MATERIEL INFORMATIQUE",
-  },
-  {
-    id: 14,
-    productName: "BRAILLEBOX v48",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, m vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
-    price: "500",
-    stars: "4",
-    producImg: "/imgs/footBall.png",
-    category: "JEUX EDUCATIFS",
-  },
-  {
-    id: 15,
-    productName: "BRAILLEBOX v48",
-    description: "Le VarioUltra est un bloc-notes braille fabriqué par Baum",
-    details:
-      "Comme le t-shirt classique, m vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
+    id: 29,
+    productName: "Imprimante Braille INDEX Braille BOX V5",
+    description: "L’imprimante Braille Box, fabriquée par Index",
+    longDescription : `L’imprimante Braille Box, fabriquée par Index, est une embosseuse R/V destinée à l'impression de livres en braille, elle produit directement des ouvrages (livres, journaux) dans un format cahier "prêt à relier". `, 
+    details:`Caractéristiques 
+    -	Haute vitesse : 800 pages par heure.
+    -	Excellente qualité du point braille
+    -	Le bac d'alimentation peut contenir jusqu'à 400 pages.
+    -	Alimentation des feuilles très stable.
+    -	Étonnant niveau de bruit faible.
+    -	Alimentation A3 pliée pour un format final A4.
+    
+    Volumes de production élevés :
+    La Braille Box est la meilleure embosseuse pour la production de volume élevé de braille, en utilisant du papier copie ordinaire. Elle possède également le meilleur mode d'alimentation jamais utilisé dans une imprimante braille.
+    Braille Box est une réussite d'INDEX Braille, donnant aux utilisateurs ce qu'ils ont demandent à l'impression de grands volumes
+      
+` , 
     price: "500",
     stars: "4",
     producImg: "/imgs/info5.png",
