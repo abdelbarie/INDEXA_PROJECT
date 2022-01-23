@@ -20,7 +20,7 @@ const Products = () => {
           Produits
         </div>
         <div className="grid md:grid-cols-12 grid-cols-1">
-          <div className="col-span-3">
+          <div className="col-span-2">
             <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
               CATEGORIES{" "}
               <img
@@ -31,10 +31,10 @@ const Products = () => {
             </div>
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
-          <div className="col-span-9 lg:pr-16 lg:pl-6">
-             <div>
+          <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
+             <div className="">
                {
-                  ['MATERIEL INFORMATIQUE','HORLOGERIE','JEUX EDUCATIFS','LOGICILE' , 'CALCULE' ,'Machine à écrire' , 'DESSINS' ,'DIVERS'].map((category , key)=>(
+                  ['MATERIEL INFORMATIQUE','HORLOGERIE','Matériels Pédagogique','JEUX EDUCATIFS','LOGICILE' , 'CALCULE' ,'Machine à écrire' , 'DESSINS' , 'Tablette et Accessoires' ,'DIVERS'].map((category , key)=>(
                     <ProCatSection key={key} category ={category}  id={key}></ProCatSection>
                   ))
                }

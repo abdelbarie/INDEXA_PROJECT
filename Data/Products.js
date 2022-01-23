@@ -216,7 +216,7 @@ const ProductsData = [
     La voix digitalisée, de bonne qualité, est agréable à entendre.
     Un couvercle permet de ne laisser apparentes que les deux touches permettant l'annonce de l'heure et de la date.
     `,
-    details:`
+    details: `
     Fonctions :
     -	Montre avec bips horaires à la demande
     -	Alarme à répétition avec, au choix : 6 sonneries différentes, chant du coq, chant du coucou, sonnerie de réveil à l'ancienne,
@@ -227,7 +227,7 @@ const ProductsData = [
     -	Volume réglable (8 niveaux)
     -	Alimentation : 1 pile rectangulaire 9 volts type LR622
 
-`, 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/reveil.png",
@@ -237,12 +237,12 @@ const ProductsData = [
     id: 13,
     productName: "Montre Parlante",
     description: "Montre parlante avec affichage à cristaux liquides",
-    longDescription : `-	Boîtier en plastique
+    longDescription: `-	Boîtier en plastique
     -	Cadran à cristaux liquides (hauteur des chiffres : 4 mm)
     -	Réglages et annonce de l'heure par pression de boutons placés sur le côté du boîtier
     -	Bracelet en plastique
     `,
-    details:`` , 
+    details: ``,
     price: "500",
     stars: "4",
     producImg: "/imgs/smartwatch.png",
@@ -252,8 +252,9 @@ const ProductsData = [
     id: 14,
     productName: "Réveil parlant de chevet",
     description: "Ce réveil en forme de demi-lune",
-    longdescription : "Ce réveil en forme de demi-lune, simple d'utilisation et au design sobre, trouvera sa place dans votre intérieur" , 
-    details:`
+    longdescription:
+      "Ce réveil en forme de demi-lune, simple d'utilisation et au design sobre, trouvera sa place dans votre intérieur",
+    details: `
     -	Boîtier plastique blanc brillant au toucher doux
     -	Afficheur à cristaux liquides avec une hauteur des chiffres de 12mm
     -	Rétro-éclairage bleu de l'afficheur lors de l'annonce vocale de l'heure
@@ -262,7 +263,7 @@ const ProductsData = [
     -	Boutons de réglages des minutes et des heures situés à droite de l'afficheur
     -	3 niveaux de volume sonore avec réglage par commutateur situé sur le dessous
     -	Alimentation : 3 piles rondes de type LR06 
-` ,  
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/reveilparlante.png",
@@ -272,11 +273,12 @@ const ProductsData = [
     id: 15,
     productName: "Ballon de Cécifoot – Torball ",
     description: "Ce ballon de Cécifoot",
-    longDescription : "Ce ballon de Cécifoot / torball, en plastique rouge, est munie de grelots à l'intérieur permettant aux non-voyants de le localiser lorsqu'il roule." , 
-    details:`
+    longDescription:
+      "Ce ballon de Cécifoot / torball, en plastique rouge, est munie de grelots à l'intérieur permettant aux non-voyants de le localiser lorsqu'il roule.",
+    details: `
     -	Diamètre : 21 cm
     -	Poids : 500 g
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/redball.png",
@@ -286,14 +288,14 @@ const ProductsData = [
     id: 16,
     productName: "BOITE A POIDS",
     description: "(12 pièces)",
-    longDescription : `Le jeu se compose de 12 pièces en bois de poids différent.
+    longDescription: `Le jeu se compose de 12 pièces en bois de poids différent.
     Les 12 pièces sont rangées sur un socle en bois
     Dimensions socle : 21 x 16,5 cm
-    `, 
-    details:`
+    `,
+    details: `
     -	Diamètre : 21 cm
     -	Poids : 500 g
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/poid.png",
@@ -303,15 +305,15 @@ const ProductsData = [
     id: 17,
     productName: "BOITE A SON",
     description: "(12 pièces)",
-    longDescription : `Le jeu se compose de 12 pièces en bois émettant chacune un son différent.
+    longDescription: `Le jeu se compose de 12 pièces en bois émettant chacune un son différent.
     Les 12 pièces sont rangées sur un socle en bois
     Dimensions socle : 31 x 24 cm
     
-    `, 
-    details:`
+    `,
+    details: `
     -	Diamètre : 21 cm
     -	Poids : 500 g
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/boiteson.jpg",
@@ -321,13 +323,13 @@ const ProductsData = [
     id: 18,
     productName: "Jeu de domino en bois Points en relief",
     description: "Pour 2 à 4 joueurs à partir de 6 ans.",
-    longDescription : `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`, 
-    details:`
+    longDescription: `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`,
+    details: `
     Caractéristiques :
     Livré dans un plumier en bois.
     Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
     Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/domino.png",
@@ -337,12 +339,12 @@ const ProductsData = [
     id: 19,
     productName: "Memory Tactile",
     description: "Ce Jeu éducatif est destiné aux enfants à partir de 5 ans.",
-    longDescription : `Le jeu se compose de 32 pièces rondes en bois formant 16 paires de textures différentes.`, 
-    details:`
+    longDescription: `Le jeu se compose de 32 pièces rondes en bois formant 16 paires de textures différentes.`,
+    details: `
     Utilisation du jeu :
     Pour les plus jeunes, il s'agira de rapprocher les paires identiques.
     Il peut aussi être utilisé comme un jeu de memory pour jouer à plusieurs.       
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/tactile.png",
@@ -352,11 +354,11 @@ const ProductsData = [
     id: 20,
     productName: "ZOOM Text Logiciel",
     description: "des images claires, une navigation aisée",
-    longDescription : `Grâce au logiciel de grossissement ZOOMTEXT édité par AiSquared, les utilisateurs mal-voyants vont découvrir un nouveau concept d'agrandissement et de lecture d’écran : l'accès aux documents, tableurs, pages web et courriers devient plus rapide, plus facile et plus précis que jamais.
+    longDescription: `Grâce au logiciel de grossissement ZOOMTEXT édité par AiSquared, les utilisateurs mal-voyants vont découvrir un nouveau concept d'agrandissement et de lecture d’écran : l'accès aux documents, tableurs, pages web et courriers devient plus rapide, plus facile et plus précis que jamais.
 
     ZOOMTEXT MAGNIFIER : des images claires, une navigation aisée, une facilité incomparable d'utilisation et le plus haut niveau de compatibilité.
-    `, 
-    details:`
+    `,
+    details: `
     Caractéristiques techniques :
 
     -	Agrandissement modulable : un agrandissement de 1 à 36 fois et 8 fenêtres zoom différentes vous permettent de configurer votre vue, agrandie, conformément à vos besoins.
@@ -368,7 +370,7 @@ const ProductsData = [
     -	La nouvelle fonction Recherche de Texte localise rapidement dans l'application le mot ou la phrase saisie.
     -	L'enregistrement de "profils" sauvegarde les paramètres d'affichage définis pour chaque application.
       
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/zoomtext.png",
@@ -378,11 +380,11 @@ const ProductsData = [
     id: 21,
     productName: "Logiciel JAWS pour Windows FR/AR",
     description: "JAWS (Job Access With Speech)",
-    longDescription : `un logiciel de revue d'écran pour déficients visuels édité par la société Freedom Scientific.
+    longDescription: `un logiciel de revue d'écran pour déficients visuels édité par la société Freedom Scientific.
 
     Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique.
-      `, 
-    details:`
+      `,
+    details: `
     Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique. Un afficheur braille peut-être connecter pour une lecture braille.
 
     Conforme à l'interface de Windows, le lecteur d'écran JAWS n'en redéfinit pas la structure et vous fait appréhender cet environnement de la même manière qu'une personne voyante, ce qui facilite considérablement l'intégration. 
@@ -400,7 +402,7 @@ const ProductsData = [
     -	Un éditeur de scripts et son langage intégrés.
     -	Le support pour de nombreux synthétiseurs vocaux et terminaux braille.
     -	Synthèse vocal Acapela infovox SAPI5 Français, arabe.    
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/JAWS.png",
@@ -410,8 +412,8 @@ const ProductsData = [
     id: 22,
     productName: "DBT 11.2",
     description: "DUXBURY BRAILLE TRANSLATOR",
-    longDescription : `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `, 
-    details:`
+    longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
+    details: `
     -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
 -	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
 -	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
@@ -419,7 +421,7 @@ const ProductsData = [
 -	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
 -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
    
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/DBT.png",
@@ -429,8 +431,8 @@ const ProductsData = [
     id: 23,
     productName: "DBT 11.2",
     description: "DUXBURY BRAILLE TRANSLATOR",
-    longDescription : `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `, 
-    details:`
+    longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
+    details: `
     -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
 -	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
 -	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
@@ -438,7 +440,7 @@ const ProductsData = [
 -	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
 -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
    
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/perkins.png",
@@ -448,16 +450,16 @@ const ProductsData = [
     id: 24,
     productName: "Papier non perforé ",
     description: "Format A4 160 G – 250 FEUILes ",
-    longDescription : `
+    longDescription: `
     Ce papier est recommandé pour l'écriture de documents à conserver. Il peut être utilisé avec la tablette format A3 ou avec une machine à écrire le braille ou avec les imprimantes braille acceptant le feuille à feuille.
-     `, 
-    details:`
+     `,
+    details: `
     -	Format : 42 x 29,7 cm, non perforé
 -	Grammage : 160 g
 -	Conditionné par 250 feuilles
 -	Poids : 25 kg
 
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/papier.jpg",
@@ -467,12 +469,12 @@ const ProductsData = [
     id: 25,
     productName: "Machine PERKINS Uni-manuelle",
     description: "Machine à écrire le braille, mécanique et portable.",
-    longDescription : `
-    Mêmes caractéristiques que la machine Perkins référence 11000, mais permettant d'écrire d'une seule main, 2 frappes successives étant nécessaires pour écrire un caractère. `, 
-    details:`-	Couleur grise
+    longDescription: `
+    Mêmes caractéristiques que la machine Perkins référence 11000, mais permettant d'écrire d'une seule main, 2 frappes successives étant nécessaires pour écrire un caractère. `,
+    details: `-	Couleur grise
     -	Dimensions (largeur x longueur x hauteur) : 15 x 23 x 39 cm
     -	Poids : 4,8 kg    
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/mperkins.png",
@@ -482,10 +484,10 @@ const ProductsData = [
     id: 26,
     productName: "Papier listing",
     description: "170 G – 250 FEUILLES",
-    longDescription : `
+    longDescription: `
     Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
-    `, 
-    details:`-	Format : 12 pouces (24 perforations de part et d'autre de la feuille sur bandes Carroll)
+    `,
+    details: `-	Format : 12 pouces (24 perforations de part et d'autre de la feuille sur bandes Carroll)
     -	Conditionnement : 250 feuilles
     -	Grammage : 170 g
     -	Dimensions hors bandes Carroll : 21 x 30,5 cm
@@ -493,7 +495,7 @@ const ProductsData = [
     -	Bande Carroll droite et gauche détachables
     -	Poids : 3,3 kg
       
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/papers.jpg",
@@ -503,9 +505,9 @@ const ProductsData = [
     id: 27,
     productName: "Feuille pour thermoformage A4",
     description: "Ces feuilles sont à utiliser avec la thermo formeuse. ",
-    longDescription : `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
-    `, 
-    details:`
+    longDescription: `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
+    `,
+    details: `
     •	Epaisseur : Fin 0,12 mm
     •	Format de la feuille : 21 x 29,7 (A4)
     •	Couleur : Blanc
@@ -513,7 +515,7 @@ const ProductsData = [
     •	Poids : environ 1 kg
     
       
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/four.png",
@@ -522,16 +524,17 @@ const ProductsData = [
   {
     id: 28,
     productName: "INDEX EVREST DV5",
-    description: "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
-    longDescription : `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
+    description:
+      "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
+    longDescription: `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
     C’est une embosseuse braille recto verso ave chargeur feuille à feuille.
     L’embossage est maintenant possible tant horizontalement que verticalement.
     L’Evrest -D V5 permet d’embosser textes Braille et éléments graphiques sur des feuilles simples, des livres (Format livret automatique), des étiquettes ainsi que des cartes de visites.
     C’est l’embosseuse la plus polyvalente du marché. 
     
     Très pratique l’embossage peut se faire à partir d’un Smartphone ou d’une Tablette ainsi que le paramétrage, grave au logiciel gratuit Indexa IdB.
-    `, 
-    details:`Amélioration par rapport aux modelés précédents : 
+    `,
+    details: `Amélioration par rapport aux modelés précédents : 
 
     -	Vitesse d’impression plus rapide et consommation d’énergie inférieure.
     -	Compatibilité avec les appareils mobiles.
@@ -563,7 +566,7 @@ const ProductsData = [
     -	Bruit : Inf à 60dB avec caisson insonorisant 
     -	Consommation : 140 W en impression et 5 W en veille 
        
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/info2.png",
@@ -573,8 +576,8 @@ const ProductsData = [
     id: 29,
     productName: "Imprimante Braille INDEX Braille BOX V5",
     description: "L’imprimante Braille Box, fabriquée par Index",
-    longDescription : `L’imprimante Braille Box, fabriquée par Index, est une embosseuse R/V destinée à l'impression de livres en braille, elle produit directement des ouvrages (livres, journaux) dans un format cahier "prêt à relier". `, 
-    details:`Caractéristiques 
+    longDescription: `L’imprimante Braille Box, fabriquée par Index, est une embosseuse R/V destinée à l'impression de livres en braille, elle produit directement des ouvrages (livres, journaux) dans un format cahier "prêt à relier". `,
+    details: `Caractéristiques 
     -	Haute vitesse : 800 pages par heure.
     -	Excellente qualité du point braille
     -	Le bac d'alimentation peut contenir jusqu'à 400 pages.
@@ -586,11 +589,184 @@ const ProductsData = [
     La Braille Box est la meilleure embosseuse pour la production de volume élevé de braille, en utilisant du papier copie ordinaire. Elle possède également le meilleur mode d'alimentation jamais utilisé dans une imprimante braille.
     Braille Box est une réussite d'INDEX Braille, donnant aux utilisateurs ce qu'ils ont demandent à l'impression de grands volumes
       
-` , 
+`,
     price: "500",
     stars: "4",
     producImg: "/imgs/info5.png",
     category: "MATERIEL INFORMATIQUE",
+  },
+  {
+    id: 30,
+    productName: "Imprimante braille Basic-D V5",
+    description:
+      "L’imprimante-embosseuse braille Basic-D est fabriquée par INDEX Braille.",
+    longDescription: `L’imprimante-embosseuse braille Basic-D est fabriquée par INDEX Braille.
+
+    Best-seller depuis des années, l'embosseuse Basic- D utilise du papier tracté pour produire du braille de qualité en recto ou recto/verso.
+    `,
+    details: `-	Format compact.
+    -	100 caractères par seconde.
+    -	Impression à partir d'appareils portables.
+    -	Panneau de commande en noir et braille.
+    -	Tracteur auto-alimenté : méthode d'alimentation du papier la plus fiable.
+    -	25 ans d’expérience 
+      
+`,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/info1.png",
+    category: "MATERIEL INFORMATIQUE",
+  },
+  {
+    id: 31,
+    productName: "Imprimante Embosseuse Braille Indexa Evrest D-V4",
+    description: "Evrest D-V4",
+    longDescription: `INDEX EVREST est une embosseuse R/V, avec un chargeur feuille dont la vitesse est de 100 caractères par seconde.
+    EVREST possède un niveau sonore très bas ne nécessitant pas de capot insonorisant, des points de brailles d’excellente qualité, une sélection des paramètres contrôlés par un affichage numérique. 
+     `,
+    details: `Autonomie	              -Oui
+    Synthèse vocale	                  -Oui
+    Touches de navigation           	-Oui
+    Type de clavier (pour la saisie)	-Non
+    Lecteur carte mémoire           	-Non
+    Connexion Bluetooth             	-Non
+    Connexion RS232	                  -Non
+    Connexion USB	                    -Oui
+       
+`,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/info6.png",
+    category: "MATERIEL INFORMATIQUE",
+  },
+  {
+    id: 32,
+    productName: "PUZZLE Géométrique en bois",
+    description: "Jeu éducatif pour enfant à partir de 3 ans.",
+    longDescription: `Jeu éducatif pour enfant à partir de 3 ans.`,
+    details: `
+    Objectif du jeu : 
+
+    Disposer les pièces selon la forme géométrique, ce jeu se compose de 40, 44 pièces géométriques colorées. Les formes s'encastrent sur un plateau en forme rectangulaire.       
+`,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/PUZZLE.jpg",
+    category: "Matériels Pédagogique",
+  },
+  {
+    id: 33,
+    productName: "PUZZLE Chiffres",
+    description: "En bois (10 pièces)",
+    longDescription: `En bois, avec un logement séparé pour chaque chiffre `,
+    details: ` 
+    -	Socle en bois naturel clair 
+    -	Pièces en bois coloré de 6 couleurs différentes. 
+    -	Dimensions : 22,2 x 29,6 cm
+     `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/puzzleChiffres.jpg",
+    category: "Matériels Pédagogique",
+  },
+
+  {
+    id: 34,
+    productName: "Xylophone pour enfant",
+    description:
+      "lames en acier de différentes couleurs et de différentes longueurs",
+    longDescription: `Le xylophone est constitué de lames en acier de différentes couleurs et de différentes longueurs fixées sur un support en bois, qui sont frappées au moyen de mailloches terminées par une sphère. La disposition des lames est semblable à celle du clavier de piano.`,
+    details: ``,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/xylophone.jpg",
+    category: "Matériels Pédagogique",
+  },
+  {
+    id: 35,
+    productName: "PUZZLE Alphabet Majuscule ",
+    description: "En bois (26 pièces)",
+    longDescription: `En bois, avec un logement séparé pour chaque lettre majuscule. `,
+    details: `-	Socle en bois naturel clair 
+    -	Pièces en bois colorées de 4 couleurs différentes, chacune correspond à une lettre en majuscule.
+    -	Une petite tige en bois est collée sur chacune des lettres afin de féliciter son extraction du socle.
+    -	Dimension : 22.2 x 29.6 cm
+    `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/pzzulemaj.png",
+    category: "Matériels Pédagogique",
+  },
+  {
+    id: 36,
+    productName: "Loupe réglette",
+    description: "avec ligne de repère rouge X2",
+    longDescription: `Cette règle loupe de lecture avec un grossissement de 2x est parfaitement adaptée à la lecture d'un livre, de votre magazine, de votre journal et plus particulièrement pour les larges tableaux.
+    Grâce à sa ligne de guidage rouge, la lecture se fait de manière plus agréable et prolongée sans fatigue.
+    `,
+    details: `La règle-loupe grossit uniquement dans un sens : les lettres sont allongées dans le sens de la hauteur, tandis que leur largeur reste inchangée.
+
+
+    -	Lentille rectangulaire
+    -	Matériau : PXM Plastique très léger et incassable
+    -	Grossissement : x2
+    -	Avec poignée pour la préhension
+    -	Avec ligne repère rouge pour un meilleur suivi
+    -	Dimensions (longueur x largeur x épaisseur) : 173 x 25 x 13 mm
+    -	Poids : 43 g
+    
+    `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/loup.jpg",
+    category: "Matériels Pédagogique",
+  },
+  {
+    id: 37,
+    productName: "Cube Algébriques par 100",
+    description: "Chaque cube se compose de trois carrés mobiles en plastique",
+    longDescription: `Chaque cube se compose de trois carrés mobiles en plastique, pivotant autour d'un axe central métallique. Sur chacun des côtés de ces carrés est représentée l'une des 4 possibilités de positionnement des points braille (1 point à gauche, 1 point à droite, 2 points ou rien), ce qui permet de former les 63 caractères braille.`,
+    details: `•	Conditionnés par boîte de 100 cubes
+    •	Dimensions d'un cube : 9 mm de côté
+    •	Poids de l'ensemble : 170 
+    
+    `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/cubalg.jpg",
+    category: "Matériels Pédagogique",
+  },
+  {
+    id: 38,
+    productName: "Tablette à cuvettes ",
+    description: "27 lignes x 30 caractères",
+    longDescription: `C-	Lignes paires du cadre numérotées en braille
+    -	Aux extrémités des lignes 9 et 19, fentes prévues pour le passage de rubans adhésifs de 9 et 12 mm.
+    -	Ouverture par charnière latérale à gauche.
+    -	Partie gauche de la tablette percée de trous correspondant aux perforations standards d'une feuille de format A4 (21 x 29,7 cm) pour insérer la tablette dans un classeur
+    -	Dimensions (largeur x longueur x épaisseur) : 22 x 31 x 0,5 cm
+    -	Poids : 285 g    
+    `,
+    details: `
+    `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/tablette.jpg",
+    category: "Tablette et Accessoires",
+  },
+  {
+    id: 39,
+    productName: "Poinçon collerette",
+    description:
+      "  Sa pointe métallique permet l'embossage d'un point braille sur papier ou support plastifié",
+    longDescription: `
+    Sa pointe métallique permet l'embossage d'un point braille sur papier ou support plastifié (bande adhésive ou fiche autocollante) par une simple pression de l'utilisateur sur le manche en bois en forme de quille.`,
+    details: `
+    `,
+    price: "500",
+    stars: "4",
+    producImg: "/imgs/poincon.jpg",
+    category: "Tablette et Accessoires",
   },
 ];
 
