@@ -424,7 +424,7 @@ const ProductsData = [
 `,
     price: "500",
     stars: "4",
-    producImg: "/imgs/DBT.png",
+    producImg: "/imgs/DBT.jpg",
     category: "LOGICILE",
   },
   {
