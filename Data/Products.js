@@ -17,7 +17,7 @@ const ProductsData = [
       -	Fonction alarme avec réveil par des bips et l’annonce de l’heure
       -	Prise écouteurs : oui (écouteurs non fournis)
       `,
-    price: "500",
+    price: "14 000.00",
     stars: "4",
     producImg: "/imgs/calculatriceparlante.png",
     category: "CALCULE",
@@ -34,7 +34,7 @@ const ProductsData = [
     -	Dimensions du plateau : 19 x 25 cm
     -	Dimensions d'une case : 10 mm de côté
     `,
-    price: "500",
+    price: "4500.00",
     stars: "4",
     producImg: "/imgs/CUBARITHME.png",
     category: "CALCULE",
@@ -48,7 +48,7 @@ const ProductsData = [
     -	Conditionnés par boîte de 100 cubes
     -	Dimensions d'un cube : 9 mm de côté
 `,
-    price: "500",
+    price: "12 000.00",
     stars: "4",
     producImg: "/imgs/cubesArith.png",
     category: "CALCULE",
@@ -56,12 +56,12 @@ const ProductsData = [
   {
     id: 3,
     productName: "Feuille à dessin A4",
-    description: "En plastique transparent",
+    description: "Rames de 600 feuilles",
     longDescription:
       "En plastique transparent, ces feuilles sont utilisées pour la réalisation de dessins à l'aide de la planche référence.",
     details: `
     -	Conditionnées par 600 feuilles environ`,
-    price: "500",
+    price: "20 000.00",
     stars: "4",
     producImg: "/imgs/A4.png",
     category: "DESSINS",
@@ -85,7 +85,7 @@ const ProductsData = [
 -	16,5 cm pour l'équerre à 45°
 -	19 cm pour l’équerre de 30° à 60°
 `,
-    price: "500",
+    price: "5000.00",
     stars: "4",
     producImg: "/imgs/kous.png",
     category: "DESSINS",
@@ -97,7 +97,7 @@ const ProductsData = [
     longDescription:
       "Ce compas est muni d'une pointe sèche pour effectuer des tracés en relief sur des feuilles plastique références 16500 et 16503 et en prenant pour support la planche à dessiner référence 16000. La pointe sèche peut être remplacée par une mine de crayon ou un crayon.",
     details: "",
-    price: "500",
+    price: "14 000.00",
     stars: "4",
     producImg: "/imgs/compa.png",
     category: "DESSINS",
@@ -110,7 +110,7 @@ const ProductsData = [
       "Cette planche à dessiner, en matière caoutchoutée antidérapante, est utilisée pour effectuer des tracés en relief sur une feuille plastifiée, à l'aide d'un stylo, d'un crayon à dessiner, d'une roulette ou d'un poinçon.",
     details: `
     Format (largeur x longueur) : 24 x 35 cm`,
-    price: "500",
+    price: "5500.00",
     stars: "4",
     producImg: "/imgs/dessinBlanc.jpg",
     category: "DESSINS",
@@ -133,7 +133,7 @@ const ProductsData = [
     -	Largeur : 3,2 cm
     -	Poids : 40 g
 `,
-    price: "500",
+    price: "1800.00",
     stars: "4",
     producImg: "/imgs/regle.jpg",
     category: "DESSINS",
@@ -151,7 +151,7 @@ const ProductsData = [
     -	Diamètre : 12 cm
     -	Poids : 20 g
 `,
-    price: "500",
+    price: "800.00",
     stars: "4",
     producImg: "/imgs/RAPPORTEUR.png",
     category: "DESSINS",
@@ -167,7 +167,7 @@ const ProductsData = [
     -	Hauteur du manche : 9 cm
     -	Poids : 10 g
 `,
-    price: "500",
+    price: "1500.00",
     stars: "4",
     producImg: "/imgs/roullete.png",
     category: "DESSINS",
@@ -180,7 +180,7 @@ const ProductsData = [
     `,
     details:
       "Comme le t-shirt classique, mais en légèrement plus près du corps. Coupe ajustée. Si vous préférez une coupe moins près du corps, commandez une taille au-dessus ou jetez un coup d œil au t-shirt classique.   Le modèle mesure 1,83 m et porte une taille L. La modèle mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m² (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 % coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 % polyester.",
-    price: "500",
+    price: "1500.00",
     stars: "4",
     producImg: "/imgs/canne.png",
     category: "DIVERS",
@@ -200,7 +200,7 @@ const ProductsData = [
     -	Taille en cm (LxPxH) : 7,2 x 5,9 x 2,9.
     -	Poids (en g) : 40.
 `,
-    price: "500",
+    price: "4500.00",
     stars: "4",
     producImg: "/imgs/radio.png",
     category: "DIVERS",
@@ -228,7 +228,7 @@ const ProductsData = [
     -	Alimentation : 1 pile rectangulaire 9 volts type LR622
 
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/reveil.png",
     category: "HORLOGERIE",
@@ -243,7 +243,7 @@ const ProductsData = [
     -	Bracelet en plastique
     `,
     details: ``,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/smartwatch.png",
     category: "HORLOGERIE",
@@ -264,7 +264,7 @@ const ProductsData = [
     -	3 niveaux de volume sonore avec réglage par commutateur situé sur le dessous
     -	Alimentation : 3 piles rondes de type LR06 
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/reveilparlante.png",
     category: "HORLOGERIE",
@@ -279,7 +279,7 @@ const ProductsData = [
     -	Diamètre : 21 cm
     -	Poids : 500 g
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/redball.png",
     category: "JEUX EDUCATIFS",
@@ -296,7 +296,7 @@ const ProductsData = [
     -	Diamètre : 21 cm
     -	Poids : 500 g
 `,
-    price: "500",
+    price: "14 000.00",
     stars: "4",
     producImg: "/imgs/poid.png",
     category: "JEUX EDUCATIFS",
@@ -314,7 +314,7 @@ const ProductsData = [
     -	Diamètre : 21 cm
     -	Poids : 500 g
 `,
-    price: "500",
+    price: "14 000.00",
     stars: "4",
     producImg: "/imgs/boiteson.jpg",
     category: "JEUX EDUCATIFS",
@@ -330,7 +330,7 @@ const ProductsData = [
     Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
     Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/domino.png",
     category: "JEUX EDUCATIFS",
@@ -345,7 +345,7 @@ const ProductsData = [
     Pour les plus jeunes, il s'agira de rapprocher les paires identiques.
     Il peut aussi être utilisé comme un jeu de memory pour jouer à plusieurs.       
 `,
-    price: "500",
+    price: "13 500.00",
     stars: "4",
     producImg: "/imgs/tactile.png",
     category: "JEUX EDUCATIFS",
@@ -371,7 +371,7 @@ const ProductsData = [
     -	L'enregistrement de "profils" sauvegarde les paramètres d'affichage définis pour chaque application.
       
 `,
-    price: "500",
+    price: "189 350.00",
     stars: "4",
     producImg: "/imgs/zoomtext.png",
     category: "LOGICILE",
@@ -403,7 +403,7 @@ const ProductsData = [
     -	Le support pour de nombreux synthétiseurs vocaux et terminaux braille.
     -	Synthèse vocal Acapela infovox SAPI5 Français, arabe.    
 `,
-    price: "500",
+    price: "348 000.00",
     stars: "4",
     producImg: "/imgs/JAWS.png",
     category: "LOGICILE",
@@ -422,7 +422,7 @@ const ProductsData = [
 -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
    
 `,
-    price: "500",
+    price: "185 000.00",
     stars: "4",
     producImg: "/imgs/DBT.jpg",
     category: "LOGICILE",
@@ -441,7 +441,7 @@ const ProductsData = [
 -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
    
 `,
-    price: "500",
+    price: "185 000.00",
     stars: "4",
     producImg: "/imgs/perkins.png",
     category: "Machine à écrire",
@@ -460,7 +460,7 @@ const ProductsData = [
 -	Poids : 25 kg
 
 `,
-    price: "500",
+    price: "2150.00",
     stars: "4",
     producImg: "/imgs/papier.jpg",
     category: "Machine à écrire",
@@ -475,7 +475,7 @@ const ProductsData = [
     -	Dimensions (largeur x longueur x hauteur) : 15 x 23 x 39 cm
     -	Poids : 4,8 kg    
 `,
-    price: "500",
+    price: "196 000.00",
     stars: "4",
     producImg: "/imgs/mperkins.png",
     category: "Machine à écrire",
@@ -496,7 +496,7 @@ const ProductsData = [
     -	Poids : 3,3 kg
       
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/papers.jpg",
     category: "Machine à écrire",
@@ -504,7 +504,7 @@ const ProductsData = [
   {
     id: 27,
     productName: "Feuille pour thermoformage A4",
-    description: "Ces feuilles sont à utiliser avec la thermo formeuse. ",
+    description: "Rames de 200 feuilles ",
     longDescription: `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
     `,
     details: `
@@ -516,7 +516,7 @@ const ProductsData = [
     
       
 `,
-    price: "500",
+    price: "88 000.00",
     stars: "4",
     producImg: "/imgs/four.png",
     category: "Machine à écrire",
@@ -570,7 +570,7 @@ const ProductsData = [
     -	Consommation : 140 W en impression et 5 W en veille 
        
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/info2.png",
     category: "MATERIEL INFORMATIQUE",
@@ -593,7 +593,7 @@ const ProductsData = [
     Braille Box est une réussite d'INDEX Braille, donnant aux utilisateurs ce qu'ils ont demandent à l'impression de grands volumes
       
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/info5.png",
     category: "MATERIEL INFORMATIQUE",
@@ -615,7 +615,7 @@ const ProductsData = [
     -	25 ans d’expérience 
       
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/info1.png",
     category: "MATERIEL INFORMATIQUE",
@@ -637,7 +637,7 @@ const ProductsData = [
     Connexion USB	                    -Oui
        
 `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/info6.png",
     category: "MATERIEL INFORMATIQUE",
@@ -652,7 +652,7 @@ const ProductsData = [
 
     Disposer les pièces selon la forme géométrique, ce jeu se compose de 40, 44 pièces géométriques colorées. Les formes s'encastrent sur un plateau en forme rectangulaire.       
 `,
-    price: "500",
+    price: "6500.00",
     stars: "4",
     producImg: "/imgs/PUZZLE.jpg",
     category: "Matériels Pédagogique",
@@ -667,7 +667,7 @@ const ProductsData = [
     -	Pièces en bois coloré de 6 couleurs différentes. 
     -	Dimensions : 22,2 x 29,6 cm
      `,
-    price: "500",
+    price: "not defined",
     stars: "4",
     producImg: "/imgs/puzzleChiffres.jpg",
     category: "Matériels Pédagogique",
@@ -680,7 +680,7 @@ const ProductsData = [
       "lames en acier de différentes couleurs et de différentes longueurs",
     longDescription: `Le xylophone est constitué de lames en acier de différentes couleurs et de différentes longueurs fixées sur un support en bois, qui sont frappées au moyen de mailloches terminées par une sphère. La disposition des lames est semblable à celle du clavier de piano.`,
     details: ``,
-    price: "500",
+    price: "8500.00",
     stars: "4",
     producImg: "/imgs/xylophone.jpg",
     category: "Matériels Pédagogique",
@@ -695,7 +695,7 @@ const ProductsData = [
     -	Une petite tige en bois est collée sur chacune des lettres afin de féliciter son extraction du socle.
     -	Dimension : 22.2 x 29.6 cm
     `,
-    price: "500",
+    price: "2800.00",
     stars: "4",
     producImg: "/imgs/pzzulemaj.png",
     category: "Matériels Pédagogique",
@@ -719,7 +719,7 @@ const ProductsData = [
     -	Poids : 43 g
     
     `,
-    price: "500",
+    price: "4000.00",
     stars: "4",
     producImg: "/imgs/loup.jpg",
     category: "Matériels Pédagogique",
@@ -734,7 +734,7 @@ const ProductsData = [
     •	Poids de l'ensemble : 170 
     
     `,
-    price: "500",
+    price: "24 000.00",
     stars: "4",
     producImg: "/imgs/cubalg.jpg",
     category: "Matériels Pédagogique",
@@ -752,7 +752,7 @@ const ProductsData = [
     `,
     details: `
     `,
-    price: "500",
+    price: "5000.00",
     stars: "4",
     producImg: "/imgs/tablette.jpg",
     category: "Tablette et Accessoires",
@@ -766,7 +766,7 @@ const ProductsData = [
     Sa pointe métallique permet l'embossage d'un point braille sur papier ou support plastifié (bande adhésive ou fiche autocollante) par une simple pression de l'utilisateur sur le manche en bois en forme de quille.`,
     details: `
     `,
-    price: "500",
+    price: "714.00",
     stars: "4",
     producImg: "/imgs/poincon.jpg",
     category: "Tablette et Accessoires",

@@ -24,8 +24,8 @@ const ProductBox = (props) => {
         <div className="font-semibold">{props.product.productName}</div>
         <div className="text-sm text-gray-500">{props.product.description}</div>
         <div className="flex mt-2 justify-between">
-          <div className="font-bold">{props.product.price} DA</div>
-          <div className="flex w-fit">
+          <div className="font-bold text-md pt-2">{props.product.price} DA</div>
+          {/* <div className="flex w-fit">
             {["", "", "", "", ""].map((star, key) => (
               <img
                 src="/imgs/star.png"
@@ -35,7 +35,7 @@ const ProductBox = (props) => {
                 } h-5 w-5`}
               ></img>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="mx-auto w-fit mt-8 text-sm">
