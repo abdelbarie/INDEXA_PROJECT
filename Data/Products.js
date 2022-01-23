@@ -528,13 +528,16 @@ const ProductsData = [
       "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
     longDescription: `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
     C’est une embosseuse braille recto verso ave chargeur feuille à feuille.
-    L’embossage est maintenant possible tant horizontalement que verticalement.
+    L’embossage est maintenant possible tant horizontalement que verticalement.`,
+    details: `
+    
     L’Evrest -D V5 permet d’embosser textes Braille et éléments graphiques sur des feuilles simples, des livres (Format livret automatique), des étiquettes ainsi que des cartes de visites.
     C’est l’embosseuse la plus polyvalente du marché. 
     
     Très pratique l’embossage peut se faire à partir d’un Smartphone ou d’une Tablette ainsi que le paramétrage, grave au logiciel gratuit Indexa IdB.
-    `,
-    details: `Amélioration par rapport aux modelés précédents : 
+    
+    
+    Amélioration par rapport aux modelés précédents : 
 
     -	Vitesse d’impression plus rapide et consommation d’énergie inférieure.
     -	Compatibilité avec les appareils mobiles.
