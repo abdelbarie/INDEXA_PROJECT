@@ -31,6 +31,7 @@ const SearchProducts = ({ products }) => {
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
           <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
+              <div className="py-5">Products ont une relation avec: <b className="text-custom-green">{searchCle}</b> </div>
             <div className="grid grid-cols-1 lg:grid-cols-3">
               {products.map(
                 (product, key) =>
