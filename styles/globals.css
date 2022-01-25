@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 :root{
-    --light_blue : #e8fcff ; 
+    --light_blue : #E9F1FE ; 
     --dark_blue: #2C3A5E;
     --green : #89CDD3 ; 
 }
@@ -44,7 +44,8 @@
     background-color: var(--green);
 }
 .productBox{
-    background-color: var(--light_blue);
+    border: solid 2px var(--green);
+    box-shadow: 2px 2px 10px 0px;
     height:220px ;
     width: 240px;
 }

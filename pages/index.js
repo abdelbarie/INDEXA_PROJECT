@@ -5,6 +5,7 @@ import Centres from "../Data/Centres";
 import AboutUsBox from "../components/partials/AboutUsBox";
 import Questions from "../Data/Questions";
 import Link from "next/link";
+import ProductsCatHomeSection from "../components/partials/ProductsCatHomeSection";
 import QuestionBox from "../components/partials/QuestionBox";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -41,8 +42,8 @@ export default function Home() {
       {/* Product Section */}
       <div className="Produit py-9 relative">
         <div className="text-center font-bold text-4xl">NOS PRODUITS</div>
-
-        <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20">
+        <ProductsCatHomeSection/>
+        <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -76,6 +77,7 @@ export default function Home() {
           </Swiper>
         </div>
 
+
         <img
           src="/imgs/bordercircle.svg"
           className="absolute -bottom-10 -right-10 -z-50 w-20"
@@ -83,9 +85,9 @@ export default function Home() {
       </div>
 
       {/* Centers Section */}
-      <div className="py-16 relative">
+      <div className="pb-16 pt-8 relative">
         <div className="text-center font-bold text-4xl">NOS CENTRES</div>
-        <div className="mt-20 px-10 md:px-16 lg:px-32 gap-y-10">
+        <div className="mt-10 px-10 md:px-16 lg:px-32 gap-y-10">
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
