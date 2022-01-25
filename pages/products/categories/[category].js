@@ -3,6 +3,7 @@ import react from 'react' ;
 import ProductBox from '../../../components/partials/ProductBox';
 import ProCatSection from '../../../components/partials/ProductCategorySection';
 import ProductsData from '../../../Data/Products';
+import ProductsHeader from '../../../components/partials/ProductsHeader';
 
 const ProductCatPage = ()=>{
     const router = useRouter() ;
@@ -10,17 +11,10 @@ const ProductCatPage = ()=>{
     const i = 1 ; 
 return(
     <div>
-    <div className="productsHeader">
-      <div className="w-1/2 md:float-right mx-auto text-5xl font-extrabold pt-16">
-        <div className="w-fit mx-auto">
-          SHOP <br /> NOW <label className="greenText">!!</label>
-        </div>
-      </div>
-    </div>
+      <ProductsHeader/>
+
     <div className="lg:px-32 lg:px-16 px-4">
-      <div className="py-2 border-b-2 text-4xl font-bold products">
-        Produits
-      </div>
+     
       <div className="grid md:grid-cols-12 grid-cols-1">
         <div className="col-span-3">
           <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
