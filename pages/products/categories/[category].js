@@ -16,18 +16,9 @@ return(
     <div className="lg:px-32 lg:px-16 px-4">
      
       <div className="grid md:grid-cols-12 grid-cols-1">
-        <div className="col-span-3">
-          <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
-            CATEGORIES{" "}
-            <img
-              src="/imgs/up.png"
-              className="mt-2"
-            ></img>
-          </div>
-        </div>
-        <div className="col-span-9">
+        <div className="col-span-12">
             <div className="font-semibold md:text-3xl text-xl text-center md:pt-8 md:pb-12 py-6"> {category}</div>
-           <div className='grid grid-cols-1 md:grid-cols-3 gap-y-8'>
+           <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-y-8'>
            {ProductsData.map((product, key) => (
           <>
             {(product.category == category)&&(i++) &&(

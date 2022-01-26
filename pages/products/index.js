@@ -7,13 +7,15 @@ import ProductsHeader from "../../components/partials/ProductsHeader";
 
 const Products = () => {
   const [isCategoOpen, setCategoOpen] = useState(false);
-
+  const [produstFilter , setProductsFilter] = useState([false,false,false,false,false,false,false,false,false,false]) ; 
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
    
   };
 
-
+  const filter = (e) =>{
+    setProductsFilter({...produstFilter ,[e.target.id] : e.target.checked })
+  }
   return (
     <div>
     <ProductsHeader/>
@@ -21,12 +23,33 @@ const Products = () => {
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-2">
             <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
-              CATEGORIES{" "}
+              CATEGORIES
               <img
                 src="/imgs/up.png"
                 className="mt-2"
                 onClick={handleClick}
               ></img>
+            </div>
+            <div>
+              {
+                [
+                  "MATERIEL INFORMATIQUE",
+                  "HORLOGERIE",
+                  "Matériels Pédagogique",
+                  "JEUX EDUCATIFS",
+                  "LOGICILE",
+                  "CALCULE",
+                  "Machine à écrire",
+                  "DESSINS",
+                  "Tablette et Accessoires",
+                  "DIVERS",
+                ].map((cat , key)=>(
+                  <div key={key} className="text-sm w-full  flex justify-between py-1">
+                    {cat}
+                    <input type="checkbox" className="accent-custom-green " onChange={filter} id={key} ></input>
+                  </div>
+                ))
+              }
             </div>
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
@@ -44,6 +67,7 @@ const Products = () => {
                 "Tablette et Accessoires",
                 "DIVERS",
               ].map((category, key) => (
+                (produstFilter[key] || (!produstFilter[0] && !produstFilter[1] && !produstFilter[2] && !produstFilter[3] && !produstFilter[4] && !produstFilter[5] && !produstFilter[6] && !produstFilter[7] &&!produstFilter[8] && !produstFilter[9] ) )&&
                 <ProCatSection
                   key={key}
                   category={category}

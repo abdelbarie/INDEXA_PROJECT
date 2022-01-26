@@ -19,20 +19,9 @@ const SearchProducts = ({ products }) => {
 
       <div className="lg:px-32 lg:px-16 px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
-          <div className="col-span-2">
-            <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
-              CATEGORIES{" "}
-              <img
-                src="/imgs/up.png"
-                className="mt-2"
-                onClick={handleClick}
-              ></img>
-            </div>
-            <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
-          </div>
-          <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
+          <div className="col-span-12  xl:px-28 lg:px-2 md:px-4 ">
               <div className="py-5">Products ont une relation avec: <b className="text-custom-green">{searchCle}</b> </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3">
               {products.map(
                 (product, key) =>
                   (product.productName
