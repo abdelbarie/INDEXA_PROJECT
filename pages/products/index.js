@@ -10,7 +10,6 @@ const Products = () => {
   const [produstFilter , setProductsFilter] = useState([false,false,false,false,false,false,false,false,false,false]) ; 
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
-   
   };
 
   const filter = (e) =>{
@@ -25,12 +24,12 @@ const Products = () => {
             <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
               CATEGORIES
               <img
-                src="/imgs/up.png"
-                className="mt-2"
+                src={isCategoOpen?"/imgs/up.png" :"/imgs/down.png"}
+                className="mt-2 cursor-pointer"
                 onClick={handleClick}
               ></img>
             </div>
-            <div>
+            <div className={isCategoOpen?'block':'hidden'}>
               {
                 [
                   "MATERIEL INFORMATIQUE",
@@ -46,7 +45,7 @@ const Products = () => {
                 ].map((cat , key)=>(
                   <div key={key} className="text-sm w-full  flex justify-between py-1">
                     {cat}
-                    <input type="checkbox" className="accent-custom-green " onChange={filter} id={key} ></input>
+                    <input type="checkbox" className="accent-custom-green cursor-pointer" onChange={filter} id={key} ></input>
                   </div>
                 ))
               }

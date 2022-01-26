@@ -1,6 +1,5 @@
 import React , {useState} from 'react';
 import {useRouter} from "next/router";
-
 const ProductsHeader = () => {
     
   const [searchValue , setSearchValue] = useState(" ") ; 
@@ -35,7 +34,7 @@ const ProductsHeader = () => {
               type="search"
               onChange={handleSearchChange}
             ></input>
-            <button type="submit"  >click me</button>
+            <button type="submit"  ><img src='/imgs/search_icon.png' width="20px"></img></button>
             </form>
           
           </div>
