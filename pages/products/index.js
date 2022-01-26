@@ -6,7 +6,7 @@ import ProductsHeader from "../../components/partials/ProductsHeader";
 
 
 const Products = () => {
-  const [isCategoOpen, setCategoOpen] = useState(false);
+  const [isCategoOpen, setCategoOpen] = useState(true);
   const [produstFilter , setProductsFilter] = useState([false,false,false,false,false,false,false,false,false,false]) ; 
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
