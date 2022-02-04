@@ -21,12 +21,19 @@ const Products = () => {
       <div className="lg:px-32 lg:px-16 px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-2">
-            <div className="flex font-semibold text-xl py-2 border-b-2 categories w-fit gap-3">
+            <div className="flex font-semibold text-xl py-2 border-b-2 categories border-custom-dark-blue dark:border-custom-green w-fit gap-3">
               CATEGORIES
               <img
                 src={isCategoOpen?"/imgs/up.png" :"/imgs/down.png"}
-                className="mt-2 cursor-pointer"
+                className="mt-2 cursor-pointer dark:hidden block"
                 onClick={handleClick}
+                width="25px"
+              ></img>
+              <img
+                src={isCategoOpen?"/imgs/greenUp.png" :"/imgs/greenDown.png"}
+                className="mt-2 cursor-pointer hidden dark:block"
+                onClick={handleClick}
+                width="22px"
               ></img>
             </div>
             <div className={isCategoOpen?'block':'hidden'}>

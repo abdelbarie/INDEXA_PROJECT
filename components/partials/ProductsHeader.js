@@ -23,14 +23,14 @@ const ProductsHeader = () => {
         </div>
       </div>
       <div className="lg:px-32 lg:px-16 px-4">
-      <div className="py-2 border-b-2 lg:text-4xl text-xl font-bold products lg:flex justify-between ">
+      <div className="py-2 border-b-2 lg:text-4xl text-xl font-bold border-custom-dark-blue dark:border-custom-green lg:flex justify-between ">
           <div>Produits</div>
           
-          <div className="border-b-2 font-light text-sm">
+          <div className="border-b-2 font-light text-sm dark:bg-gray-800 bg-gray-100 pr-2">
             <form onSubmit={handleSearch} className="flex justify-between">
             <input
               placeholder="chercher un produit .."
-              className="px-3 outline-none py-2"
+              className="px-3 outline-none py-2 bg-transparent"
               type="search"
               onChange={handleSearchChange}
             ></input>

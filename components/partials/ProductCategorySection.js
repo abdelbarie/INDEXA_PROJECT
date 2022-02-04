@@ -56,7 +56,7 @@ const ProCatSection = (props) => {
       <div className={`w-fit mx-auto my-2 ${i<4?'hidden' : 'block'}`}>
         <Link href={`products/categories/${props.category}`}>
         <button
-          className="text-lg font-semibold px-5 py-1 border-2 rounded-xl voirPlusButton"
+          className="text-lg font-semibold px-5 py-1 border-2 rounded-xl border-custom-dark-blue dark:border-custom-green"
         >
         AFFICHER PLUS..
         </button>

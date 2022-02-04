@@ -61,9 +61,7 @@
     height:350px ;
     border-color: var(--dark_blue);
 }
-.voirPlusButton , .products , .categories {
-    border-color: var(--dark_blue);
-}
+
 .aboutUs{
     height: 350px;
 }

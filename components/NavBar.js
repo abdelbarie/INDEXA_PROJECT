@@ -41,10 +41,10 @@ const NavBar = () => {
   return (
     <div className="pt-1 mb-3">
       <div className="flex w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal">
-        <div className="px-1 ">023 80 44 97-98</div>|
-        <div className="px-1">Allez au Menu</div>|
-        <div className="px-1">Allez au Menu</div>|
-        <div className="px-1">Allez au Menu</div>|
+        <div className="md:px-1 ">023 80 44 97-98</div>|
+        <div className="md:px-1">Allez au Menu</div>|
+        <div className="md:px-1">Allez au Menu</div>|
+        <div className="md:px-1">Allez au Menu</div>|
         <LangSwitcher></LangSwitcher>
       </div>
       
@@ -116,7 +116,8 @@ const NavBar = () => {
 
 
         {/* reponsive nav content */ }
-        <div className="inline-flex md:hidden"><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img></div>
+        <div className="hidden md:hidden dark:block "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick}></img></div>
+        <div className="inline-flex md:hidden dark:hidden"><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img></div>
       </div>
       <div className={`${isOpen?'block' : 'hidden'} gap-y-2 grid md:hidden`}>
           <div className="px-6 font-normal text-xl w-fit mx-auto">
