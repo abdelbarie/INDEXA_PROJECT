@@ -4,12 +4,12 @@ import HomeProductBox from './HomeProductBox';
 
 const ProductsCatHomeSection = () => {
     return (
-        <div className="mt-5 px-10 md:px-16 lg:px-32 gap-y-10 hidden md:block">
-            <div className="grid grid-cols-4 ">
+        <div className="mt-5 px-10 md:px-16 xl:px-52 lg:px-40  hidden md:block">
+            <div className="grid lg:-cols-4 md:grid-cols-3 bg-white">
             {HomeProduct.map((product , key)=>(
-                    <HomeProductBox
+                    <HomeProductBox 
                     key={key}
-                    category={product.category}
+                    productName={product.productName}
                     img={product.productImg}
                   ></HomeProductBox>
             ))}

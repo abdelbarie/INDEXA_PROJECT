@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <div className="pt-1 mb-3">
       <div className="flex w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal">
-        <div className="px-1">Phone Number: +213 2 021 021 12</div>|
+        <div className="px-1">023 80 44 97-98</div>|
         <div className="px-1">Allez au Menu</div>|
         <div className="px-1">Allez au Menu</div>|
         <div className="px-1">Allez au Menu</div>|

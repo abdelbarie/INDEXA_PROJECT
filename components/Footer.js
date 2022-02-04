@@ -29,11 +29,11 @@ const Footer = () => {
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto  md:w-full  text-center md:text-left ">
             <img src="/imgs/telephone.svg" width="20px" alt="phone icon"></img>{" "}
-            +213 23 85 48 61
+            023 80 44 97-98
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto  md:w-full text-center md:text-left">
             <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
-            example@gmail.com
+            Contact@indexa-braille.com
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto md:w-full text-center md:text-left">
             <img

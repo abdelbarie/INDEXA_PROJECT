@@ -5,15 +5,10 @@ const About = () => {
     <div className="grid  gird-cols-1 md:grid-cols-2  md:px-16 lg:px-36 pb-20 pt-10">
       <div className="h-fit my-auto px-5">
         <div className="font-bold md:text-3xl text-2xl pb-4">A PROPOS DE NOUS</div>
-        <div className='text-sm'>
-          Comme le t-shirt classique, mais en légèrement plus près du corps.
-          Coupe ajustée. Si vous préférez une coupe moins près du corps,
-          commandez une taille au-dessus ou jetez un coup d œil au t-shirt
-          classique. Le modèle mesure 1,83 m et porte une taille L. La modèle
-          mesure 1,73 m et porte une taille S. Tissu de poids moyen : 145 g/m²
-          (4,2 oz). Les t-shirts unis sont 100 % coton, les gris chinés 90 %
-          coton et 10 % polyester, les gris anthracite chinés 52 % coton et 48 %
-          polyester.
+        <div className='text-md productDetails'>
+        Indexa Braille, représentant et distributeur de grandes marques mondiales spécialisées dans les équipements et solutions destinées aux personnes malvoyantes et non voyantes.
+
+        Indexa braille œuvre avec ses partenaires afin d’apporter des solutions adaptées permettant aux malvoyants et aux non-voyants d’avoir des équipements répondants à leurs besoins et leurs permettant d’apprendre, de s’informer et de s’amuser malgré leurs déficiences visuelles
         </div>
       </div>
       <div className="hidden md:block">
