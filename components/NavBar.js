@@ -50,7 +50,8 @@ const NavBar = () => {
       
       <div className="flex px-3 lg:px-6 md:py-5 py-3 justify-between clear-right ">
         <Link href="/" className="">
-          <a><img src={theme === 'dark' ?"/imgs/indexaLogoWhite.png" : "/imgs/indexaLogoBlue.png"} className="w-28 md:w-40"></img></a>
+          <a><img src= "/imgs/indexaLogoBlue.png" className="w-28 md:w-40 dark:hidden"></img>
+          <img src="/imgs/indexaLogoWhite.png" className="w-28 md:w-40 dark:block hidden"></img></a>
         </Link>
         <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex">
           <div className="lg:px-6 px-4 font-normal lg:text-xl">
