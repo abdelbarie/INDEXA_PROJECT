@@ -1,14 +1,15 @@
 import "../styles/globals.css";
 import NavBar from "../components/NavBar.js";
 import Footer from "../components/Footer.js";
+import {ThemeProvider} from 'next-themes' ; 
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <ThemeProvider enableSystem={true} attribute="class">
       <NavBar></NavBar>
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
       <Footer></Footer>
-    </div>
+    </ThemeProvider>
   );
 }
 

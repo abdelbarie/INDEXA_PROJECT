@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const HomePageHeader = () => {
     return (
-        <div className="HomePgeHeader grid md:grid-cols-2 px-10 md:px-20 lg:px-32">
+        <div className="HomePgeHeader bg-white grid md:grid-cols-2 px-10 md:px-20 lg:px-32 text-custom-dark-blue dark:text-custom-dark-bg">
         <div className="h-fit my-auto ">
           <div className="font-extrabold text-4xl lg:text-6xl py-3">
             BRIGH YOUR FUTUR

@@ -6,7 +6,7 @@ const ContactezNous = () => {
       <div className="font-bold text-center py-2 text-2xl mb-5">
         CONTACTEZ NOUS
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-4  md:gap-0 rounded-2xl shadow-md bg-custom-dark-blue relative md:p-10 p-7">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-4  md:gap-0 rounded-2xl shadow-md bg-custom-dark-blue dark:bg-custom-dark-green relative md:p-10 p-7">
         <div className="">
           <div className="text-white font-extrabold md:text-3xl text-2xl">Laissez votre numéro, nos experts vous rappelerons</div>
           <div className="text-white font-light text-xs mt-2 w-11/12">Est-ce que vous souffrez, vous ou l’un de vos proches d’une déficience auditive ? Nous vous accompagnons dans votre parcours de soins et vous conseillons pour votre prise en charge médicale.</div>

@@ -24,7 +24,7 @@ export default function Home() {
     setMoreCenters(!moreCenters);
   };
   return (
-    <div className="relative overflow-x-hidden">
+    <div className="relative overflow-x-hidden  ">
       <Swiper>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
          <SwiperSlide> <HomePageHeader></HomePageHeader></SwiperSlide>
@@ -34,7 +34,7 @@ export default function Home() {
       </Swiper>
 
       {/* Product Section */}
-      <div className="Produit py-9 relative bg-gray-50">
+      <div className="Produit py-9 relative bg-gray-50 dark:bg-custom-dark-bg">
         <div className="text-center font-bold text-4xl">CATALOGUE DE PRODUITS</div>
         <ProductsCatHomeSection/>
         <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">

@@ -17,7 +17,7 @@ const ProductsHeader = () => {
         <div>
       <div className="productsHeader">
         <div className="w-1/2 md:float-right mx-auto text-5xl font-extrabold pt-16">
-          <div className="w-fit mx-auto">
+          <div className="w-fit mx-auto text-custom-dark-blue dark:text-custom-dark-green">
             SHOP <br /> NOW <label className="greenText">!!</label>
           </div>
         </div>

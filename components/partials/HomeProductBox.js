@@ -6,7 +6,7 @@ const HomeProductBox = (props) => {
     <div className="w-full pt-5 pb-16">
       <Link href="/products">
         <a>
-          <div className="productBox relative w-9/12 mx-auto grid place-content-center bg-white">
+          <div className="productBox relative w-9/12 mx-auto grid place-content-center bg-white dark:bg-custom-dark-green">
             <img src={props.img} className="w-4/6 mx-auto"></img>
           </div>
         </a>

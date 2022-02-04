@@ -2,22 +2,22 @@ import React from "react";
 
 const NosInfo = () => {
   return (
-    <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20">
+    <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20 ">
       <div className="font-bold text-center py-2 text-2xl mb-5">
         NOS INFORMATIONS
       </div>
-      <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative">
-        <div className="md:w-12/12 mx-auto py-16 md:px-10 px-4">
+      <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green opacity-80">
+        <div className="md:w-12/12 mx-auto py-16 md:px-10 px-4 opacity-100">
           <img src="/imgs/logo-indexa.png" className="w-40 mb-5"></img>
-          <div className="my-1 font-semibold flex gap-2   md:w-full">
-            <img src="/imgs/telephone.svg" width="20px" alt="phone icon"></img>{" "}
+          <div className="my-1 font-semibold flex gap-2   md:w-full ">
+            <img src="/imgs/telephone.svg" width="20px" alt="phone icon" className="opacity-100"></img>{" "}
             +213 23 80 40 61
           </div>
           <div className="my-1 font-semibold flex gap-2 w-fit   md:w-full ">
             <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
             info@indexapro.com
           </div>
-          <div className="my-1 font-semibold flex gap-2  md:w-full ">
+          <div className="my-1 font-semibold flex gap-2  md:w-full opacity-100 ">
             <img
               src="/imgs/position.svg"
               width="25px"

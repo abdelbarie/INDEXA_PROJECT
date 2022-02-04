@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <div className="Footer grid md:grid-cols-3 grid-cols-1 lg:px-24 md:px-12 py-10 md:gap-32 gap-5 px-5">
+      <div className="bg-custom-light-blue dark:bg-custom-dark-green grid md:grid-cols-3 grid-cols-1 lg:px-24 md:px-12 py-10 md:gap-32 gap-5 px-5">
         <div>
           <div className="">
             <img
@@ -14,7 +14,14 @@ const Footer = () => {
               alt="logo-indexa"
               layout="fill"
               width="50%"
-              className="mx-auto md:ml-0"
+              className="mx-auto md:ml-0 dark:hidden"
+            ></img>
+              <img
+              src="/imgs/indexaLogoWhite.png"
+              alt="logo-indexa"
+              layout="fill"
+              width="50%"
+              className="mx-auto md:ml-0 dark:block hidden"
             ></img>
           </div>
           <div className="my-3 font-normal text-center md:text-left">
@@ -85,7 +92,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyrights text-center p-2 text-white">
+      <div className=" bg-custom-dark-blue dark:bg-custom-dark-bg text-center p-2 text-white">
         2022 © CREATED BY EDRAAK
       </div>
     </div>

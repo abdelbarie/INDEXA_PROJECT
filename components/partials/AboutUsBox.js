@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AboutUsBox = () => {
   return (
-    <div className="aboutUs w-11/12 md:w-9/12 lg:w-7/12 rounded-3xl relative mx-auto overflow-hidden shadow-xl">
+    <div className="aboutUs bg-custom-dark-blue dark:bg-custom-dark-green w-11/12 md:w-9/12 lg:w-7/12 rounded-3xl relative mx-auto overflow-hidden shadow-xl">
       <img
         src="/imgs/aboutbg.png"
         className="absolute -left-20 md:left-0 top-0 aboutimg rounded-l-3xl "
@@ -15,7 +15,7 @@ const AboutUsBox = () => {
           auditive sévère à profonde.
         </div>
         <Link href="/about">
-        <button className="aboutButton rounded-lg px-5 py-2 mt-6 font-semibold flex gap-2 ">VOIR PLUS <img src="/imgs/arrow.png" width="20px" className="my-auto"></img> </button>
+        <button className="aboutButton rounded-lg px-5 py-2 mt-6 font-semibold flex gap-2 text-custom-dark-blue dark:text-custom-dark-green">VOIR PLUS <img src="/imgs/arrow.png" width="20px" className="my-auto"></img> </button>
         </Link>
      
       </div>
