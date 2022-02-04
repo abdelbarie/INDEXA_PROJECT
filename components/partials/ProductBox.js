@@ -7,10 +7,10 @@ const ProductBox = (props) => {
   <Link href={`/products/${props.id}`}>
           <a>
       <div className="ProductBox relative mx-auto  grid place-content-center">
-        <div className="absolute -top-3 px-2 py-1 marks left-2 text-white font-semibold text-xs shadow-md">
+        <div className="absolute -top-3 px-2 py-1 bg-custom-dark-blue dark:bg-custom-dark-green left-2 text-white font-semibold text-xs shadow-md">
           {props.category}
         </div>
-        <div className="absolute -top-3 right-2 p-1 marks shadow-md">
+        <div className="absolute -top-3 right-2 p-1 bg-custom-dark-blue dark:bg-custom-dark-green shadow-md">
           <img src="/imgs/star.png" width="17px"></img>
         </div>
         <img src={props.product.producImg} className="w-4/6 mx-auto"></img>
