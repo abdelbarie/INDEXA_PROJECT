@@ -116,7 +116,7 @@ const NavBar = () => {
 
 
         {/* reponsive nav content */ }
-        <div className="hidden md:hidden dark:block "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick}></img></div>
+        <div className="inline-flex   md:hidden "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
         <div className="inline-flex md:hidden dark:hidden"><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img></div>
       </div>
       <div className={`${isOpen?'block' : 'hidden'} gap-y-2 grid md:hidden`}>
