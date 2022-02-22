@@ -1,12 +1,21 @@
 import React, { useState , useEffect} from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher"
 import { useTheme } from "next-themes";
 import { FaBeer ,FaMoon , FaSun ,FaCloudMoon, FaCloudSun} from 'react-icons/fa';
 
+import frContent from "../public/locales/fr/common";
+import arContent from "../public/locales/arab/common";
+
 const NavBar = () => {
+  const {locale , locales , asPath}  = useRouter() ; 
   const {systemTheme , theme , setTheme} = useTheme() ;
   const [mounted , setMounted] = useState(false) ; 
+
+  
+ /* internationalisation content */ 
+ const content = locale === 'fr' ? frContent : arContent ;  
 
   useEffect(()=>{
     setMounted(true) ; 
@@ -18,14 +27,14 @@ const NavBar = () => {
 
      if (currentTheme === 'dark'){
        return(
-        <div className='pl-5  text-xs text-center w-fit'>
-        <FaCloudSun onClick={()=>setTheme('light')} className="text-yellow-200 text-3xl cursor-pointer "></FaCloudSun>
+        <div className='md:pl-5 pl-3  text-xs text-center w-fit'>
+        <FaCloudSun onClick={()=>setTheme('light')} className="text-yellow-200 text-2xl md:text-3xl cursor-pointer "></FaCloudSun>
       </div>
        )
      }else{
        return(
-         <div className='pl-5  text-xs text-center w-fit'>
-           <FaCloudMoon onClick={()=>setTheme('dark')} className="text-purple-900 text-3xl cursor-pointer "></FaCloudMoon>
+         <div className='md:pl-5 pl-3  text-xs text-center w-fit'>
+           <FaCloudMoon onClick={()=>setTheme('dark')} className="text-purple-900 text-2xl md:text-3xl cursor-pointer "></FaCloudMoon>
 
          </div>
    
@@ -40,14 +49,23 @@ const NavBar = () => {
   const userOrder = 0
   return (
     <div className="pt-1 mb-3">
-      <div className="flex w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal">
-        <div className="md:px-1 ">023 80 44 97-98</div>|
-        <div className="md:px-1">Allez au Menu</div>|
-        <div className="md:px-1">Allez au Menu</div>|
-        <div className="md:px-1">Allez au Menu</div>|
-        <LangSwitcher></LangSwitcher>
+      <div className="flex justify-between pr-2 md:hidden">
+      <div className="md-hidden">   {renderThemeChanger()} </div>
+      <div> <LangSwitcher></LangSwitcher></div>
       </div>
-      
+     
+      <div className="md:flex  w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal hidden ">
+    
+   
+        <div className="md:px-1 ">023 80 44 97-98</div>|
+        <Link className="md:px-1 " href="/SitePlan"><a >{content.upHeader.planSite}</a></Link>|
+        <div className="md:px-1 ">{content.upHeader.content}</div>|
+        <div className="md:px-1 ">{content.upHeader.menu}</div>|
+        <LangSwitcher></LangSwitcher>
+       
+      </div>
+    
+   
       <div className="flex px-3 lg:px-6 md:py-5 py-3 justify-between clear-right ">
         <Link href="/" className="">
           <a><img src= "/imgs/indexaLogoBlue.png" className="w-28 md:w-40 dark:hidden"></img>
@@ -57,24 +75,24 @@ const NavBar = () => {
           <div className="lg:px-6 px-4 font-normal lg:text-xl">
             {" "}
             <Link href="/">
-              <a>Acceuil</a>
+              <a>{content.Navbar.acceuil}</a>
             </Link>
           </div>
           <div className="lg:px-6 px-4 font-normal lg:text-xl">
             {" "}
             <Link href="/products">
-              <a>Produit</a>
+              <a>{content.Navbar.produits}</a>
             </Link>
           </div>
           <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
             {" "}
             <Link href="/about">
-              <a>A propos</a>
+              <a>{content.Navbar.propos}</a>
             </Link>
           </div>
           <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
             <Link href="/contact">
-              <a>Contact</a>
+              <a>{content.Navbar.contact}</a>
             </Link>
           </div>
           <div>

@@ -58,7 +58,7 @@ const ProCatSection = (props) => {
         <button
           className="text-lg font-semibold px-5 py-1 border-2 rounded-xl border-custom-dark-blue dark:border-custom-green"
         >
-        AFFICHER PLUS..
+        {props.content.products.voirPlusButton}
         </button>
         </Link>
         

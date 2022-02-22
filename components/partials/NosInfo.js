@@ -1,10 +1,10 @@
 import React from "react";
 
-const NosInfo = () => {
+const NosInfo = (props) => {
   return (
     <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20 ">
       <div className="font-bold text-center py-2 text-2xl mb-5">
-        NOS INFORMATIONS
+        {props.content.contact.title1}
       </div>
       <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green opacity-80">
         <div className="md:w-12/12 mx-auto py-16 md:px-10 px-4 opacity-100">
@@ -23,7 +23,7 @@ const NosInfo = () => {
               width="25px"
               alt="position icon"
             ></img>
-            Centre commercial Mohammadia Mall, 16058 Alger
+            {props.content.footer.location}
           </div>
         </div>
         <div className="relative h-full hidden md:block">

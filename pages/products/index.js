@@ -2,27 +2,39 @@ import React, { useState } from "react";
 import ProCatSection from "../../components/partials/ProductCategorySection";
 import ProductsHeader from "../../components/partials/ProductsHeader";
 
+import frContent from "../../public/locales/fr/common";
+import arContent from "../../public/locales/arab/common";
+
+import { useRouter } from "next/router";
 
 
 
 const Products = () => {
+  
+  const router = useRouter() ; 
+  const { locale, locales, asPath } = useRouter();
+ 
+  /* internationalisation content */ 
+  const content = locale === 'fr' ? frContent : arContent ;  
+
+  /* categories */ 
   const [isCategoOpen, setCategoOpen] = useState(true);
   const [produstFilter , setProductsFilter] = useState([false,false,false,false,false,false,false,false,false,false]) ; 
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
   };
-
   const filter = (e) =>{
     setProductsFilter({...produstFilter ,[e.target.id] : e.target.checked })
   }
+
   return (
     <div>
-    <ProductsHeader/>
+    <ProductsHeader content = {content}></ProductsHeader>
       <div className="lg:px-32 lg:px-16 px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-2">
             <div className="flex font-semibold text-xl py-2 border-b-2 categories border-custom-dark-blue dark:border-custom-green w-fit gap-3">
-              CATEGORIES
+              {content.products.categories}
               <img
                 src={isCategoOpen?"/imgs/up.png" :"/imgs/down.png"}
                 className="mt-2 cursor-pointer dark:hidden block"
@@ -53,7 +65,7 @@ const Products = () => {
                   <div key={key} className="text-sm w-full  flex justify-between py-1">
                     {cat}
                     <input type="checkbox" className="accent-custom-green cursor-pointer" onChange={filter} id={key} ></input>
-                  </div>
+                  </div> 
                 ))
               }
             </div>
@@ -78,6 +90,7 @@ const Products = () => {
                   key={key}
                   category={category}
                   id={key}
+                  content = {content}
                 ></ProCatSection>
               ))}
             </div>

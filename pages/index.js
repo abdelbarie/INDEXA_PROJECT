@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import HomeProduct from "../Data/HomeProduct";
 import HomeProductBox from "../components/partials/HomeProductBox";
 import CentreBox from "../components/partials/CentreBox";
@@ -18,24 +19,36 @@ import HomePageHeader from "../components/partials/HomePageHeader";
 import {Navigation} from 'swiper'
 SwiperCore.use([FreeMode, Pagination]);
 
+import frContent from "../public/locales/fr/common";
+import arContent from "../public/locales/arab/common";
+
+
+
 export default function Home() {
+  /*  */
+  
+ const router = useRouter() ; 
+ const { locale, locales, asPath } = useRouter();
+
+ /* internationalisation content */ 
+ const content = locale === 'fr' ? frContent : arContent ;  
+
   const [moreCenters, setMoreCenters] = useState(true);
   const showCenters = () => {
     setMoreCenters(!moreCenters);
   };
   return (
-    <div className="relative overflow-x-hidden  ">
+    <div className= {`${locale === 'fr' ? 'text-left' : 'text-right'} relative overflow-x-hidden`}> 
       <Swiper>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-         <SwiperSlide> <HomePageHeader></HomePageHeader></SwiperSlide>
-         <SwiperSlide> <HomePageHeader></HomePageHeader></SwiperSlide>
-         <SwiperSlide> <HomePageHeader></HomePageHeader></SwiperSlide>
+         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
+         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
+         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
       </Swiper>
       </Swiper>
-
       {/* Product Section */}
       <div className="Produit py-9 relative bg-gray-50 dark:bg-custom-dark-bg">
-        <div className="text-center font-bold text-4xl">CATALOGUE DE PRODUITS</div>
+        <div className="text-center font-bold text-4xl">{content.home.catalogue}</div>
         <ProductsCatHomeSection/>
         <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">
           <Swiper
@@ -80,15 +93,15 @@ export default function Home() {
 
       {/* Centers Section */}
       <div className="pb-16 pt-8 relative">
-        <div className="text-center font-bold text-4xl">NOS CENTRES</div>
+        <div className="text-center font-bold text-4xl">{content.home.centres.sectionTitle}</div>
         <div className="mt-10 px-10 md:px-16 lg:px-32 gap-y-10">
     
       
                 <CentreBox
                   location="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25258.545921267265!2d-6.42212315383798!3d32.32877377897835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda38649419c7fc1%3A0x6236b3e9a12bafd9!2sB%C3%A9ni%20Mellal%2C%20Maroc!5e0!3m2!1sfr!2sdz!4v1640183919839!5m2!1sfr!2sdz"
-                  centerName="CENTRE AUDITIF MOURADIA - ALGER"
+                  centerName={content.home.centres.centerName}
                   phoneNumber="+213 5 61 66 60 30"
-                  description="Centre Commercial et d’Affaire Mohammadia Mall, N°935, RDC. Cité djénina, Mohammadia"
+                  description={content.home.centres.location}
                   id= "1"
                 ></CentreBox>
          
@@ -102,13 +115,13 @@ export default function Home() {
 
       {/* About US Section */}
       <div className="mb-32">
-        <AboutUsBox></AboutUsBox>
+        <AboutUsBox content={content}></AboutUsBox>
       </div>
 
       {/* Questions section */}
       <div className="px-4 md:px-16 lg:px-32 pb-20 relative ">
-        <div className="text-center font-bold text-4xl mb-16">QUESTIONS</div>
-        {Questions.map((question, key) => (
+        <div className="text-center font-bold text-4xl mb-16">{content.home.questions.sectionTitle}</div>
+        {content.home.questions.questionsList.map((question, key) => (
           <QuestionBox
             question={question.question}
             answer={question.answer}
@@ -127,3 +140,4 @@ export default function Home() {
     </div>
   );
 }
+

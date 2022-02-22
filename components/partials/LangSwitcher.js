@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
+import {useRouter} from 'next/router' ; 
+import Link from 'next/link'
 
 const LangSwitcher = () => {
-    const [isOpen , setOpen]= useState(false) ; 
-    const [lang , setLang] = useState('FR') ; 
-    const openSwitcher = () =>{
-        setOpen(!isOpen) ; 
-    }
+    const {locale , locales , asPath} = useRouter() ; 
     return (
         <div className="md:px-2 px-1 flex font-bold gap-1" >
-            <div>
-            <div className="flex md:gap-2 gap-1">FR <img src="/imgs/france.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='fr flag'></img></div>
-            <div className={`flex md:gap-2 gap-1 ${isOpen?'block':'hidden'} absolute shadow-md`}>AR <img src="/imgs/algeria.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='alg flag'></img></div>
-            </div>
-            <div className="pt-1 cursor-pointer" onClick={openSwitcher}>
-            <img src={isOpen?'/imgs/up.png':'/imgs/Down.png'} alt="up icon" className="w-4 h-4  md:w-6 md:h-6 md:mt-0"></img>
-            </div>
-            
+            <div className="flex">
+                <Link href={asPath} locale='fr'>
+                    <a>
+            <div className=" md:gap-2 gap-1 text-xs text-center ml-2 "><img src="/imgs/france.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='fr flag'></img>FR</div>
+            </a>
+                </Link>
+                <Link href={asPath} locale='arab'>
+                    <a>
+                <div className={`md:gap-2 gap-1 text-xs text-center ml-2 `}> <img src="/imgs/algeria.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='alg flag'></img>AR</div>
+            </a>
+                </Link> </div>  
         </div>
     );
 };
