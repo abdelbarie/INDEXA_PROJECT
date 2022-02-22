@@ -142,24 +142,24 @@ const NavBar = () => {
           <div className="px-6 font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/">
-              <a onClick={handleClick}>Acceuil</a>
+              <a onClick={handleClick}>{content.Navbar.acceuil}</a>
             </Link>
           </div>
           <div className="px-6 font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/products">
-              <a onClick={handleClick}>Produit</a>
+              <a onClick={handleClick}>{content.Navbar.produits}</a>
             </Link>
           </div>
           <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
             {" "}
             <Link href="/about">
-              <a onClick={handleClick}>A propos</a>
+              <a onClick={handleClick}>{content.Navbar.propos}</a>
             </Link>
           </div>
           <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
             <Link href="/contact">
-              <a onClick={handleClick}>Contact</a>
+              <a onClick={handleClick}>{content.Navbar.contact}</a>
             </Link>
           </div>
           <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
