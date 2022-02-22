@@ -1,10 +1,20 @@
 import react from "react";
 import { useRouter } from "next/router";
 import ProductsData from "../../Data/Products";
+import ProductsAR from '../../Data/ProductsAR' ; 
 import ProCatSection from "../../components/partials/ProductCategorySection";
 
+import frContent from "../../public/locales/fr/common";
+import ArContent from "../../public/locales/arab/common";
+
 const ProductDetails = ({products}) => {
+
   const router = useRouter();
+  const {locale , locales , asPath} = router ; 
+
+  const content = locale === 'fr' ? frContent : ArContent ; 
+  //const ProductsData = locale === 'fr' ? ProductsFR : ProductsAR ; 
+  
   const id = router.query.id;
   return (
     <div className="md:px-36 px-4">
@@ -36,13 +46,14 @@ const ProductDetails = ({products}) => {
           <div><button className="flex gap-2 px-4 mx-auto py-1 mt-5 text-white  font-semibold rounded-full bg-custom-green"><img src="/imgs/chariot.svg" width="20px"></img>AJOUTER AU PANNIER</button></div>
         </div>
       </div>
+      
       <div className="md:w-8/12">
           <div className="font-bold text-2xl mt-16">Détails<hr/></div>
           <div className="productDetails">{products[id].details}</div>
       </div>
       <div>
           <div className="font-bold text-2xl mt-16">Produits similaire </div>
-          <ProCatSection category ={products[id].category}></ProCatSection>
+          <ProCatSection category ={products[id].category} content={content}></ProCatSection>
       </div>
     </div>
   );

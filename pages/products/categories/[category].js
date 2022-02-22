@@ -5,13 +5,20 @@ import ProCatSection from '../../../components/partials/ProductCategorySection';
 import ProductsData from '../../../Data/Products';
 import ProductsHeader from '../../../components/partials/ProductsHeader';
 
+import frContent from "../../../public/locales/fr/common";
+import arContent from "../../../public/locales/arab/common";
+
 const ProductCatPage = ()=>{
     const router = useRouter() ;
     const category = router.query.category ; 
+    const {locale , locales , asPath} = router ; 
+
+    const content = locale === 'fr' ? frContent : arContent ; 
+
     const i = 1 ; 
 return(
     <div>
-      <ProductsHeader/>
+      <ProductsHeader content={content}></ProductsHeader>
 
     <div className="lg:px-32 lg:px-16 px-4">
      

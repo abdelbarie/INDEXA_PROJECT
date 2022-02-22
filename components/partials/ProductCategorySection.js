@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import ProductsData from "../../Data/Products";
+import frProducts from "../../Data/Products";
+import ProductsAR from "../../Data/ProductsAR";
 import ProductBox from "./ProductBox";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +10,16 @@ import "swiper/css/pagination";
 import SwiperCore, { FreeMode, Pagination } from "swiper";
 SwiperCore.use([FreeMode, Pagination]);
 
+import { useRouter } from "next/router";
+
+
 const ProCatSection = (props) => {
+  const {locale , locales , aspath} = useRouter() ; 
+
+  const ProductsData = locale === 'fr' ? frProducts : ProductsAR ;
+
+ 
+
   let i = 1 ; 
   return (
     <div className="w-full py-5">
