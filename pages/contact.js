@@ -15,7 +15,7 @@ const Contact = () => {
   const content = locale === 'fr' ? frContent : arContent ;  
 
   return (
-    <div className='lg:px-36 md:px-16 relative px-4'>
+    <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} lg:px-36 md:px-16 relative px-4`}>
       <NosInfo content={content}></NosInfo>
       <ContactezNous content={content}></ContactezNous>
       <img src="/imgs/greenMail.svg" className="absolute top-64 -left-6 md:w-1/4  w-1/2  md:block -z-50"></img>

@@ -138,16 +138,14 @@ const ProductsData = [
     {
       id: 8,
       productName: "Rapporteur",
-      description: "En plastique rigide",
+      description: "بلاستيك صلب",
       longDescription:
-        "En plastique rigide, ce rapporteur est gradué en relief pour vous permettre une lecture précise.",
-      details: `
-      -	1 point tous les 10°
-      -	2 points pour 90°
-      -	Une encoche permet de repérer le centre
-      -	Diamètre : 12 cm
-      -	Poids : 20 g
-  `,
+        "من البلاستيك الصلب ، هذه المنقلة متدرجة بشكل بارز لتسمح لك بقراءة دقيقة.",
+      details: `- 1 نقطة كل 10 درجات
+      - 2 نقطة بزاوية 90 درجة
+      - الشق يسمح لك بتحديد المركز
+      - القطر: 12 سم
+      - الوزن: 20 جرام`,
       price: "800.00",
       stars: "4",
       producImg: "/imgs/RAPPORTEUR.png",
@@ -321,12 +319,10 @@ const ProductsData = [
       productName: "Jeu de domino en bois Points en relief",
       description: "Pour 2 à 4 joueurs à partir de 6 ans.",
       longDescription: `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`,
-      details: `
-      Caractéristiques :
-      Livré dans un plumier en bois.
-      Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
-      Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
-  `,
+      details: `الخصائص :
+      سلمت في صندوق خشبي أقلام الرصاص.
+      أبعاد دومينو (عرض × طول × سماكة): 2.5 × 5 × 1 سم
+      أبعاد الصندوق (عرض × طول × سماكة): 14 × 20.7 × 4.5 سم`,
       price: "not defined",
       stars: "4",
       producImg: "/imgs/domino.png",
@@ -335,13 +331,11 @@ const ProductsData = [
     {
       id: 19,
       productName: "Memory Tactile",
-      description: "Ce Jeu éducatif est destiné aux enfants à partir de 5 ans.",
-      longDescription: `Le jeu se compose de 32 pièces rondes en bois formant 16 paires de textures différentes.`,
-      details: `
-      Utilisation du jeu :
-      Pour les plus jeunes, il s'agira de rapprocher les paires identiques.
-      Il peut aussi être utilisé comme un jeu de memory pour jouer à plusieurs.       
-  `,
+      description: "هذه اللعبة التعليمية مخصصة للأطفال من سن 5 سنوات.",
+      longDescription: `تتكون اللعبة من 32 قطعة خشبية مستديرة تشكل 16 زوجًا من مواد مختلفة.`,
+      details: `باستخدام اللعبة:
+      بالنسبة لأصغرهم ، ستكون مسألة الجمع بين أزواج متطابقة.
+      يمكن استخدامه أيضًا كلعبة ذاكرة للعب مع الآخرين.`,
       price: "13 500.00",
       stars: "4",
       producImg: "/imgs/tactile.png",
@@ -350,23 +344,20 @@ const ProductsData = [
     {
       id: 20,
       productName: "ZOOM Text Logiciel",
-      description: "des images claires, une navigation aisée",
-      longDescription: `Grâce au logiciel de grossissement ZOOMTEXT édité par AiSquared, les utilisateurs mal-voyants vont découvrir un nouveau concept d'agrandissement et de lecture d’écran : l'accès aux documents, tableurs, pages web et courriers devient plus rapide, plus facile et plus précis que jamais.
+      description: "صور واضحة ، سهولة التنقل",
+      longDescription: `بفضل برنامج التكبير ZOOMTEXT الذي نشرته AiSquared ، سيكتشف المستخدمون ضعاف البصر مفهومًا جديدًا للتكبير وقراءة الشاشة: يصبح الوصول إلى المستندات وجداول البيانات وصفحات الويب والبريد أسرع وأسهل وأكثر دقة من أي وقت مضى.
   
-      ZOOMTEXT MAGNIFIER : des images claires, une navigation aisée, une facilité incomparable d'utilisation et le plus haut niveau de compatibilité.
-      `,
-      details: `
-      Caractéristiques techniques :
+      ZOOMTEXT MAGNIFIER: صور واضحة ، تنقل سهل ، سهولة في الاستخدام لا تضاهى وأعلى مستوى من التوافق.`,
+      details: `خصائص تقنية :
   
-      -	Agrandissement modulable : un agrandissement de 1 à 36 fois et 8 fenêtres zoom différentes vous permettent de configurer votre vue, agrandie, conformément à vos besoins.
-      -	La nouvelle technologie "xFont" améliore la qualité d'affichage du texte. Les polices de caractères les plus graphiques sont parfaitement lisibles, quel que soit le grossissement utilisé.
-      -	Amélioration des couleurs : des commandes innovantes de gestion des couleurs augmentent la clarté de l'écran et réduisent la fatigue oculaire. Les effets spéciaux incluent le mode teinté, bicolore et autres options permettant le remplacement des couleurs incommodantes.
-      -	Visibilité des pointeurs et curseurs : il est possible de changer la couleur et la taille du pointeur de la souris pour le visualiser plus facilement. Des
-      -	Localisateurs spéciaux rendent également le curseur de texte aisément repérable et facile à suivre.
-      -	Définition de zones de lecture : d'un simple raccourci clavier, l'agrandissement se positionne sur des champs ne définis pas l'utilisateur.
-      -	La nouvelle fonction Recherche de Texte localise rapidement dans l'application le mot ou la phrase saisie.
-      -	L'enregistrement de "profils" sauvegarde les paramètres d'affichage définis pour chaque application.
-        
+      - تكبير مرن: يتيح لك التكبير من 1 إلى 36 مرة و 8 نوافذ تكبير مختلفة تكوين العرض المكبر وفقًا لاحتياجاتك.
+      - تعمل تقنية "xFont" الجديدة على تحسين جودة عرض النص. يمكن قراءة معظم الخطوط الرسومية تمامًا ، بغض النظر عن نسبة التكبير المستخدمة.
+      - تحسين اللون: تعمل أدوات التحكم المبتكرة في إدارة الألوان على زيادة وضوح الشاشة وتقليل إجهاد العين. تتضمن التأثيرات الخاصة خيارات ملونة ولونين وخيارات أخرى لتجاوز الألوان المزعجة.
+      - رؤية المؤشرات والمؤشرات: من الممكن تغيير لون وحجم مؤشر الماوس لعرضه بسهولة أكبر. من
+      - تعمل محددات المواقع الخاصة أيضًا على تسهيل اكتشاف مؤشر النص وسهولة متابعته.
+      - تعريف مناطق القراءة: باستخدام اختصار لوحة مفاتيح بسيط ، يتم وضع التكبير في حقول لم يحددها المستخدم.
+      - وظيفة البحث عن النص الجديدة تحدد بسرعة الكلمة أو العبارة التي تم إدخالها في التطبيق.
+      - حفظ "ملفات التعريف" يحفظ إعدادات العرض المحددة لكل تطبيق.     
   `,
       price: "189 350.00",
       stars: "4",
@@ -376,30 +367,27 @@ const ProductsData = [
     {
       id: 21,
       productName: "Logiciel JAWS pour Windows FR/AR",
-      description: "JAWS (Job Access With Speech)",
-      longDescription: `un logiciel de revue d'écran pour déficients visuels édité par la société Freedom Scientific.
+      description: "JAWS (الوصول إلى الوظيفة بالكلام)",
+      longDescription: `برنامج مراجعة شاشة للمكفوفين نشرته شركة Freedom Scientific.
   
-      Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique.
-        `,
-      details: `
-      Le logiciel de revue d'écran JAWS offre un accès vocal complet à l'environnement Windows et aux applications logicielles tant standard que spécifique. Un afficheur braille peut-être connecter pour une lecture braille.
+      يوفر برنامج قارئ الشاشة JAWS وصولاً صوتيًا كاملاً إلى بيئة Windows وتطبيقات البرامج القياسية والمخصصة.`,
+      details: `يوفر برنامج قارئ الشاشة JAWS وصولاً صوتيًا كاملاً إلى بيئة Windows وتطبيقات البرامج القياسية والمخصصة. يمكن توصيل شاشة برايل للقراءة بطريقة برايل.
   
-      Conforme à l'interface de Windows, le lecteur d'écran JAWS n'en redéfinit pas la structure et vous fait appréhender cet environnement de la même manière qu'une personne voyante, ce qui facilite considérablement l'intégration. 
+      بالتوافق مع واجهة Windows ، لا يقوم قارئ الشاشة JAWS بإعادة تعريف هيكلها ويجعلك تفهم هذه البيئة بنفس الطريقة التي يفهمها الشخص المبصر ، مما يسهل التكامل بشكل كبير.
       
-      JAWS interagit avec l'utilisateur en tirant étroitement partie de nombreux raccourcis claviers proposés en standard sous Windows et n'entre pas en conflit avec les touches utilisées par les autres applications. Très puissant et simple d'utilisation.
+      يتفاعل JAWS مع المستخدم من خلال الاستفادة الكاملة من العديد من اختصارات لوحة المفاتيح المتوفرة كمعيار ضمن Windows ولا يتعارض مع المفاتيح التي تستخدمها التطبيقات الأخرى. قوي جدا وسهل الاستخدام.
       
-      JAWS présente des caractéristiques jusqu'à ce jour inédites : 
+      يحتوي JAWS على ميزات لم تتم رؤيتها من قبل:
       
-      -	Des fonctions de lecture regroupées sur le pavé numérique très faciles d'accès.
-      -	4 Curseurs au choix pour naviguer facilement.
-      -	Une configuration "à la carte".
-      -	Une grande flexibilité.
-      -	Un étiqueteur de graphiques manuel ou automatique.
-      -	Une optimisation accrue pour la navigation sur Internet.
-      -	Un éditeur de scripts et son langage intégrés.
-      -	Le support pour de nombreux synthétiseurs vocaux et terminaux braille.
-      -	Synthèse vocal Acapela infovox SAPI5 Français, arabe.    
-  `,
+      - وظائف القراءة المجمعة على لوحة المفاتيح الرقمية سهلة الوصول إليها للغاية.
+      - 4 مؤشرات للاختيار من بينها لسهولة التنقل.
+      - تكوين "حسب الطلب".
+      - مرونة كبيرة.
+      - مُلصق رسومات يدوي أو آلي.
+      - زيادة التحسين لتصفح الإنترنت.
+      - محرر نصوص ولغته المتكاملة.
+      - دعم العديد من مُركِّبات الكلام ومحطات برايل.
+      - تركيب الكلام Acapela infovox SAPI5 فرنسي ، عربي.`,
       price: "348 000.00",
       stars: "4",
       producImg: "/imgs/JAWS.png",
@@ -408,16 +396,14 @@ const ProductsData = [
     {
       id: 22,
       productName: "DBT 11.2",
-      description: "DUXBURY BRAILLE TRANSLATOR",
-      longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
-      details: `
-      -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
-  -	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
-  -	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
-  -	 Numérotation automatique des pages, avec possibilité de double Pagination.
-  -	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
-  -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
-     
+      description: "مترجم دوكسبيري بريل",
+      longDescription: `DBT Win هو برنامج يسمح بالنسخ بطريقة برايل الكاملة أو المختصرة للنصوص التي تم إدخالها "باللون الأسود". يستخدمه غالبية منتجي طريقة برايل في جميع أنحاء العالم.`,
+      details: `- وضعان متاحان لإدخال النص: لوحة مفاتيح QWERTY أو لوحة مفاتيح Perkins برايل.
+      - طباعة متكاملة تسمح بالحصول على طريقة برايل باللون الأسود تحت الأحرف المطبوعة.
+      - النسخ الكامل أو المختصر بطريقة برايل لما يقرب من أربعين لغة مختلفة (بما في ذلك العربية) ، مع أو بدون الواصلة.
+      - ترقيم تلقائي للصفحات مع إمكانية ترقيم الصفحات مرتين.
+      - استيراد الملفات التي تم إدخالها في برامج معالجة الكلمات الشائعة (Microsoft Word و WordPerfect وما إلى ذلك) ، أو الملفات بتنسيق HTML أو ICADD أو ASCII بتنسيق أو بدون تنسيق ، أو الملفات التي تم إنشاؤها باستخدام محررات برايل القديمة (EDGAR ، Polkadot ، إلخ) أو من الإصدارات الأقدم دوكسبري ، إلخ.
+      - الاستيراد من WORD: معالجة جميع حروف العلة المحركة ، والأحرف الخاصة ، والقوائم ذات الرموز النقطية والأرقام ، وتكوين المستورد.  
   `,
       price: "185 000.00",
       stars: "4",
@@ -427,17 +413,14 @@ const ProductsData = [
     {
       id: 23,
       productName: "DBT 11.2",
-      description: "DUXBURY BRAILLE TRANSLATOR",
-      longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
-      details: `
-      -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
-  -	Impression en interligne intégrée permettant d'obtenir le braille en noir sous les caractères d'imprimerie.
-  -	Transcription en braille intégral ou abrégé pour une quarantaine de langues différentes (arabe inclus), avec ou sans césure.
-  -	 Numérotation automatique des pages, avec possibilité de double Pagination.
-  -	Importation des fichiers saisis dans les logiciels de traitement de texte populaires (Microsoft Word, WordPerfect, etc.), des fichiers en format HTML, ICADD ou ASCII avec ou sans formatage, des fichiers créés dans les anciens éditeurs de braille (EDGAR, Polkadot, etc.) ou provenant d'anciennes versions de Duxbury, etc.
-  -	Importation depuis WORD : traitement de toutes les voyelles accentuées, caractères spéciaux, des listes à puces et à numéros, paramétrage de l'importateur.
-     
-  `,
+      description: "مترجم دوكسبيري بريل",
+      longDescription: `DBT Win هو برنامج يسمح بالنسخ بطريقة برايل الكاملة أو المختصرة للنصوص التي تم إدخالها "باللون الأسود". يستخدمه غالبية منتجي طريقة برايل في جميع أنحاء العالم. `,
+      details: `- وضعان متاحان لإدخال النص: لوحة مفاتيح QWERTY أو لوحة مفاتيح Perkins برايل.
+      - طباعة متكاملة تسمح بالحصول على طريقة برايل باللون الأسود تحت الأحرف المطبوعة.
+      - النسخ الكامل أو المختصر بطريقة برايل لما يقرب من أربعين لغة مختلفة (بما في ذلك العربية) ، مع أو بدون الواصلة.
+      - ترقيم تلقائي للصفحات مع إمكانية ترقيم الصفحات مرتين.
+      - استيراد الملفات التي تم إدخالها في برامج معالجة النصوص الشائعة (Microsoft Word و WordPerfect وما إلى ذلك) ، أو الملفات بتنسيق HTML أو ICADD أو ASCII بتنسيق أو بدون تنسيق ، أو الملفات التي تم إنشاؤها باستخدام محررات برايل القديمة (EDGAR ، Polkadot ، إلخ) أو من الإصدارات الأقدم دوكسبري ، إلخ.
+      - الاستيراد من WORD: معالجة جميع حروف العلة المحركة ، والأحرف الخاصة ، والقوائم ذات الرموز النقطية والأرقام ، وتكوين المستورد.`,
       price: "185 000.00",
       stars: "4",
       producImg: "/imgs/perkins.png",
@@ -446,16 +429,12 @@ const ProductsData = [
     {
       id: 24,
       productName: "Papier non perforé ",
-      description: "Format A4 160 G – 250 FEUILes ",
-      longDescription: `
-      Ce papier est recommandé pour l'écriture de documents à conserver. Il peut être utilisé avec la tablette format A3 ou avec une machine à écrire le braille ou avec les imprimantes braille acceptant le feuille à feuille.
-       `,
-      details: `
-      -	Format : 42 x 29,7 cm, non perforé
-  -	Grammage : 160 g
-  -	Conditionné par 250 feuilles
-  -	Poids : 25 kg
-  
+      description: "تنسيق A4 160 G - 250 ورقة",
+      longDescription: `يوصى بهذه الورقة لكتابة المستندات للاحتفاظ بها. يمكن استخدامه مع الكمبيوتر اللوحي بتنسيق A3 أو مع الآلة الكاتبة بطريقة برايل أو مع طابعات برايل التي تقبل ورقة تلو الأخرى.`,
+      details: `- الحجم: 42 × 29.7 سم ، غير مثقوب
+      - الوزن: 160 جرام
+      - مغلف بـ 250 ورقة
+      - الوزن: 25 كجم
   `,
       price: "2150.00",
       stars: "4",
@@ -465,13 +444,11 @@ const ProductsData = [
     {
       id: 25,
       productName: "Machine PERKINS Uni-manuelle",
-      description: "Machine à écrire le braille, mécanique et portable.",
-      longDescription: `
-      Mêmes caractéristiques que la machine Perkins référence 11000, mais permettant d'écrire d'une seule main, 2 frappes successives étant nécessaires pour écrire un caractère. `,
-      details: `-	Couleur grise
-      -	Dimensions (largeur x longueur x hauteur) : 15 x 23 x 39 cm
-      -	Poids : 4,8 kg    
-  `,
+      description: "آلة كاتبة بطريقة برايل ميكانيكية ومحمولة.",
+      longDescription: `نفس الخصائص التي تشير إليها آلة Perkins تشير إلى 11000 ، ولكن مع السماح بالكتابة بيد واحدة ، فإن ضغطتين متتاليتين على المفاتيح ضرورية لكتابة حرف.`,
+      details: `-	لون رمادي
+      - الأبعاد (عرض × طول × ارتفاع): 15 × 23 × 39 سم
+      - الوزن: 4.8 كجم`,
       price: "196 000.00",
       stars: "4",
       producImg: "/imgs/mperkins.png",
@@ -480,19 +457,15 @@ const ProductsData = [
     {
       id: 26,
       productName: "Papier listing",
-      description: "170 G – 250 FEUILLES",
-      longDescription: `
-      Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
-      `,
-      details: `-	Format : 12 pouces (24 perforations de part et d'autre de la feuille sur bandes Carroll)
-      -	Conditionnement : 250 feuilles
-      -	Grammage : 170 g
-      -	Dimensions hors bandes Carroll : 21 x 30,5 cm
-      -	Dimensions avec bandes Carroll : 24 x 30,5 cm
-      -	Bande Carroll droite et gauche détachables
-      -	Poids : 3,3 kg
-        
-  `,
+      description: "170 جرام - 250 ورقة",
+      longDescription: `سيتم استخدام هذا الورق مع طابعة برايل تتطلب هذا النوع من الورق لإصدار المستندات المستمرة.`,
+      details: `- التنسيق: 12 بوصة (24 ثقبًا على جانبي الورقة على شرائط كارول)
+      - التعبئة: 250 ورقة
+      - الوزن: 170 جرام
+      - الأبعاد باستثناء شرائط كارول: 21 × 30.5 سم
+      - الأبعاد مع شرائط كارول: 24 × 30.5 سم
+      - شريط كارول الأيمن والأيسر القابل للفصل
+      - الوزن: 3.3 كجم`,
       price: "not defined",
       stars: "4",
       producImg: "/imgs/papers.jpg",
@@ -501,17 +474,13 @@ const ProductsData = [
     {
       id: 27,
       productName: "Feuille pour thermoformage A4",
-      description: "Rames de 200 feuilles ",
-      longDescription: `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
-      `,
-      details: `
-      •	Epaisseur : Fin 0,12 mm
-      •	Format de la feuille : 21 x 29,7 (A4)
-      •	Couleur : Blanc
-      •	Conditionnement : 100 feuilles
-      •	Poids : environ 1 kg
-      
-        
+      description: "رزم 200 ورقة",
+      longDescription: `تستخدم هذه الأوراق مع المشكل الحراري. سيتم استخدام هذا الورق مع طابعة برايل تتطلب هذا النوع من الورق لإصدار المستندات المستمرة.`,
+      details: `• السماكة: ناعم 0.12 مم
+      • حجم الورقة: 21 × 29.7 (A4)
+      •	لون أبيض
+      • التعبئة: 100 ورقة
+      • الوزن: حوالي 1 كجم   
   `,
       price: "88 000.00",
       stars: "4",
@@ -522,49 +491,47 @@ const ProductsData = [
       id: 28,
       productName: "INDEX EVREST DV5",
       description:
-        "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
-      longDescription: `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
-      C’est une embosseuse braille recto verso ave chargeur feuille à feuille.
-      L’embossage est maintenant possible tant horizontalement que verticalement.`,
-      details: `
+        "طابعة برايل من ورقة إلى ورقة: طباعة سريعة لجميع التنسيقات.",
+      longDescription: `تعد طابعة Index Evrest D-V5 هي أحدث إصدار من طابعات INDEX Braille الشهيرة ، والمعروفة بجودتها ودقة نقاطها بطريقة برايل.
+      إنها آلة نقش برايل على الوجهين مزودة بوحدة تغذية للورق.
+      أصبح النقش ممكنًا الآن أفقيًا وعموديًا.`,
+      details: `يمكن لـ Evrest -D V5 أن تنقش نصوص برايل وعناصر رسومية على أوراق مفردة ، وكتب (تنسيق كتيب تلقائي) ، وملصقات وبطاقات عمل.
+      إنه المزخرف الأكثر تنوعًا في السوق.
       
-      L’Evrest -D V5 permet d’embosser textes Braille et éléments graphiques sur des feuilles simples, des livres (Format livret automatique), des étiquettes ainsi que des cartes de visites.
-      C’est l’embosseuse la plus polyvalente du marché. 
-      
-      Très pratique l’embossage peut se faire à partir d’un Smartphone ou d’une Tablette ainsi que le paramétrage, grave au logiciel gratuit Indexa IdB.
+      عملي جدًا ، يمكن إجراء النقش من هاتف ذكي أو جهاز لوحي بالإضافة إلى التكوين ، وهو أمر جاد مع البرنامج المجاني Indexa IdB.
       
       
-      Amélioration par rapport aux modelés précédents : 
+      تحسين النماذج السابقة:
   
-      -	Vitesse d’impression plus rapide et consommation d’énergie inférieure.
-      -	Compatibilité avec les appareils mobiles.
-      -	Logiciel idB d’Index.
-      -	Messages vocaux produits par la voix de synthèse Acapela.
-      -	Port USB pour impression directe à partir d’une clé USB pour la sauvegarde.
-      -	Poids réduit à 12Kg.
+      - سرعة طباعة أسرع واستهلاك أقل للطاقة.
+      - التوافق مع الأجهزة المحمولة.
+      - برنامج IDB من الفهرس.
+      - الرسائل الصوتية التي يصدرها الصوت الاصطناعي Acapela.
+      - منفذ USB للطباعة المباشرة من مفتاح USB للنسخ الاحتياطي.
+      - خفض الوزن إلى 12 كجم.
       
-      Les fonctionnalités les plus modernes 
-      Wifi – USB – Connectivité avec appareils mobiles.
+      أحدث الميزات
+      Wifi - USB - التوصيل بالأجهزة المحمولة.
       
-      Caractéristiques 
-      -	Embossage feuille à feuille 
-      -	Vitesse d’impression de 400 pages format A4/ heure
-      -	Résolution 100 dpi et interligne ajustable
-      -	Grammage du papier de 120 à 180 g
-      -	Largeur de la page de 13 cm à 29.7 cm
-      -	Longueur de page de 10 cm à 59 cm 
-      -	Chargeur de papier de 50 pages 
-      -	Impression 6 ou 8 points 
-      -	Jusqu’à 48 caractères par ligne 
-      -	Synthèse vocale pour les commandes, menus et sélections 
-      -	Interface USB, LAN, Wi-Fi et Bluetooth 
-      -	Compatible avec Smartphones et tablettes 
-      -	Drivers pour Windows, Mac et Linux
-      -	Interface Web pour paramétrage et statut 
-      -	Dimension : L56xH45xP18 Cm 
-      -	Poids : 12 Kg
-      -	Bruit : Inf à 60dB avec caisson insonorisant 
-      -	Consommation : 140 W en impression et 5 W en veille 
+      الخصائص
+      - نقش ورقة على ورقة
+      - سرعة طباعة 400 صفحة A4 في الساعة
+      - دقة تصل إلى 100 نقطة في البوصة ومسافات قابلة للتعديل
+      - وزن الورق من 120 إلى 180 جرام
+      - عرض الصفحة من 13 سم إلى 29.7 سم
+      - طول الصفحة من 10 سم الى 59 سم
+      - وحدة تغذية بالورق سعة 50 صفحة
+      - طباعة 6 أو 8 نقاط
+      - ما يصل إلى 48 حرفًا في كل سطر
+      - تحويل النص إلى كلام للأوامر والقوائم والاختيارات
+      - واجهة USB و LAN و Wi-Fi و Bluetooth
+      - متوافق مع الهواتف الذكية والأجهزة اللوحية
+      - برامج تشغيل لويندوز وماك ولينكس
+      - واجهة ويب للإعدادات والحالة
+      - الأبعاد: L56xH45xD18 سم
+      - الوزن: 12 كجم
+      - الضوضاء: أقل من 60 ديسيبل مع صندوق عازل للصوت
+      - الاستهلاك: 140 واط في الطباعة و 5 واط في وضع الاستعداد
          
   `,
       price: "not defined",
@@ -575,20 +542,19 @@ const ProductsData = [
     {
       id: 29,
       productName: "Imprimante Braille INDEX Braille BOX V5",
-      description: "L’imprimante Braille Box, fabriquée par Index",
-      longDescription: `L’imprimante Braille Box, fabriquée par Index, est une embosseuse R/V destinée à l'impression de livres en braille, elle produit directement des ouvrages (livres, journaux) dans un format cahier "prêt à relier". `,
-      details: `Caractéristiques 
-      -	Haute vitesse : 800 pages par heure.
-      -	Excellente qualité du point braille
-      -	Le bac d'alimentation peut contenir jusqu'à 400 pages.
-      -	Alimentation des feuilles très stable.
-      -	Étonnant niveau de bruit faible.
-      -	Alimentation A3 pliée pour un format final A4.
+      description: "طابعة برايل بوكس ​​، من إنتاج شركة إندكس",
+      longDescription: `طابعة برايل بوكس ​​، التي تصنعها شركة إندكس ، عبارة عن مزخرف R / V مخصص لطباعة الكتب بطريقة برايل ، وهي تنتج الأعمال مباشرة (كتب ، صحف) بتنسيق دفتر ملاحظات "جاهز للربط". `,
+      details: `الخصائص
+      - سرعة عالية: 800 صفحة في الساعة.
+      - جودة نقاط برايل ممتازة
+      - يمكن لدرج الإدخال أن يستوعب حتى 400 صفحة.
+      - تغذية ورقة مستقرة للغاية.
+      - مستوى ضوضاء منخفض مذهل.
+      - تغذية A3 مطوية بحجم A4 نهائي.
       
-      Volumes de production élevés :
-      La Braille Box est la meilleure embosseuse pour la production de volume élevé de braille, en utilisant du papier copie ordinaire. Elle possède également le meilleur mode d'alimentation jamais utilisé dans une imprimante braille.
-      Braille Box est une réussite d'INDEX Braille, donnant aux utilisateurs ce qu'ils ont demandent à l'impression de grands volumes
-        
+      كميات إنتاج عالية:
+      يعتبر صندوق برايل أفضل مزخرف لإنتاج كميات كبيرة من لغة بريل باستخدام ورق نسخ عادي. كما أن لديها أفضل وضع للطاقة تم استخدامه على الإطلاق في طابعة برايل.
+      تعد Braille Box إحدى قصص نجاح INDEX Braille ، حيث تمنح المستخدمين ما يطلبونه في الطباعة بكميات كبيرة  
   `,
       price: "not defined",
       stars: "4",
@@ -604,13 +570,12 @@ const ProductsData = [
   
       Best-seller depuis des années, l'embosseuse Basic- D utilise du papier tracté pour produire du braille de qualité en recto ou recto/verso.
       `,
-      details: `-	Format compact.
-      -	100 caractères par seconde.
-      -	Impression à partir d'appareils portables.
-      -	Panneau de commande en noir et braille.
-      -	Tracteur auto-alimenté : méthode d'alimentation du papier la plus fiable.
-      -	25 ans d’expérience 
-        
+      details: `- حجم مضغوط.
+      - 100 حرف في الثانية.
+      - الطباعة من الأجهزة المحمولة.
+      - لوحة تحكم باللون الأسود وبرايل.
+      - جرار التغذية الذاتية: أكثر طرق تغذية الورق موثوقية.
+      - خبرة 25 سنة 
   `,
       price: "not defined",
       stars: "4",
@@ -621,18 +586,16 @@ const ProductsData = [
       id: 31,
       productName: "Imprimante Embosseuse Braille Indexa Evrest D-V4",
       description: "Evrest D-V4",
-      longDescription: `INDEX EVREST est une embosseuse R/V, avec un chargeur feuille dont la vitesse est de 100 caractères par seconde.
-      EVREST possède un niveau sonore très bas ne nécessitant pas de capot insonorisant, des points de brailles d’excellente qualité, une sélection des paramètres contrôlés par un affichage numérique. 
-       `,
-      details: `Autonomie	              -Oui
-      Synthèse vocale	                  -Oui
-      Touches de navigation           	-Oui
-      Type de clavier (pour la saisie)	-Non
-      Lecteur carte mémoire           	-Non
-      Connexion Bluetooth             	-Non
-      Connexion RS232	                  -Non
-      Connexion USB	                    -Oui
-         
+      longDescription: `INDEX EVREST هو مزخرف R / V مزود بوحدة تغذية للورق سرعتها 100 حرف في الثانية.
+      يتميز EVREST بمستوى ضوضاء منخفض جدًا لا يتطلب غطاء عازل للصوت ونقاط برايل عالية الجودة واختيار المعلمات التي يتم التحكم فيها بواسطة شاشة رقمية. `,
+      details: `الحكم الذاتي ، نعم
+      تحويل النص إلى كلام - نعم
+      مفاتيح التنقل - نعم
+      نوع لوحة المفاتيح (للكتابة) - لا
+      قارئ بطاقة الذاكرة - لا
+      اتصال بلوتوث - لا
+      اتصال RS232
+      اتصال USB ، نعم    
   `,
       price: "not defined",
       stars: "4",
@@ -642,13 +605,11 @@ const ProductsData = [
     {
       id: 32,
       productName: "PUZZLE Géométrique en bois",
-      description: "Jeu éducatif pour enfant à partir de 3 ans.",
-      longDescription: `Jeu éducatif pour enfant à partir de 3 ans.`,
-      details: `
-      Objectif du jeu : 
+      description: "لعبة تعليمية للأطفال من سن 3 سنوات.",
+      longDescription: `لعبة تعليمية للأطفال من سن 3 سنوات.`,
+      details: `الهدف من اللعبة:
   
-      Disposer les pièces selon la forme géométrique, ce jeu se compose de 40, 44 pièces géométriques colorées. Les formes s'encastrent sur un plateau en forme rectangulaire.       
-  `,
+      رتب القطع حسب الشكل الهندسي ، تتكون هذه اللعبة من 40 ، 44 قطعة هندسية ملونة. يتم تضمين النماذج في صينية مستطيلة.`,
       price: "6500.00",
       stars: "4",
       producImg: "/imgs/PUZZLE.jpg",
@@ -657,13 +618,11 @@ const ProductsData = [
     {
       id: 33,
       productName: "PUZZLE Chiffres",
-      description: "En bois (10 pièces)",
-      longDescription: `En bois, avec un logement séparé pour chaque chiffre `,
-      details: ` 
-      -	Socle en bois naturel clair 
-      -	Pièces en bois coloré de 6 couleurs différentes. 
-      -	Dimensions : 22,2 x 29,6 cm
-       `,
+      description: "خشبي (10 قطع)",
+      longDescription: `مصنوع من الخشب وبه غلاف منفصل لكل رقم`,
+      details: ` - قاعدة خشبية طبيعية فاتحة
+      - قطع خشبية ملونة بستة ألوان مختلفة.
+      - الأبعاد: 22.2 × 29.6 سم`,
       price: "not defined",
       stars: "4",
       producImg: "/imgs/puzzleChiffres.jpg",
@@ -674,8 +633,8 @@ const ProductsData = [
       id: 34,
       productName: "Xylophone pour enfant",
       description:
-        "lames en acier de différentes couleurs et de différentes longueurs",
-      longDescription: `Le xylophone est constitué de lames en acier de différentes couleurs et de différentes longueurs fixées sur un support en bois, qui sont frappées au moyen de mailloches terminées par une sphère. La disposition des lames est semblable à celle du clavier de piano.`,
+        "ريش فولاذية بألوان مختلفة وأطوال مختلفة",
+      longDescription: `يتكون إكسيليفون من شفرات فولاذية ذات ألوان مختلفة وأطوال مختلفة مثبتة على دعامة خشبية ، والتي يتم ضربها بواسطة مطرقة تنتهي في كرة. ترتيب القصب مشابه لترتيب لوحة مفاتيح البيانو.`,
       details: ``,
       price: "8500.00",
       stars: "4",
@@ -685,12 +644,12 @@ const ProductsData = [
     {
       id: 35,
       productName: "PUZZLE Alphabet Majuscule ",
-      description: "En bois (26 pièces)",
-      longDescription: `En bois, avec un logement séparé pour chaque lettre majuscule. `,
-      details: `-	Socle en bois naturel clair 
-      -	Pièces en bois colorées de 4 couleurs différentes, chacune correspond à une lettre en majuscule.
-      -	Une petite tige en bois est collée sur chacune des lettres afin de féliciter son extraction du socle.
-      -	Dimension : 22.2 x 29.6 cm
+      description: "خشبي (26 قطعة)",
+      longDescription: `مصنوع من الخشب مع فتحة منفصلة لكل حرف كبير.`,
+      details: `- قاعدة خشبية طبيعية فاتحة
+      - قطع خشبية ملونة بأربعة ألوان مختلفة يتطابق كل منها مع حرف كبير.
+      - تم لصق قضيب خشبي صغير على كل حرف للتهنئة باستخراجها من القاعدة.
+      - الأبعاد: 22.2 × 29.6 سم
       `,
       price: "2800.00",
       stars: "4",
@@ -700,21 +659,19 @@ const ProductsData = [
     {
       id: 36,
       productName: "Loupe réglette",
-      description: "avec ligne de repère rouge X2",
-      longDescription: `Cette règle loupe de lecture avec un grossissement de 2x est parfaitement adaptée à la lecture d'un livre, de votre magazine, de votre journal et plus particulièrement pour les larges tableaux.
-      Grâce à sa ligne de guidage rouge, la lecture se fait de manière plus agréable et prolongée sans fatigue.
-      `,
-      details: `La règle-loupe grossit uniquement dans un sens : les lettres sont allongées dans le sens de la hauteur, tandis que leur largeur reste inchangée.
+      description: "مع خط المتصدر الأحمر X2",
+      longDescription: `هذه المسطرة المكبرة للقراءة بتكبير 2x مناسبة تمامًا لقراءة كتاب ومجلة وصحيفتك وخاصة للوحات الكبيرة.
+      بفضل خطها الإرشادي الأحمر ، تصبح القراءة أكثر متعة وتستغرق وقتًا طويلاً دون تعب.`,
+      details: `تنمو المسطرة المكبرة في اتجاه واحد فقط: يتم استطالة الأحرف في اتجاه الارتفاع ، بينما يظل عرضها دون تغيير.
   
   
-      -	Lentille rectangulaire
-      -	Matériau : PXM Plastique très léger et incassable
-      -	Grossissement : x2
-      -	Avec poignée pour la préhension
-      -	Avec ligne repère rouge pour un meilleur suivi
-      -	Dimensions (longueur x largeur x épaisseur) : 173 x 25 x 13 mm
-      -	Poids : 43 g
-      
+      - عدسة مستطيلة
+      - المادة: بلاستيك PXM خفيف جدا وغير قابل للكسر
+      - التكبير: x2
+      - مع مقبض للإمساك
+      - مع خط توجيه أحمر لتتبع أفضل
+      - الأبعاد (الطول × العرض × السمك): 173 × 25 × 13 ملم
+      - الوزن: 43 جرام
       `,
       price: "4000.00",
       stars: "4",
@@ -724,12 +681,11 @@ const ProductsData = [
     {
       id: 37,
       productName: "Cube Algébriques par 100",
-      description: "Chaque cube se compose de trois carrés mobiles en plastique",
-      longDescription: `Chaque cube se compose de trois carrés mobiles en plastique, pivotant autour d'un axe central métallique. Sur chacun des côtés de ces carrés est représentée l'une des 4 possibilités de positionnement des points braille (1 point à gauche, 1 point à droite, 2 points ou rien), ce qui permet de former les 63 caractères braille.`,
-      details: `•	Conditionnés par boîte de 100 cubes
-      •	Dimensions d'un cube : 9 mm de côté
-      •	Poids de l'ensemble : 170 
-      
+      description: "يتكون كل مكعب من ثلاث مربعات بلاستيكية متحركة",
+      longDescription: `يتكون كل مكعب من ثلاث مربعات بلاستيكية متحركة تدور حول محور معدني مركزي. يوجد على كل جانب من هذه المربعات أحد الاحتمالات الأربعة لوضع نقاط برايل (نقطة واحدة على اليسار ، نقطة واحدة على اليمين ، نقطتان أو لا شيء) ، مما يجعل من الممكن تشكيل 63 حرفًا بطريقة برايل.`,
+      details: `• معبأة في صناديق من 100 مكعب
+      • أبعاد المكعب: 9 مم ضلع
+      • الوزن الإجمالي: 170
       `,
       price: "24 000.00",
       stars: "4",
@@ -758,10 +714,8 @@ const ProductsData = [
       id: 39,
       productName: "Poinçon collerette",
       description:
-        "  Sa pointe métallique permet l'embossage d'un point braille sur papier ou support plastifié",
-      longDescription: `
-      Sa pointe métallique permet l'embossage d'un point braille sur papier ou support plastifié (bande adhésive ou fiche autocollante) par une simple pression de l'utilisateur sur le manche en bois en forme de quille.`,
-      details: `
+        " يسمح طرفه المعدني بنقش نقطة برايل على الورق أو دعامة مغطاة بالبلاستيك",
+      longDescription: `يسمح طرفه المعدني بنقش نقطة برايل على الورق أو دعامة مغطاة بالبلاستيك (شريط لاصق أو ورقة ذاتية اللصق) بمجرد الضغط على المستخدم على المقبض الخشبي على شكل دبوس البولينج.details:
       `,
       price: "714.00",
       stars: "4",

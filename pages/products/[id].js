@@ -7,17 +7,17 @@ import ProCatSection from "../../components/partials/ProductCategorySection";
 import frContent from "../../public/locales/fr/common";
 import ArContent from "../../public/locales/arab/common";
 
-const ProductDetails = ({products}) => {
+const ProductDetails = (props) => {
 
   const router = useRouter();
   const {locale , locales , asPath} = router ; 
 
   const content = locale === 'fr' ? frContent : ArContent ; 
-  //const ProductsData = locale === 'fr' ? ProductsFR : ProductsAR ; 
+  const products = locale === 'fr' ? props.products : props.arProducts ; 
   
   const id = router.query.id;
   return (
-    <div className="md:px-36 px-4">
+    <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} md:px-36 px-4`}>
       <div className="grid grid-cols-1 md:grid-cols-2 py-5 gap-2">
         <div className='place-content-center grid'>
           <img src={products[id].producImg} className="mx-auto w-52"></img>
@@ -47,9 +47,9 @@ const ProductDetails = ({products}) => {
         </div>
       </div>
       
-      <div className="md:w-8/12">
+      <div className="md:w-12/12">
           <div className="font-bold text-2xl mt-16">Détails<hr/></div>
-          <div className="productDetails">{products[id].details}</div>
+          <div className="productDetails text-xl">{products[id].details}</div>
       </div>
       <div>
           <div className="font-bold text-2xl mt-16">Produits similaire </div>
@@ -60,11 +60,13 @@ const ProductDetails = ({products}) => {
 };
 export async function getStaticProps() {
 
-    const products = ProductsData ;  
+    const products = ProductsData ; 
+    const arProducts = ProductsAR ; 
 
     return {
         props: {
             products,
+            arProducts
         },
     }
 } ; 
