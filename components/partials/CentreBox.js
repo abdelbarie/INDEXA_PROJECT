@@ -17,10 +17,9 @@ const CentreBox = (props) => {
           {props.centerName}
         </div>
         <div className="mt-1 text-sm">{props.description}</div>
-        <div className="text-lg font-semibold py-1 border-b-2 w-fit px-4 mx-auto mt-3 flex gap-2" > <img src="/imgs/telephone.svg" width="20px"></img> {props.phoneNumber}</div>
-        <div className="text-lg font-semibold py-1 border-b-2 w-fit px-4 mx-auto  flex gap-2" > <img src="/imgs/telephone.svg" width="20px"></img> {props.phoneNumber2}</div>
-      </div>
-     
+      <a className="text-lg font-semibold py-1 border-b-2 w-fit px-4 mx-auto mt-3 flex gap-2" href="tel:tel:023 80 44 97"><img src="/imgs/telephone.svg" width="20px"></img> {props.phoneNumber}</a> 
+       <a className="text-lg font-semibold py-1 border-b-2 w-fit px-4 mx-auto  flex gap-2" href="tel:023 80 44 98"><img src="/imgs/telephone.svg" width="20px"></img> {props.phoneNumber2}</a>
+       </div>
     </div>
   );
 };

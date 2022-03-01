@@ -48,14 +48,14 @@ const NavBar = () => {
   }
   const userOrder = 0
   return (
-    <div className="pt-1">
+    <div className="pt-1 pb-2">
       <div className="flex justify-between pr-2 md:hidden">
       <div className="md-hidden">{renderThemeChanger()}</div>
       <div> <LangSwitcher></LangSwitcher></div>
       </div>
      
-      <div className="md:flex  w-fit float-right mr-2 text-xs md:text-sm  font-normal hidden ">
-        <div className="md:px-2 hover:text-custom-green "><a href="tel:+213 795951519">023 80 44 97-98</a></div>|
+      <div className={`${locale === 'fr' ? 'ml-auto' : 'mr-auto flex-row-reverse'} md:flex  w-fit mr-2 text-xs md:text-sm  font-normal hidden `}>
+        <div className="md:px-2 hover:text-custom-green "><a href="tel:023 80 44 97">023 80 44 97-98</a></div>|
         <Link className="md:px-2 hover:text-custom-green " href="/SitePlan"><a className="hover:text-custom-green px-2">{content.upHeader.planSite}</a></Link>|
         <div className="md:px-2 hover:text-custom-green ">{content.upHeader.content}</div>|
         <div className="md:px-2 hover:text-custom-green ">{content.upHeader.menu}</div>|
@@ -63,12 +63,14 @@ const NavBar = () => {
       </div>
     
    
-      <div className="flex px-3 lg:px-6  md:py-5 py-3 justify-between clear-right ">
-        <Link href="/" className="">
-          <a><img src= "/imgs/indexaLogoBlue.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:hidden"></img>
+      <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} flex  px-3 lg:px-6  md:py-5 py-3 justify-between clear-right `}>
+        <div>   <Link href="/" className="">
+          <a><img src= "/imgs/indexaLogoBlue.png" className="w-32 md:mx-12 md:-mt-3 md:w-52 dark:hidden"></img>
           <img src="/imgs/indexaLogoWhite.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:block hidden"></img></a>
         </Link>
-        <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex ">
+        </div>
+     
+        <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} w-fit  grid-cols-1 md:grid-cols-6 hidden md:inline-flex `}>
           <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/">
               <a>{content.Navbar.acceuil}</a>
@@ -91,7 +93,7 @@ const NavBar = () => {
             </Link>
           </div>
               {/* Search Input */}
-      <div className="mb-2 px-3 ">
+      <div className="px-3 my-auto h-auto -mt-2">
       <SearchInput content={content}/>
       </div>
           <div>

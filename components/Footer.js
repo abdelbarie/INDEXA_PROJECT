@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto">
             <img src="/imgs/telephone.svg" width="20px" alt="phone icon"></img>{" "}
-            <a href="tel:+213 795951519" >023 80 44 97-98</a>
+            <a href="tel:023 80 44 97" >023 80 44 97-98</a>
           </div>
           <div className="my-1 font-normal flex gap-2 w-fit mx-auto ">
             <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
