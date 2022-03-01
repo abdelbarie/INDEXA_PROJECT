@@ -55,7 +55,7 @@ const NavBar = () => {
       </div>
      
       <div className="md:flex  w-fit float-right mr-2 text-xs md:text-sm  font-normal hidden ">
-        <div className="md:px-2 hover:text-custom-green ">023 80 44 97-98</div>|
+        <div className="md:px-2 hover:text-custom-green "><a href="tel:+213 795951519">023 80 44 97-98</a></div>|
         <Link className="md:px-2 hover:text-custom-green " href="/SitePlan"><a className="hover:text-custom-green px-2">{content.upHeader.planSite}</a></Link>|
         <div className="md:px-2 hover:text-custom-green ">{content.upHeader.content}</div>|
         <div className="md:px-2 hover:text-custom-green ">{content.upHeader.menu}</div>|
