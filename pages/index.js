@@ -42,10 +42,6 @@ export default function Home() {
   };
   return (
     <div className= {`${locale === 'fr' ? 'text-left' : 'text-right'} relative overflow-x-hidden`}> 
-        {/* Search Input */}
-      <div className="md:w-3/12 mb-2 ml-auto md:pr-5 px-3 ">
-      <SearchInput content={content}/>
-      </div>
       <Swiper
       spaceBetween={30}
       centeredSlides={true}

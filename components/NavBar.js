@@ -4,7 +4,7 @@ import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher"
 import { useTheme } from "next-themes";
 import { FaCloudMoon, FaCloudSun} from 'react-icons/fa';
-
+import SearchInput from "./partials/SearchInput";
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
 
@@ -63,7 +63,7 @@ const NavBar = () => {
       </div>
     
    
-      <div className="flex px-3 lg:px-6 md:pb-2 md:pt-3 py-3 justify-between clear-right ">
+      <div className="flex px-3 lg:px-6  md:py-5 py-3 justify-between clear-right ">
         <Link href="/" className="">
           <a><img src= "/imgs/indexaLogoBlue.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:hidden"></img>
           <img src="/imgs/indexaLogoWhite.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:block hidden"></img></a>
@@ -90,6 +90,10 @@ const NavBar = () => {
               <a>{content.Navbar.contact}</a>
             </Link>
           </div>
+              {/* Search Input */}
+      <div className="mb-2 px-3 ">
+      <SearchInput content={content}/>
+      </div>
           <div>
           {renderThemeChanger()}
           </div>
