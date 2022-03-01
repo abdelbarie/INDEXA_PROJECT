@@ -2,19 +2,27 @@ import React, { useState } from 'react';
 import {useRouter} from 'next/router' ; 
 import Link from 'next/link'
 
+
 const LangSwitcher = () => {
     const {locale , locales , asPath} = useRouter() ; 
+    const [lang , setLang] = useState([locale != 'fr' , locale === 'fr']) ; 
+
+    const handleClick= (i)=>{
+        let ii = [false , false] ; 
+        ii[i] = true ; 
+        setLang(ii) ;
+    }
     return (
         <div className="md:px-2 px-1 flex font-bold gap-1" >
             <div className="flex">
-                <Link href={asPath} locale='fr'>
+                <Link href={asPath} locale='fr' >
                     <a>
-            <div className=" md:gap-2 gap-1 text-xs text-center ml-2 "><img src="/imgs/france.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='fr flag'></img>FR</div>
+            <div className={`${lang[0] ? 'block' : 'hidden'} md:gap-2 gap-1 text-sm text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(1)}>Fancais</div>
             </a>
                 </Link>
-                <Link href={asPath} locale='arab'>
+                <Link href={asPath} locale='arab' >
                     <a>
-                <div className={`md:gap-2 gap-1 text-xs text-center ml-2 `}> <img src="/imgs/algeria.png" className="w-4 h-4  md:w-6 md:h-6 md:mt-0" alt='alg flag'></img>AR</div>
+                <div className={`${lang[1] ? 'block' : 'hidden'} md:gap-2 gap-1 text-md  text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(0)}>عربي</div>
             </a>
                 </Link> </div>  
         </div>

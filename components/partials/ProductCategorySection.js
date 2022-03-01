@@ -54,6 +54,7 @@ const ProCatSection = (props) => {
               <ProductBox
                 // disp={`${moreProducts && i > 4 ? "hidden" : "block"}`}
                 product={product}
+                content = {props.content}
                 category={props.category}
                 id = {product.id}
               ></ProductBox>
@@ -66,7 +67,7 @@ const ProCatSection = (props) => {
       <div className={`w-fit mx-auto my-2 ${i<4?'hidden' : 'block'}`}>
         <Link href={`products/categories/${props.category}`}>
         <button
-          className="text-lg font-semibold px-5 py-1 border-2 rounded-xl border-custom-dark-blue dark:border-custom-green"
+          className="text-lg font-semibold px-5 py-1 border-2 rounded-xl border-custom-dark-blue hover:bg-custom-green dark:border-custom-green"
         >
         {props.content.products.voirPlusButton}
         </button>

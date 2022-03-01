@@ -1,5 +1,7 @@
 import React , {useState} from 'react';
 import {useRouter} from "next/router";
+import SearchInput from '../partials/SearchInput' ;
+
 const ProductsHeader = (props) => {
     
   const [searchValue , setSearchValue] = useState(" ") ; 
@@ -22,22 +24,11 @@ const ProductsHeader = (props) => {
           </div>
         </div>
       </div>
-      <div className="lg:px-32 lg:px-16 px-4">
+      <div className="lg:px-32 md:px-16 px-4">
       <div className="py-2 border-b-2 lg:text-4xl text-xl font-bold border-custom-dark-blue dark:border-custom-green lg:flex justify-between ">
           <div>{ props.content.products.produits }</div>
-          
-          <div className="border-b-2 font-light text-sm dark:bg-gray-800 bg-gray-100 pr-2">
-            <form onSubmit={handleSearch} className="flex justify-between">
-            <input
-              placeholder={props.content.products.research}
-              className="px-3 outline-none py-2 bg-transparent"
-              type="search"
-              onChange={handleSearchChange}
-            ></input>
-            <button type="submit"><img src='/imgs/search_icon.png' width="20px"></img></button>
-            </form>
-          
-          </div>
+          {/* Search Input */}
+          <SearchInput content={props.content}/>
         </div>
       </div>
    

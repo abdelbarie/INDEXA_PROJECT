@@ -3,19 +3,24 @@ import { useRouter } from "next/router";
 import ProductsData from "../../../Data/Products";
 import ProductBox from "../../../components/partials/ProductBox";
 import ProductsHeader from "../../../components/partials/ProductsHeader";
+import Frcontent from "../../../public/locales/fr/common";
+import Arcontent from "../../../public/locales/arab/common";
 
 const SearchProducts = ({ products }) => {
   const [isCategoOpen, setCategoOpen] = useState(false);
   const router = useRouter();
+  const {locale, locales, asPath} = router ; 
+  const content = locale === 'fr' ? Frcontent : Arcontent ; 
 
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
   };
 
   const searchCle = router.query.searchCle;
+
   return (
     <div>
-   <ProductsHeader/>
+     <ProductsHeader content = {content}></ProductsHeader>
 
       <div className="lg:px-32 lg:px-16 px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
@@ -38,6 +43,7 @@ const SearchProducts = ({ products }) => {
                       .includes(searchCle.toUpperCase()) ) && (
                     <ProductBox
                      key ={key}
+                     content ={content}
                       product={product}
                       category={product.category}
                       id={product.id}

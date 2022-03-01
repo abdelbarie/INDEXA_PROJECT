@@ -2,10 +2,8 @@ import { useRouter } from "next/router";
 import HomeProduct from "../Data/HomeProduct";
 import HomeProductBox from "../components/partials/HomeProductBox";
 import CentreBox from "../components/partials/CentreBox";
-import Centres from "../Data/Centres";
+import SearchInput from '../components/partials/SearchInput'
 import AboutUsBox from "../components/partials/AboutUsBox";
-import Questions from "../Data/Questions";
-import Link from "next/link";
 import ProductsCatHomeSection from "../components/partials/ProductsCatHomeSection";
 import QuestionBox from "../components/partials/QuestionBox";
 import React, { useState, useRef } from "react";
@@ -17,6 +15,11 @@ import "swiper/css/navigation";
 import SwiperCore, { FreeMode, Pagination } from "swiper";
 import HomePageHeader from "../components/partials/HomePageHeader";
 import {Navigation} from 'swiper'
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Autoplay } from "swiper";
+
 SwiperCore.use([FreeMode, Pagination]);
 
 import frContent from "../public/locales/fr/common";
@@ -39,13 +42,42 @@ export default function Home() {
   };
   return (
     <div className= {`${locale === 'fr' ? 'text-left' : 'text-right'} relative overflow-x-hidden`}> 
-      <Swiper>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
-         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
-         <SwiperSlide> <HomePageHeader content={content}></HomePageHeader></SwiperSlide>
+        {/* Search Input */}
+      <div className="md:w-3/12 mb-2 ml-auto md:pr-5 px-3 ">
+      <SearchInput content={content}/>
+      </div>
+      <Swiper
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={true}
+      modules={[Autoplay, Pagination, Navigation]}
+      className="mySwiper"
+      >
+      <SwiperSlide>
+        <HomePageHeader content={content}></HomePageHeader>
+        </SwiperSlide>
+        <SwiperSlide>
+        <HomePageHeader content={content}></HomePageHeader>
+        </SwiperSlide>
+        <SwiperSlide>
+        <HomePageHeader content={content}></HomePageHeader>
+        </SwiperSlide>
+        <SwiperSlide>
+        <HomePageHeader content={content}></HomePageHeader>
+        </SwiperSlide>
+        <SwiperSlide>
+        <HomePageHeader content={content}></HomePageHeader>
+        </SwiperSlide>
       </Swiper>
-      </Swiper>
+    
+     
       {/* Product Section */}
       <div className="Produit py-9 relative bg-gray-50 dark:bg-custom-dark-bg">
         <div className="text-center font-bold text-4xl">{content.home.catalogue}</div>
@@ -100,7 +132,8 @@ export default function Home() {
                 <CentreBox
                   location="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25258.545921267265!2d-6.42212315383798!3d32.32877377897835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda38649419c7fc1%3A0x6236b3e9a12bafd9!2sB%C3%A9ni%20Mellal%2C%20Maroc!5e0!3m2!1sfr!2sdz!4v1640183919839!5m2!1sfr!2sdz"
                   centerName={content.home.centres.centerName}
-                  phoneNumber="+213 5 61 66 60 30"
+                  phoneNumber="023 80 44 97"
+                  phoneNumber2="023 80 44 98"
                   description={content.home.centres.location}
                   id= "1"
                 ></CentreBox>
@@ -130,7 +163,7 @@ export default function Home() {
         ))}
         <img
           src="/imgs/questionMark.svg"
-          className="absolute -top-40 md:bottom-20 md:-right-28 lg:-right-40 -right-20 md:w-3/12 w-5/12 -z-50"
+          className="absolute -top-40 md:bottom-20 md:-right-28 lg:-right-28 -right-20 md:w-2/12 w-5/12 -z-50"
         ></img>
         <img
           src="/imgs/smallCircles.svg"

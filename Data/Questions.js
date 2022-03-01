@@ -1,28 +1,8 @@
 const Questions = [
     {
         id : 1 , 
-        question : 'J’ai une maladie au niveau de l’œil?' ,
-        answer : 'Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde' 
-    },
-    {
-        id : 1 , 
-        question : 'J’ai une maladie au niveau de l’œil?' ,
-        answer : 'Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde' 
-    },
-    {
-        id : 1 , 
-        question : 'J’ai une maladie au niveau de l’œil?' ,
-        answer : 'Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde' 
-    },
-    {
-        id : 1 , 
-        question : 'J’ai une maladie au niveau de l’œil?' ,
-        answer : 'Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde' 
-    },
-    {
-        id : 1 , 
-        question : 'J’ai une maladie au niveau de l’œil?' ,
-        answer : 'Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde' 
+        question : `Quand est ce on peut considéré quelqu'un comme Mal-voyant ou non voyant?`,
+        answer : `Lorsqu'une personne présente une déficience et acuité visuelle égale ou inférieur à 3/10, à ce moment là, la déficience n'est plus traitable ni corrigible.` 
     },
 ]
 

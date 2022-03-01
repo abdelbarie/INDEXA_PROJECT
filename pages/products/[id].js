@@ -27,23 +27,8 @@ const ProductDetails = (props) => {
             {products[id].productName}
           </div>
           <div className="productDetails">{products[id].longDescription}</div>
-          <div className="flex mt-2 justify-between">
-            <div className="font-bold text-lg">{products[id].price} DA</div>
-            <div className="flex w-fit">
-              {["", "", "", "", ""].map((star, key) => (
-                <img
-                  src="/imgs/star.png"
-                  key={key}
-                  className={`${
-                    key + 1 > products[id].stars
-                      ? "opacity-20"
-                      : "opacity-1"
-                  } h-5 w-5`}
-                ></img>
-              ))}
-            </div>
-          </div>
-          <div><button className="flex gap-2 px-4 mx-auto py-1 mt-5 text-white  font-semibold rounded-full bg-custom-green"><img src="/imgs/chariot.svg" width="20px"></img>AJOUTER AU PANNIER</button></div>
+            <div className="font-bold mt-2 text-center text-lg">{products[id].price} DA</div>
+          <div><button className="flex gap-2 px-4 mx-auto py-2 mt-5 text-white  font-semibold rounded-full shadow-xl hover:bg-custom-dark-green bg-custom-green"><img src="/imgs/chariot.svg" width="20px"></img>AJOUTER AU PANNIER</button></div>
         </div>
       </div>
       

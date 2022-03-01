@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher"
 import { useTheme } from "next-themes";
-import { FaBeer ,FaMoon , FaSun ,FaCloudMoon, FaCloudSun} from 'react-icons/fa';
+import { FaCloudMoon, FaCloudSun} from 'react-icons/fa';
 
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
@@ -48,49 +48,44 @@ const NavBar = () => {
   }
   const userOrder = 0
   return (
-    <div className="pt-1 mb-3">
+    <div className="pt-1">
       <div className="flex justify-between pr-2 md:hidden">
-      <div className="md-hidden">   {renderThemeChanger()} </div>
+      <div className="md-hidden">{renderThemeChanger()}</div>
       <div> <LangSwitcher></LangSwitcher></div>
       </div>
      
-      <div className="md:flex  w-fit float-right mr-2 text-xs md:text-sm lg:text-base font-normal hidden ">
-    
-   
-        <div className="md:px-1 ">023 80 44 97-98</div>|
-        <Link className="md:px-1 " href="/SitePlan"><a >{content.upHeader.planSite}</a></Link>|
-        <div className="md:px-1 ">{content.upHeader.content}</div>|
-        <div className="md:px-1 ">{content.upHeader.menu}</div>|
+      <div className="md:flex  w-fit float-right mr-2 text-xs md:text-sm  font-normal hidden ">
+        <div className="md:px-2 hover:text-custom-green ">023 80 44 97-98</div>|
+        <Link className="md:px-2 hover:text-custom-green " href="/SitePlan"><a className="hover:text-custom-green px-2">{content.upHeader.planSite}</a></Link>|
+        <div className="md:px-2 hover:text-custom-green ">{content.upHeader.content}</div>|
+        <div className="md:px-2 hover:text-custom-green ">{content.upHeader.menu}</div>|
         <LangSwitcher></LangSwitcher>
-       
       </div>
     
    
-      <div className="flex px-3 lg:px-6 md:py-5 py-3 justify-between clear-right ">
+      <div className="flex px-3 lg:px-6 md:pb-2 md:pt-3 py-3 justify-between clear-right ">
         <Link href="/" className="">
-          <a><img src= "/imgs/indexaLogoBlue.png" className="w-28 md:w-40 dark:hidden"></img>
-          <img src="/imgs/indexaLogoWhite.png" className="w-28 md:w-40 dark:block hidden"></img></a>
+          <a><img src= "/imgs/indexaLogoBlue.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:hidden"></img>
+          <img src="/imgs/indexaLogoWhite.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:block hidden"></img></a>
         </Link>
-        <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex">
-          <div className="lg:px-6 px-4 font-normal lg:text-xl">
-            {" "}
+        <div className="w-fit grid grid-cols-1 md:grid-cols-6 hidden md:inline-flex ">
+          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/">
               <a>{content.Navbar.acceuil}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 font-normal lg:text-xl">
-            {" "}
+          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/products">
               <a>{content.Navbar.produits}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
+          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
             {" "}
             <Link href="/about">
               <a>{content.Navbar.propos}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl">
+          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
             <Link href="/contact">
               <a>{content.Navbar.contact}</a>
             </Link>

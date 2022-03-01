@@ -7,38 +7,19 @@ const ProductBox = (props) => {
   <Link href={`/products/${props.id}`}>
           <a>
       <div className="ProductBox relative mx-auto  grid place-content-center">
-        <div className="absolute -top-3 px-2 py-1 bg-custom-dark-blue dark:bg-custom-dark-green left-2 text-white font-semibold text-xs shadow-md">
-          {props.category}
-        </div>
-        <div className="absolute -top-3 right-2 p-1 bg-custom-dark-blue dark:bg-custom-dark-green shadow-md">
-          <img src="/imgs/star.png" width="17px"></img>
-        </div>
         <img src={props.product.producImg} className="w-4/6 mx-auto"></img>
-      
       </div>
       </a>
         </Link>
       <div className="text-center pt-2 w-52 mx-auto  ">
         <div className="font-semibold">{props.product.productName}</div>
         <div className="text-sm text-gray-500">{props.product.description}</div>
-        <div className="flex mt-2 justify-between">
-          <div className="font-bold text-md pt-2">{props.product.price} DA</div>
-          {/* <div className="flex w-fit">
-            {["", "", "", "", ""].map((star, key) => (
-              <img
-                src="/imgs/star.png"
-                key={key}
-                className={`${
-                  key + 1 > props.product.stars ? "opacity-20" : "opacity-1"
-                } h-5 w-5`}
-              ></img>
-            ))}
-          </div> */}
-        </div>
+        <div className="font-bold text-lg pt-4 text-center">{props.product.price} DA</div>
+ 
       </div>
-      <div className="mx-auto w-fit mt-8 text-sm">
-        <button className="px-4 py-1 seeMoreButton text-white font-bold">
-          AJOUTER AU PANNIER
+      <div className="mx-auto w-fit mt-4 text-sm">
+        <button className="px-4 py-2 rounded-3xl hover:bg-custom-green border-2 border-custom-green bg-custom-dark-green text-white font-bold">
+          {props.content.products.ajouterPanier}
         </button>
       </div>
     </div>

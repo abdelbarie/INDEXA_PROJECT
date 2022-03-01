@@ -13,15 +13,26 @@ const About = () => {
 
 
   return (
-    <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} grid  gird-cols-1 md:grid-cols-2  md:px-16 lg:px-36 pb-20 pt-10`}>
-      <div className="h-fit my-auto px-5">
-        <div className="font-bold md:text-3xl text-2xl pb-4">{content.aboutUS.title}</div>
-        <div className='text-md productDetails'>
+    <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} md:px-16 lg:px-36 pb-20 pt-10`}>
+      <div className=" text-white md:gap-0 rounded-2xl shadow-md mt-8  relative md:px-10 py-5 px-7 w-full mx-auto md:w-10/12">
+        <span className="text-3xl text-custom-green font-semibold">{content.aboutUS.title}</span>
+        <div className='text-md productDetails mt-2 font-light'>
         {content.aboutUS.description}  
          </div>
+        <img src="/imgs/greenCircle.svg" className="absolute top-32 -right-6 w-12"></img>
+        <img src="/imgs/smallCircles.svg" className="absolute -bottom-6 -left-6 w-16"></img>
       </div>
-      <div className="hidden md:block">
-          <img src='/imgs/aboutUS.png' className="mx-auto w-1/2"></img>
+
+      <div className=" text-white md:gap-0 rounded-2xl shadow-md mt-8  relative md:px-10 py-5 px-7 w-full mx-auto md:w-10/12">
+        <span className="text-3xl text-custom-green font-semibold">{content.NosRubrique.title}</span>
+        <div className='text-md productDetails mt-2 font-light'>
+        {content.NosRubrique.content1}  
+         </div>
+         <div className='text-md productDetails mt-2 font-light'>
+        {content.NosRubrique.content2}  
+         </div>
+        <img src="/imgs/greenCircle.svg" className="absolute -bottom-6 -left-6  w-12"></img>
+        <img src="/imgs/smallCircles.svg" className="absolute top-32 -right-6 w-16"></img>
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ return(
             {(product.category == category)&&(i++) &&(
 
               <ProductBox
-                // disp={`${moreProducts && i > 4 ? "hidden" : "block"}`}
+               content = {content}
                 product={product}
                 category={category}
                 id = {product.id}

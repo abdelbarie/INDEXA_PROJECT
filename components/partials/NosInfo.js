@@ -7,21 +7,22 @@ const NosInfo = (props) => {
         {props.content.contact.title1}
       </div>
       <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green opacity-80">
-        <div className="md:w-12/12 mx-auto py-16 md:px-10 px-4 opacity-100">
-          <img src="/imgs/logo-indexa.png" className="w-40 mb-5"></img>
-          <div className="my-1 font-semibold flex gap-2   md:w-full ">
+        <div className="md:w-12/12 mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
+          <img src="/imgs/logo-indexa.png" className="w-56 mb-5"></img>
+          <div className="my-1 flex gap-2 mb-4   md:w-full ">
             <img src="/imgs/telephone.svg" width="20px" alt="phone icon" className="opacity-100"></img>{" "}
-            +213 23 80 40 61
+            023 80 44 97-98 
           </div>
-          <div className="my-1 font-semibold flex gap-2 w-fit   md:w-full ">
+          <div className="my-1  flex gap-2 w-fit  mb-4 md:w-full ">
             <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
-            info@indexapro.com
+            Contact@indexa-braille.com
           </div>
-          <div className="my-1 font-semibold flex gap-2  md:w-full opacity-100 ">
+          <div className="my-1 flex gap-1  md:w-full opacity-100 ">
             <img
               src="/imgs/position.svg"
               width="25px"
               alt="position icon"
+              className=""
             ></img>
             {props.content.footer.location}
           </div>

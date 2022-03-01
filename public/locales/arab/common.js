@@ -27,34 +27,26 @@ const content = {
       questionsList: [
         {
           id: 1,
-          question: "J’ai une maladie au niveau de l’œil?",
+          question: "متى يمكن اعتبار شخص ما ضعيف البصر او فاقده تماما",
           answer:
-            "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde",
+            "عندما يكون للشخص ضعف بصر حاد يساوي او اقل من 3/10، في هذه الحالة الخلل االبصري غير قابل للعلاج و التصحيح.",
         },
         {
           id: 1,
-          question: "J’ai une maladie au niveau de l’œil?",
+          question: "ما هي انواع و درجات ضعف البصر",
           answer:
-            "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde",
+            `
+            - ضعف بصر خفيف - من6/12 الى 6/18
+            - ضعف بصر متوسط - من 6/18 الى 6/60
+            - ضعف بصر شديد - من 6/60 الى 3/60
+            - ضعف بصر حاد - اقل من 3/60`,
         },
         {
           id: 1,
-          question: "J’ai une maladie au niveau de l’œil?",
+          question: "كيف تسهل انديكسا حياة ذوي الضعف البصري",
           answer:
-            "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde",
-        },
-        {
-          id: 1,
-          question: "J’ai une maladie au niveau de l’œil?",
-          answer:
-            "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde",
-        },
-        {
-          id: 1,
-          question: "J’ai une maladie au niveau de l’œil?",
-          answer:
-            "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde",
-        },
+            "تعمل انديكسا برايل مع شركاءها من اجل توفير الوسائل و المعدات و الامكانيات العلمية، الترفيهية و البيداغوجية التي تسهل على ذوي الاحتياجات الخاصة من ضعاف البصر و فاقديه من ممارسة حياتهم اليومية و نشاطاتهم بكل اريحية.",
+        }
       ],
     },
   },
@@ -72,6 +64,7 @@ const content = {
     categories: "التصنيفات",
     research: "ابحث عن منتج",
     voirPlusButton: "...شاهد المزيد",
+    ajouterPanier : 'أضف إلى السلة'
   },
   aboutUS: {
     title: "في ما يخصنا",
@@ -95,7 +88,12 @@ const content = {
       planSite : 'خريطة الموقع' , 
       content : 'انتقل إلى المحتوى' , 
       menu : 'انتقل إلى القائمة' , 
-  }
+  } ,
+  NosRubrique: {
+    title: "أقسامنا",
+    content1: `ممثلة وموزعة لكبرى العلامات التجارية العالمية المتخصصة في المعدات والحلول لضعاف البصر والمكفوفين.`,
+    content2: `تعمل مع شركائها لتوفير حلول مُكيَّفة تسمح للمكفوفين والمكفوفين بالحصول على معدات تلبي احتياجاتهم وتسمح لهم بالتعلم والحصول على المعلومات والاستمتاع على الرغم من إعاقتهم البصرية.`,
+  },
 };
 
 export default content;
