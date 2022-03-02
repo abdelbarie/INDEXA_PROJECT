@@ -3,6 +3,7 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { FaFacebookSquare, FaLinkedinIn , FaInstagram} from 'react-icons/fa';
 
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
@@ -75,31 +76,10 @@ const Footer = () => {
               <a>{content.Navbar.propos}</a>
             </Link>
           </div>
-          <div className="mt-3 flex w-fit mx-auto">
-            <img
-              src="/imgs/facebook_Logo.svg"
-              alt="facebook Logo"
-              className="mr-2"
-              width="35px"
-            ></img>
-            <img
-              src="/imgs/twitter_Logo.svg"
-              alt="twitter Logo"
-              className="mr-2"
-              width="35px"
-            ></img>
-            <img
-              src="/imgs/instagram_Logo.svg"
-              alt="instagram Logo"
-              className="mr-2"
-              width="35px"
-            ></img>
-            <img
-              src="/imgs/linkedin_Logo.svg"
-              alt="linkedin Logo"
-              className="mr-2"
-              width="35px"
-            ></img>
+          <div className="mt-3 flex w-fit mx-auto text-3xl gap-4">
+            <FaFacebookSquare className="text-custom-dark-blue dark:text-white hover:text-custom-green hover:text-4xl cursor-pointer"/>
+            <FaLinkedinIn className="text-custom-dark-blue dark:text-white hover:text-custom-green hover:text-4xl cursor-pointer"/>
+            <FaInstagram className="text-custom-dark-blue dark:text-white hover:text-custom-green hover:text-4xl cursor-pointer"/>
           </div>
         </div>
       </div>
