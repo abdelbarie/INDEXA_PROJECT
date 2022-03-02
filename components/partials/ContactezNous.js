@@ -1,6 +1,38 @@
-import React from "react";
+import React  , {useState} from "react";
+import { send } from 'emailjs-com';
+
+
 
 const ContactezNous = (props) => {
+  const [toSend , setToSend] = useState(
+    {
+      fullName : '' , 
+      phoneNumber : '' , 
+      message : ''
+    }
+  ) ; 
+
+const onSubmit = (e) => {
+  e.preventDefault();
+  send(
+    'service_bvtg2hj',
+    'template_4jlk32s',
+    toSend,
+    'zH0VSxnqTz0tymbqL'
+  )
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+    })
+    .catch((err) => {
+      console.log('FAILED...', err);
+    });
+
+    alert("Email send succesfully")
+}
+const onChange = (e) =>{
+   setToSend({...toSend , [e.target.name] : e.target.value }) ; 
+}
+ 
   return (
     <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20 relative">
       <div className="font-bold text-center py-2 text-2xl mb-5">
@@ -12,10 +44,13 @@ const ContactezNous = (props) => {
           <div className="text-white font-light text-xs mt-2 w-11/12">{props.content.contact.contacts.smalldesc}</div>
         </div>
         <div className="relative h-fit my-auto w-full  md:pl-16">
-            <input name="fullName" placeholder={props.content.contact.form.fullName} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
-            <input name="phoneNumber" placeholder={props.content.contact.form.PhoneNumber} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
-            <textarea placeholder={props.content.contact.form.maladie} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm h-20" ></textarea>
-            <button className="font-bold text-white px-3 py-2 text-sm bg-custom-green rounded-md float-right">RAPPELEZ-NOUS</button>
+          <form onSubmit={onSubmit}>
+            <input  onChange={onChange} name="fullName" placeholder={props.content.contact.form.fullName} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
+            <input onChange={onChange} name="phoneNumber" placeholder={props.content.contact.form.PhoneNumber} type="phoneNumber" className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
+            <textarea onChange={onChange} name = "message" placeholder={props.content.contact.form.maladie} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm h-20" ></textarea>
+            <button className="font-bold text-white px-3 py-2 text-sm bg-custom-green rounded-md float-right" type="submit">RAPPELEZ-NOUS</button>
+          </form>
+           
         </div>
 
         {/* svgs */ }

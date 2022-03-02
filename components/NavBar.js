@@ -43,12 +43,17 @@ const NavBar = () => {
   } 
   const [isConnected, setConnected] = useState(false);
   const [isOpen , setOpen] = useState(false) ; 
+  const [searchOpen , setSearch] = useState(false) ; 
+
+  const openSearch = () =>{
+    setSearch(!searchOpen) ; 
+  }
   const handleClick = ()=>{
     setOpen(!isOpen) ; 
   }
   const userOrder = 0
   return (
-    <div className="pt-1 pb-2">
+    <div className="pt-1 pb-2 sticky top-0 left-0 right-0 bg-white dark:bg-custom-dark-bg z-50 md:relative">
       <div className="flex justify-between pr-2 md:hidden">
       <div className="md-hidden">{renderThemeChanger()}</div>
       <div> <LangSwitcher></LangSwitcher></div>
@@ -63,7 +68,7 @@ const NavBar = () => {
       </div>
     
    
-      <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} flex  px-3 lg:px-6  md:py-5 py-3 justify-between clear-right `}>
+      <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'}  flex  px-3 lg:px-6  md:py-5 py-3 justify-between clear-right `}>
         <div>   <Link href="/" className="">
           <a><img src= "/imgs/indexaLogoBlue.png" className="w-32 md:mx-12 md:-mt-3 md:w-52 dark:hidden"></img>
           <img src="/imgs/indexaLogoWhite.png" className="w-32 md:ml-12 md:-mt-3 md:w-52 dark:block hidden"></img></a>
@@ -137,7 +142,10 @@ const NavBar = () => {
 
         {/* reponsive nav content */ }
         <div className="inline-flex   md:hidden "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
-        <div className="inline-flex md:hidden dark:hidden"><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img></div>
+        <div className="flex flex-row-reverse  md:hidden dark:hidden gap-2"><img src='/imgs/search_icon.png' width="20px" alt="dr" onClick={openSearch}></img><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img> </div>
+      </div>
+      <div className={`${searchOpen ? 'block' : 'hidden'} px-3`}>
+        <SearchInput content={content}/>
       </div>
       <div className={`${isOpen?'block' : 'hidden'} gap-y-2 grid md:hidden`}>
           <div className="px-6 font-normal text-xl w-fit mx-auto">
@@ -152,24 +160,24 @@ const NavBar = () => {
               <a onClick={handleClick}>{content.Navbar.produits}</a>
             </Link>
           </div>
-          <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
+          <div className="px-6 w-fit font-normal text-xl  mx-auto">
             {" "}
             <Link href="/about">
               <a onClick={handleClick}>{content.Navbar.propos}</a>
             </Link>
           </div>
-          <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
+          <div className="px-6 w-fit font-normal text-xl  mx-auto">
             <Link href="/contact">
               <a onClick={handleClick}>{content.Navbar.contact}</a>
             </Link>
           </div>
-          <div className="px-6 w-fit font-normal text-xl w-fit mx-auto">
+          <div className="px-6 w-fit font-normal text-xl mx-auto">
           {renderThemeChanger()}
           </div>
 
           {/* if user is not connected then display profil and shop bag */}
           {isConnected && (<>
-              <div className="w-fit ml-auto font-normal text-xl pl-6 pr-4 w-fit mx-auto">
+              <div className="ml-auto font-normal text-xl pl-6 pr-4 w-fit mx-auto">
                 <Link href="/profil" >
                   <a className="flex gap-1 text-lg"><img src="/imgs/profilPic.png" alt="profilPic" className="rounded-full" width="30px" onClick={handleClick}></img>profil</a>
                 </Link>
