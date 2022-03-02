@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher"
 import { useTheme } from "next-themes";
-import { FaCloudMoon, FaCloudSun} from 'react-icons/fa';
+import { FaCloudMoon, FaCloudSun , FaSearch} from 'react-icons/fa';
 import SearchInput from "./partials/SearchInput";
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
@@ -141,9 +141,17 @@ const NavBar = () => {
 
 
         {/* reponsive nav content */ }
-        <div className="inline-flex   md:hidden "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
-        <div className="flex flex-row-reverse  md:hidden dark:hidden gap-2"><img src='/imgs/search_icon.png' width="20px" alt="dr" onClick={openSearch}></img><img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img> </div>
-      </div>
+        <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} flex`}>
+        <FaSearch onClick={openSearch} className='text-custom-dark-blue mx-2 dark:text-custom-green text-3xl'/>
+        <div className="inline-flex  md:hidden "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
+        <div className="flex md:hidden dark:hidden ">
+        <img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img> </div>  
+        </div>
+       
+        
+       
+        
+        </div>
       <div className={`${searchOpen ? 'block' : 'hidden'} px-3`}>
         <SearchInput content={content}/>
       </div>
