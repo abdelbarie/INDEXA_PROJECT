@@ -141,9 +141,9 @@ const NavBar = () => {
 
 
         {/* reponsive nav content */ }
-        <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} flex`}>
+        <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} md:hidden flex`}>
         <FaSearch onClick={openSearch} className='text-custom-dark-blue mx-2 dark:text-custom-green text-3xl'/>
-        <div className="inline-flex  md:hidden "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
+        <div className="inline-flex   "><img src={isOpen?"/imgs/greenX.png":"/imgs/greenBurgre.png"} width="28px" onClick={handleClick} className="dark:block hidden"></img></div>
         <div className="flex md:hidden dark:hidden ">
         <img src={isOpen?"/imgs/X.png":"/imgs/burger.png"} width="28px" onClick={handleClick}></img> </div>  
         </div>
@@ -152,7 +152,7 @@ const NavBar = () => {
        
         
         </div>
-      <div className={`${searchOpen ? 'block' : 'hidden'} px-3`}>
+      <div className={`${searchOpen ? 'block' : 'hidden'} px-3 md:hidden`}>
         <SearchInput content={content}/>
       </div>
       <div className={`${isOpen?'block' : 'hidden'} gap-y-2 grid md:hidden`}>
