@@ -113,7 +113,7 @@ const Products = () => {
                <div><button onClick={()=>handleGrid(false)}><FaBars className="text-xl my-auto "/></button></div>
                </div>
             </div>
-             <div className={`${displayGrid ? 'grid grid-cols-3' : 'block'}`}>
+             <div className={`${displayGrid ? 'grid md:grid-cols-3' : 'block'}`}>
              {
                ProductsData.map(( pro , key)=>(
                 <div  className={`${filterNBRProducts > key ? 'block' : 'hidden'}   `}       key={key}>
