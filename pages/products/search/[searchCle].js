@@ -45,6 +45,7 @@ const SearchProducts = ({ products }) => {
                      key ={key}
                      content ={content}
                       product={product}
+                      grid = {true}
                       category={product.category}
                       id={product.id}
                     ></ProductBox>

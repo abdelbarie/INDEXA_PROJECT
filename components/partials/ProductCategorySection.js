@@ -56,6 +56,7 @@ const ProCatSection = (props) => {
                 product={product}
                 content = {props.content}
                 category={props.category}
+                grid = {true}
                 id = {product.id}
               ></ProductBox>
            </SwiperSlide> 
