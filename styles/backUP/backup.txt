@@ -1,0 +1,23 @@
+      <div className="">
+              {[
+                "MATERIEL INFORMATIQUE",
+                "HORLOGERIE",
+                "Matériels Pédagogique",
+                "JEUX EDUCATIFS",
+                "LOGICILE",
+                "CALCULE",
+                "Machine à écrire",
+                "DESSINS",
+                "Tablette et Accessoires",
+                "DIVERS",
+              ].map((category, key) => (
+                (produstFilter[key] || (!produstFilter[0] && !produstFilter[1] && !produstFilter[2] && !produstFilter[3] && !produstFilter[4] && !produstFilter[5] && !produstFilter[6] && !produstFilter[7] &&!produstFilter[8] && !produstFilter[9] ) )&&
+                <ProCatSection
+                  key={key}
+                  category={category}
+                  id={key}
+                  content = {content}
+                ></ProCatSection>
+              ))}
+            </div>
+            

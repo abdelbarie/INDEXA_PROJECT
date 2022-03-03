@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProductBox = (props) => {
   return (
-    <div className={`${props.disp} pt-4 pb-8`}>
+    <div className={`${props.disp} pt-4 pb-8 ${props.grid ? 'block' : 'md:flex block'}`}>
   <Link href={`/products/${props.id}`}>
           <a>
       <div className="ProductBox relative mx-auto  grid place-content-center">
@@ -11,9 +11,11 @@ const ProductBox = (props) => {
       </div>
       </a>
         </Link>
-      <div className="text-center pt-2 w-52 mx-auto  ">
+    
+      <div className=" w-full">
+      <div className="text-center pt-2  mx-auto ">
         <div className="font-semibold">{props.product.productName}</div>
-        <div className="text-sm text-gray-500">{props.product.description}</div>
+        <div className="text-sm text-gray-500 px-4">{props.product.description}</div>
         <div className="font-bold text-lg pt-4 text-center">{props.product.price} DA</div>
  
       </div>
@@ -21,6 +23,7 @@ const ProductBox = (props) => {
         <button className="px-4 py-2 rounded-3xl hover:bg-custom-green border-2 border-custom-green bg-custom-dark-green text-white font-bold">
           {props.content.products.ajouterPanier}
         </button>
+      </div>
       </div>
     </div>
   );

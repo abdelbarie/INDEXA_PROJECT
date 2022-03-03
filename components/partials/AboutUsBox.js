@@ -8,7 +8,7 @@ const AboutUsBox = (props) => {
         src="/imgs/aboutbg.png"
         className="absolute -left-20 md:left-0 top-0 aboutimg rounded-l-3xl "
       ></img>
-      <div className=" w-full md:w-1/2 h-fit relative float-right my-auto lg:pt-24 md:pt-20 pt-24 pr-8 pl-4">
+      <div className=" w-full md:w-1/2 h-fit relative float-right my-auto lg:pt-16 md:pt-16 pt-16 pr-8 pl-4">
         <div className="text-white text-3xl font-bold ">{props.content.home.quiSommeNous.sectionTitle}</div>
         <div className="text-white mt-4">
           {props.content.footer.description}

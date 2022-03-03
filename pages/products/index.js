@@ -4,6 +4,13 @@ import ProductsHeader from "../../components/partials/ProductsHeader";
 
 import frContent from "../../public/locales/fr/common";
 import arContent from "../../public/locales/arab/common";
+import {BsFillGrid3X3GapFill} from 'react-icons/bs'
+import { FaBars } from "react-icons/fa";
+
+import frProducts from "../../Data/Products";
+import ProductsAR from "../../Data/ProductsAR";
+
+import ProductBox from "../../components/partials/ProductBox";
 
 import { useRouter } from "next/router";
 
@@ -14,12 +21,27 @@ const Products = () => {
   const router = useRouter() ; 
   const { locale, locales, asPath } = useRouter();
  
+  /* Products */
+  const ProductsData = locale === 'fr' ? frProducts : ProductsAR ; 
   /* internationalisation content */ 
   const content = locale === 'fr' ? frContent : arContent ;  
 
   /* categories */ 
   const [isCategoOpen, setCategoOpen] = useState(true);
+  /* filter number of products to display*/ 
+  const [filterNBRProducts , setNumberPro] = useState(10) ; 
+  /* filter products per categories */ 
   const [produstFilter , setProductsFilter] = useState([false,false,false,false,false,false,false,false,false,false]) ; 
+  /* display products on Grid or Rows */
+  const [displayGrid , setGrid] = useState(true) ;  
+
+  const handleGrid = (e) =>{
+    setGrid(e) ; 
+  }
+
+  const handleNBRpro = (e) =>{
+     setNumberPro(e.target.value) ; 
+  }
   const handleClick = () => {
     setCategoOpen(!isCategoOpen);
   };
@@ -72,30 +94,46 @@ const Products = () => {
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
           <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
-            <div className="">
-              {[
-                "MATERIEL INFORMATIQUE",
-                "HORLOGERIE",
-                "Matériels Pédagogique",
-                "JEUX EDUCATIFS",
-                "LOGICILE",
-                "CALCULE",
-                "Machine à écrire",
-                "DESSINS",
-                "Tablette et Accessoires",
-                "DIVERS",
-              ].map((category, key) => (
-                (produstFilter[key] || (!produstFilter[0] && !produstFilter[1] && !produstFilter[2] && !produstFilter[3] && !produstFilter[4] && !produstFilter[5] && !produstFilter[6] && !produstFilter[7] &&!produstFilter[8] && !produstFilter[9] ) )&&
-                <ProCatSection
-                  key={key}
-                  category={category}
-                  id={key}
-                  content = {content}
-                ></ProCatSection>
-              ))}
+      
+             <div className="bg-gray-100 flex justify-between mt-4 px-4 py-2">
+               <div>
+               <label for="cars">Filtere Par</label>
+                <select id="cars" name="cars" className="mx-2 outline-none">
+                  <option value="productName">Nom</option>
+                  <option value="price">Prix</option>
+                  <option value="category">Catégorie</option>
+                </select>
+               </div>
+               <div>
+               Afficher <input type="number" name="Numberproducts" placeholder="12" className="w-20 pl-2 border-2" onChange={handleNBRpro}></input>
+               </div>
+               <div className=" md:flex gap-1 hidden ">
+               Afficher en 
+               <div><button onClick={()=>handleGrid(true)}><BsFillGrid3X3GapFill className="text-xl my-auto "/></button></div>
+               <div><button onClick={()=>handleGrid(false)}><FaBars className="text-xl my-auto "/></button></div>
+               </div>
             </div>
+             <div className={`${displayGrid ? 'grid grid-cols-3' : 'block'}`}>
+             {
+               ProductsData.map(( pro , key)=>(
+                <div  className={`${filterNBRProducts > key ? 'block' : 'hidden'}   `}       key={key}>
+                <ProductBox
+                // disp={`${moreProducts && i > 4 ? "hidden" : "block"}`}
+                className={`${filterNBRProducts > key ? 'block' : 'hidden'}`}
+                product={pro}
+                grid = {displayGrid}
+                content = {content}
+                id = {pro.id}
+              ></ProductBox>
+              <hr className={`${!displayGrid ? 'block' : 'hidden'}   `}  />
+              </div>
+  ))
+             }
+             </div>
           </div>
+          
         </div>
+        
       </div>
     </div>
   );
