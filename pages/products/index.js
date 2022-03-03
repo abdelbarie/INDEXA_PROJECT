@@ -95,9 +95,9 @@ const Products = () => {
           </div>
           <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
       
-             <div className="bg-gray-100 flex justify-between mt-4 px-4 py-2">
+             <div className="dark:bg-custom-dark-green 00 bg-gray-100 flex justify-between mt-4 px-4 py-2">
                <div>
-               <label for="cars">Filtere Par</label>
+               <label>Filtere Par</label>
                 <select id="cars" name="cars" className="mx-2 outline-none">
                   <option value="productName">Nom</option>
                   <option value="price">Prix</option>
