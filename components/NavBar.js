@@ -78,7 +78,7 @@ const NavBar = () => {
           </a>
         </Link>
         |
-        <Link className="md:px-2 hover:text-custom-green " href="">
+        <Link className="md:px-2 hover:text-custom-green " href="#contenue">
           <a> {content.upHeader.content}</a> 
         </Link>
         |
