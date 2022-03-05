@@ -14,7 +14,7 @@ const HomeProduct = [
   {
     id: 3,
     productName: "Papier non perforé",
-    productImg: "/imgs/papier.jpg",
+    productImg: "/imgs/papier.png",
     category: "Machine à écrire",
   },
   {
@@ -26,7 +26,7 @@ const HomeProduct = [
   {
     id: 5,
     productName: "PUZZLE Géométrique en bois",
-    productImg: "/imgs/PUZZLE.jpg",
+    productImg: "/imgs/PUZZLE.png",
     category: "Matériels Pédagogique",
   },
   {
@@ -38,7 +38,7 @@ const HomeProduct = [
   {
     id: 7,
     productName: "Poinçon collerette",
-    productImg: "/imgs/calculatriceparlante.png",
+    productImg: "/imgs/calculatriceparlante.jpg",
     category: "CALCULE",
   },
   {
