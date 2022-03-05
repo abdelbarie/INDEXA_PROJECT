@@ -131,7 +131,7 @@ const Products = () => {
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
           <div className="col-span-10  xl:px-28 lg:px-12 md:px-4 ">
-            <div className="dark:bg-gray-700 00 bg-gray-100 flex justify-between mt-4 px-4 py-2">
+            <div className="dark:bg-gray-700 00 bg-gray-50 flex justify-between mt-4 px-4 py-2">
               <div>
                 <label>Filtere Par</label>
                 <select
@@ -150,9 +150,9 @@ const Products = () => {
                 <input
                   type="number"
                   name="Numberproducts"
-                  placeholder="12"
                   className="w-20 pl-2 border-2"
                   onChange={handleNBRpro}
+                  
                 ></input>
               </div>
               <div className=" md:flex gap-1 hidden ">
@@ -169,7 +169,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className={`${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
+            <div className={`bg-gray-50 mt-4 ${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
               {ProductsData.map((pro, key) =>{
                 if (produstFilter[
                   [

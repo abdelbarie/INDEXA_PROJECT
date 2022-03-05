@@ -20,11 +20,11 @@ const ProductBox = (props) => {
         <div className="font-bold text-lg pt-4 text-center">{props.product.price} DA</div>
  
       </div>
-      <div className="mx-auto w-fit mt-4 text-sm">
+      {/* <div className="mx-auto w-fit mt-4 text-sm">
         <button className="px-4 py-2 rounded-3xl hover:bg-custom-green border-2 border-custom-green bg-custom-dark-green text-white font-bold">
           {props.content.products.ajouterPanier}
         </button>
-      </div>
+      </div> */}
       </div>
     </div>
   );

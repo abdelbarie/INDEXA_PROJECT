@@ -22,7 +22,7 @@ const ProCatSection = (props) => {
 
   let i = 1 ; 
   return (
-    <div className="w-full py-5">
+    <div className="w-full py-5" id="contenue">
       <div className="w-fit mx-auto font-semibold text-xl">
         {props.category}
       </div>
@@ -68,7 +68,7 @@ const ProCatSection = (props) => {
       <div className={`w-fit mx-auto my-2 ${i<4?'hidden' : 'block'}`}>
         <Link href={`products/categories/${props.category}`}>
         <button
-          className="text-lg font-semibold px-5 py-1 border-2 rounded-xl border-custom-dark-blue hover:bg-custom-green dark:border-custom-green"
+          className="text-lg font-semibold px-5 py-1 border-2 rounded-full hover:bg-custom-green border-custom-dark-blue dark:border-custom-green"
         >
         {props.content.products.voirPlusButton}
         </button>

@@ -22,7 +22,7 @@ const LangSwitcher = () => {
                 </Link>
                 <Link href={asPath} locale='arab' >
                     <a>
-                <div className={`${lang[1] ? 'block' : 'hidden'} md:gap-2 gap-1 text-md  text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(0)}>عربي</div>
+                <div className={`${lang[1] ? 'block' : 'hidden'} md:gap-2 gap-1 md:text:md text-sm  text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(0)}>العربية</div>
             </a>
                 </Link> </div>  
         </div>
