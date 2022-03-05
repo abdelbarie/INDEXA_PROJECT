@@ -57,19 +57,13 @@ export default function Home() {
       className="mySwiper"
       >
       <SwiperSlide>
-        <HomePageHeader content={content}></HomePageHeader>
+        <HomePageHeader content={content} backGround="/imgs/HomeBG.svg"></HomePageHeader>
         </SwiperSlide>
         <SwiperSlide>
-        <HomePageHeader content={content}></HomePageHeader>
+        <HomePageHeader content={content} backGround="/imgs/HomeBG3.jpg"></HomePageHeader>
         </SwiperSlide>
         <SwiperSlide>
-        <HomePageHeader content={content}></HomePageHeader>
-        </SwiperSlide>
-        <SwiperSlide>
-        <HomePageHeader content={content}></HomePageHeader>
-        </SwiperSlide>
-        <SwiperSlide>
-        <HomePageHeader content={content}></HomePageHeader>
+        <HomePageHeader content={content} backGround="/imgs/HomeBG2.PNG"></HomePageHeader>
         </SwiperSlide>
       </Swiper>
     

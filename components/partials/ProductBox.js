@@ -17,7 +17,7 @@ const ProductBox = (props) => {
         <div className="font-semibold">{props.product.productName}</div>
         <div className="text-sm text-gray-500 px-4">{props.product.description}</div>
         <div className="text-xs"><label className="m-1 text-custom-green font-semibold">Category:</label>{props.product.category}</div>
-        <div className="font-bold text-lg pt-4 text-center">{props.product.price} DA</div>
+        <div className="text-lg pt-4 text-center">{props.product.price} DA</div>
  
       </div>
       {/* <div className="mx-auto w-fit mt-4 text-sm">

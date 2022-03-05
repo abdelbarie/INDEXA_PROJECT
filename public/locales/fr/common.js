@@ -89,7 +89,7 @@ const content = {
     menu: "Allez au Menu",
   },
   NosRubrique: {
-    title: "Nos Rubriques",
+    title: "Nos Marques",
     content1: `Indexa Braille, représentant et distributeur de grandes marques mondiales spécialisées dans les équipements et solutions destinées aux personnes malvoyantes et non voyantes.`,
     content2: `
          Indexa braille œuvre avec ses partenaires afin d’apporter des solutions adaptées permettant aux malvoyants et aux non-voyants d’avoir des équipements répondants à leurs besoins et leurs permettant d’apprendre, de s’informer et de s’amuser malgré leurs déficiences visuelles.`,

@@ -40,16 +40,18 @@ const Footer = () => {
           <div className="font-bold text-2xl mb-3 ">
             {content.footer.contact}
           </div>
-          <div className="my-1 font-normal flex gap-2 w-fit md:w-full mx-auto ">
-            <FaPhone className="text-xl text-center text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
+          <div className="my-4 font-normal flex gap-2 w-fit md:w-full mx-auto ">
+            <FaPhone className="text-xl w-8 text-center text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
             <a href="tel:023 80 44 97" className="w-full">023 80 44 97-98</a>
           </div>
-          <div className="my-1 font-normal flex gap-2 w-fit md:w-full mx-auto ">
-            <FaEnvelope className="text-xl text-center text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
+          <div className="my-4 font-normal flex gap-2 w-fit md:w-full mx-auto ">
+            <FaEnvelope className="text-xl w-8 text-center text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
             Contact@indexa-braille.com
           </div>
-          <div className="my-1 font-normal flex gap-2 w-fit mx-auto ">
-            <FaMapMarkerAlt className="text-4xl text-center text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
+          <div className="mt-4 font-normal flex gap-2 w-fit mx-auto ">
+            <div className="w-20 text-center">
+            <FaMapMarkerAlt className="text-2xl mx-auto text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
+            </div>
             {content.home.centres.location}
           </div>
         </div>
@@ -57,17 +59,17 @@ const Footer = () => {
           <div className="font-bold text-2xl mb-3 w-fit mx-auto md:w-full ">
             {content.footer.info}
           </div>
-          <div className="my-1 font-normal w-fit mx-auto md:w-full ">
+          <div className="my-2 font-normal w-fit mx-auto md:w-full ">
             <Link href="/products">
               <a>{content.Navbar.produits}</a>
             </Link>
           </div>
-          <div className="my-1 font-normal w-fit mx-auto md:w-full ">
+          <div className="my-2 font-normal w-fit mx-auto md:w-full ">
             <Link href="/contact">
               <a>{content.Navbar.contact}</a>
             </Link>
           </div>
-          <div className="my-1 font-normal w-fit mx-auto md:w-full ">
+          <div className="my-2 font-normal w-fit mx-auto md:w-full ">
             <Link href="/about">
               <a>{content.Navbar.propos}</a>
             </Link>
