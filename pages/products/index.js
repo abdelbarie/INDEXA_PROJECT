@@ -21,7 +21,7 @@ const Products = () => {
   /* categories */
   const [isCategoOpen, setCategoOpen] = useState(true);
   /* filter number of products to display*/
-  const [filterNBRProducts, setNumberPro] = useState(10);
+  const [filterNBRProducts, setNumberPro] = useState(11);
   /* filter products per categories */
   const [produstFilter, setProductsFilter] = useState([
     false,
@@ -152,6 +152,7 @@ const Products = () => {
                   name="Numberproducts"
                   className="w-20 pl-2 border-2"
                   onChange={handleNBRpro}
+                  placeholder={filterNBRProducts}
                   
                 ></input>
               </div>

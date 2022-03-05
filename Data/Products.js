@@ -19,7 +19,7 @@ const ProductsData = [
       `,
     price: "14 000.00",
     stars: "4",
-    producImg: "/imgs/calculatriceparlante.png",
+    producImg: "/imgs/calculatriceparlante.jpg",
     category: "CALCULE",
   },
   {
@@ -135,7 +135,7 @@ const ProductsData = [
 `,
     price: "1800.00",
     stars: "4",
-    producImg: "/imgs/regle.jpg",
+    producImg: "/imgs/regle.png",
     category: "DESSINS",
   },
   {
@@ -316,7 +316,7 @@ const ProductsData = [
 `,
     price: "14 000.00",
     stars: "4",
-    producImg: "/imgs/boiteson.jpg",
+    producImg: "/imgs/boiteson.png",
     category: "JEUX EDUCATIFS",
   },
   {
@@ -462,7 +462,7 @@ const ProductsData = [
 `,
     price: "2150.00",
     stars: "4",
-    producImg: "/imgs/papier.jpg",
+    producImg: "/imgs/papier.png",
     category: "Machine à écrire",
   },
   {
@@ -498,7 +498,7 @@ const ProductsData = [
 `,
     price: "500.00",
     stars: "4",
-    producImg: "/imgs/papers.jpg",
+    producImg: "/imgs/papers.png",
     category: "Machine à écrire",
   },
   {
@@ -654,7 +654,7 @@ const ProductsData = [
 `,
     price: "6500.00",
     stars: "4",
-    producImg: "/imgs/PUZZLE.jpg",
+    producImg: "/imgs/PUZZLE.png",
     category: "Matériels Pédagogique",
   },
   {
@@ -721,7 +721,7 @@ const ProductsData = [
     `,
     price: "4000.00",
     stars: "4",
-    producImg: "/imgs/loup.jpg",
+    producImg: "/imgs/loup.png",
     category: "Matériels Pédagogique",
   },
   {
@@ -736,7 +736,7 @@ const ProductsData = [
     `,
     price: "24 000.00",
     stars: "4",
-    producImg: "/imgs/cubalg.jpg",
+    producImg: "/imgs/cubalg.png",
     category: "Matériels Pédagogique",
   },
   {
@@ -754,7 +754,7 @@ const ProductsData = [
     `,
     price: "5000.00",
     stars: "4",
-    producImg: "/imgs/tablette.jpg",
+    producImg: "/imgs/tablette.png",
     category: "Tablette et Accessoires",
   },
   {
