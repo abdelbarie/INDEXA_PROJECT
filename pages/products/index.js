@@ -169,7 +169,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className={`bg-gray-50 mt-4 ${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
+            <div className={`bg-gray-50 dark:bg-gray-800 mt-4 ${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
               {ProductsData.map((pro, key) =>{
                 if (produstFilter[
                   [

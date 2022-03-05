@@ -78,7 +78,7 @@ export default function Home() {
       <div className="Produit py-9 relative bg-gray-50 dark:bg-custom-dark-bg">
         <div className="text-center font-bold text-4xl">{content.home.catalogue}</div>
         <ProductsCatHomeSection/>
-        <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">
+        {/* <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -110,7 +110,7 @@ export default function Home() {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </div> */}
 
 
         <img
