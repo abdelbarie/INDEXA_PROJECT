@@ -3,21 +3,21 @@ const content = {
     acceuil: "Acceuil",
     produits: "Produits",
     propos: "A Propos",
-    contact: "contact",
+    contact: "Contact",
   },
   home: {
     header: {
-      title: "BRIGHT YOUR FUTURE",
+      title: "HELPING TO IMPROVE THEIR LIVES",
       description:
-        "Destiné aussi bien aux enfants qu aux adultes atteints d une perte auditive sévère à profonde.",
-      shopButton: "SHOP NOW",
+        "Equipements et services adaptées et destinées aux adultes et aux enfants.",
+      shopButton: "COMMANDER",
     },
     catalogue: "CATALOGUE DE PRODUITS",
     centres: {
       sectionTitle: "NOS CENTRES",
-      centerName: "CENTRE AUDITIF MOURADIA - ALGER",
+      centerName: "Indexa Braille  Alger",
       location:
-        "Centre Commercial et d’Affaire Mohammadia Mall, N°935, RDC. Cité djénina, Mohammadia",
+        "Mohammadia Mall, cité Djénina N° 1183, 5ème étage - Mohammadia - Alger",
     },
     quiSommeNous: {
       sectionTitle: "QUI SOMME NOUS",
@@ -50,7 +50,7 @@ const content = {
   },
   footer: {
     description:
-      "INDEXA EST LE REPRÉSENTANT OFFICIEL EN ALGERIE DES GRANDES MARQUES INTERNATIONALES : PHONAK | OTOMETRICS | ADVANCED BIONICS | PATH MEDICAL",
+      "Indexa Braille, fournisseur de services et d'équipements adaptées aux personnes souffrantes de déficience visuelle, Indexa braille représentant officiel des marques de renommée mondiale à l'instar de : Index Braille, Perkins, Duxbury system INC, Visio Braille.",
     contact: "CONTACT",
     location: "Centre commercial Mohammadia Mall, 16058 Alger",
     info: "INFORMATION",

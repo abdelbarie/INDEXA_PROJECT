@@ -121,7 +121,7 @@ const Products = () => {
                   {cat}
                   <input
                     type="checkbox"
-                    className="accent-custom-green cursor-pointer"
+                    className="accent-custom-green rounded-full cursor-pointer"
                     onChange={filter}
                     id={key}
                   ></input>

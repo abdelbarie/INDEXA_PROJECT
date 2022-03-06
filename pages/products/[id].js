@@ -27,8 +27,8 @@ const ProductDetails = (props) => {
             {products[id].productName}
           </div>
           <div className="productDetails">{products[id].longDescription}</div>
-            <div className="font-bold mt-2 text-center text-lg">{products[id].price} DA</div>
-          <div><button className="flex gap-2 px-4 mx-auto py-2 mt-5 text-white  font-semibold rounded-full shadow-xl hover:bg-custom-dark-green bg-custom-green"><img src="/imgs/chariot.svg" width="20px"></img>AJOUTER AU PANNIER</button></div>
+            <div className="mt-2 text-center text-2xl">{products[id].price} DA</div>
+          {/* <div><button className="flex gap-2 px-4 mx-auto py-2 mt-5 text-white  font-semibold rounded-full shadow-xl hover:bg-custom-dark-green bg-custom-green"><img src="/imgs/chariot.svg" width="20px"></img>AJOUTER AU PANNIER</button></div> */}
         </div>
       </div>
       

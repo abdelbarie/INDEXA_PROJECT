@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
+import { Router, useRouter } from "next/router";
 import Link from "next/link";
 import LangSwitcher from "./partials/LangSwitcher";
 import { useTheme } from "next-themes";
@@ -7,8 +7,11 @@ import { FaCloudMoon, FaCloudSun, FaSearch } from "react-icons/fa";
 import SearchInput from "./partials/SearchInput";
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
+import { useScrollTo } from "react-use-window-scroll";
+
 
 const NavBar = () => {
+
   const { locale, locales, asPath } = useRouter();
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -26,7 +29,7 @@ const NavBar = () => {
 
     if (currentTheme === "dark") {
       return (
-        <div className="md:pl-5 pl-3  text-xs text-center w-fit">
+        <div className="text-xs text-center w-fit">
           <FaCloudSun
             onClick={() => setTheme("light")}
             className="text-yellow-200 text-2xl md:text-3xl cursor-pointer "
@@ -35,7 +38,7 @@ const NavBar = () => {
       );
     } else {
       return (
-        <div className="md:pl-5 pl-3  text-xs text-center w-fit">
+        <div className="  text-xs text-center w-fit">
           <FaCloudMoon
             onClick={() => setTheme("dark")}
             className="text-purple-900 text-2xl md:text-3xl cursor-pointer "
@@ -55,6 +58,16 @@ const NavBar = () => {
     setOpen(!isOpen);
   };
   const userOrder = 0;
+
+  // allez au contenue function 
+  const router = useRouter() ; 
+  const scrollTo = useScrollTo();
+  const allezAuContenue =()=>{
+    scrollTo({ top: 650, left: 0, behavior: "smooth" })
+  }
+  const allezAuMenu = () =>{
+    scrollTo({ top: 20, left: 0, behavior: "smooth" })
+  }
   return (
     <div className="pt-1 pb-2 sticky top-0 left-0 right-0 bg-white dark:bg-custom-dark-bg z-50 md:relative">
       <div className="flex justify-between pr-2 md:hidden">
@@ -68,32 +81,32 @@ const NavBar = () => {
           locale === "fr" ? "ml-auto" : "mr-auto flex-row-reverse"
         } md:flex  w-fit mr-2 text-xs md:text-sm  font-normal hidden `}
       >
-        <div className="md:px-2 hover:text-custom-green ">
+        <div className="md:px-2 hover:text-custom-green " >
           <a href="tel:023 80 44 97">023 80 44 97-98</a>
         </div>
         |
-        <Link className="md:px-2 hover:text-custom-green " href="/SitePlan">
+        <Link  href="/SitePlan">
           <a className="hover:text-custom-green px-2">
             {content.upHeader.planSite}
           </a>
         </Link>
         |
-        <Link className="md:px-2 hover:text-custom-green " href="#contenue">
-          <a> {content.upHeader.content}</a> 
+        <Link href="/">
+          <a className="hover:text-custom-green px-2" onClick={allezAuContenue} > {content.upHeader.content}</a> 
         </Link>
         |
-        <div className="md:px-2 hover:text-custom-green ">
-          {content.upHeader.menu}
-        </div>
+        <Link className="md:px-2 hover:text-custom-green" href="/">
+          <a className="hover:text-custom-green px-2" onClick={allezAuMenu}>{content.upHeader.menu}</a>
+        </Link>
         |<LangSwitcher></LangSwitcher>
       </div>
 
       <div
-        className={`${
+        className={` ${
           locale === "fr" ? "flex-row" : "flex-row-reverse"
         }  flex  px-3 lg:px-6  md:py-5 py-3 justify-between clear-right `}
       >
-        <div>
+        <div id="menu">
           {" "}
           <Link href="/" className="">
             <a>
@@ -103,7 +116,7 @@ const NavBar = () => {
               ></img>
               <img
                 src="/imgs/indexaLogoWhite.png"
-                className="w-40 md:ml-12 md:-mt-3 md:w-52 dark:block hidden"
+                className="w-40 md:mx-12 md:-mt-3 md:w-52 dark:block hidden"
               ></img>
             </a>
           </Link>
@@ -136,11 +149,11 @@ const NavBar = () => {
             </Link>
           </div>
           {/* Search Input */}
-          <div className="px-3 my-auto h-auto -mt-2">
-            <SearchInput content={content} />
+          <div className="px-3 my-auto h-auto -mt-1">
+            <SearchInput content={content} locale = {locale}/>
           </div>
           {/* Theme changer  */}
-          <div>{renderThemeChanger()}</div>
+          <div className="mx-3">{renderThemeChanger()}</div>
 
           {/* if user is not connected then display profil and shop bag */}
           {isConnected && (

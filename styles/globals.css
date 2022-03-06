@@ -51,9 +51,7 @@
     width: 240px;
     cursor : pointer ; 
 }
-.productBox:hover{
-    box-shadow:1px 0px 5px 0px rgba(12 , 12 , 12 , 0.2);
-}
+
 .marks , .plusProduct{
     background-color: var(--dark_blue);
 }

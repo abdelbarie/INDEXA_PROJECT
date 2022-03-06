@@ -25,8 +25,8 @@ const CentreBox = (props) => {
          </Link> 
 
         <div>
-         <a className="text-lg font-semibold py-1 rounded-full bg-custom-green dark:bg-custom-dark-green mb-2 hover:shadow-md w-fit px-4 mx-auto flex gap-2" href="tel:tel:023 80 44 97"><FaPhone className="mt-1"/>{props.phoneNumber}</a> 
-         <a className="text-lg font-semibold py-1 rounded-full bg-custom-green dark:bg-custom-dark-green mb-2 hover:shadow-md w-fit px-4 mx-auto  flex gap-2" href="tel:023 80 44 98"><FaPhone className="mt-1"/> {props.phoneNumber2}</a>
+         <a className="text-lg font-semibold py-2 rounded-full bg-custom-green dark:bg-custom-dark-green mb-2 hover:shadow-md w-fit px-4 mx-auto flex gap-2" href="tel:tel:023 80 44 97"><FaPhone className="mt-1"/>{props.phoneNumber}</a> 
+         <a className="text-lg font-semibold py-2 rounded-full bg-custom-green dark:bg-custom-dark-green mb-2 hover:shadow-md w-fit px-4 mx-auto  flex gap-2" href="tel:023 80 44 98"><FaPhone className="mt-1"/> {props.phoneNumber2}</a>
         </div> 
         </div>
         </div>
