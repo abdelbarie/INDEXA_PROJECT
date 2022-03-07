@@ -56,8 +56,8 @@ const content = {
     info: "INFORMATION",
   },
   products: {
-    header: `SHOP 
-      NOW`,
+    header: `COMMANDEZ 
+    MAINTENAT`,
     produits: "Produits",
     categories: "CATEGORIES",
     research: "Chercher un produit",

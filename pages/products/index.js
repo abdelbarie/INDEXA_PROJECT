@@ -103,29 +103,31 @@ const Products = () => {
             </div>
             <div className={isCategoOpen ? "block" : "hidden"}>
               {[
-                "MATERIEL INFORMATIQUE",
-                "HORLOGERIE",
-                "Matériels Pédagogique",
-                "JEUX EDUCATIFS",
-                "LOGICILE",
-                "CALCULE",
-                "Machine à écrire",
-                "DESSINS",
-                "Tablette et Accessoires",
-                "DIVERS",
+                ["MATERIEL INFORMATIQUE" , 4],
+                ["HORLOGERIE", 3],
+                ["Matériels Pédagogique" , 6],
+                ["JEUX EDUCATIFS" , 5],
+                ["LOGICILE" , 3],
+                ["CALCULE" , 3],
+                ["Machine à écrire" , 5 ],
+                ["DESSINS" , 7],
+                ["Tablette et Accessoires" , 2],
+                ["DIVERS" , 2],
               ].map((cat, key) => (
                 <div
                   key={key}
-                  className="text-sm w-full  flex justify-between py-1"
+                  className="text-sm w-full flex justify-between py-2"
                 >
-                  {cat}
+                  {cat[0] } ( {cat[1]} )
                   <input
                     type="checkbox"
                     className="accent-custom-green rounded-full cursor-pointer"
                     onChange={filter}
                     id={key}
                   ></input>
+                
                 </div>
+                
               ))}
             </div>
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
@@ -170,7 +172,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div className={`bg-gray-50 dark:bg-gray-800 mt-4 ${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
+            <div className={`bg-gray-50 dark:bg-gray-800 my-4 ${displayGrid ? "grid md:grid-cols-3" : "block"}`}>
               {ProductsData.map((pro, key) =>{
                 if (produstFilter[
                   [

@@ -1,34 +1,38 @@
 import React from "react";
+import { FaFacebookSquare, FaLinkedinIn , FaInstagram , FaPhone , FaEnvelope ,FaMapMarkerAlt} from 'react-icons/fa';
 
 const NosInfo = (props) => {
   return (
     <div className="lg:w-8/12 md:w-10/12 mx-auto pt-4 pb-20 ">
-      <div className="font-bold text-center py-2 text-2xl mb-5">
+      <div className="font-bold text-center  py-2 text-2xl mb-5">
         {props.content.contact.title1}
       </div>
-      <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green opacity-80">
-        <div className="md:w-12/12 mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
-          <img src="/imgs/logo-indexa.png" className="w-64 mb-5"></img>
-          <div className="my-1 flex gap-2 mb-4   md:w-full ">
-            <img src="/imgs/telephone.svg" width="20px" alt="phone icon" className="opacity-100"></img>{" "}
-            023 80 44 97-98 
-          </div>
-          <div className="my-1  flex gap-2 w-fit  mb-4 md:w-full ">
-            <img src="/imgs/mail.svg" width="20px" alt="mail icon"></img>
+      <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green " style={{background:'url(/imgs/contactBG.jpg)' , backgroundSize : 'cover'}}>
+        <div className="md:w-12/12 w-full bg-custom-light-blue dark:bg-custom-dark-green rounded-2xl md:rounded-r-none mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
+          <img src="/imgs/logo-indexa.png" className="w-64 mb-8 dark:hidden"></img>
+          <img src="/imgs/indexaLogoWhite.png" className="w-64 mb-8 hidden dark:block"></img>
+
+          <a href="tel:023 80 44 97" className="my-1 flex dark:text-white gap-2 mb-1  rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-2 border-custom-dark-blue dark:border-custom-light-blue w-fit  px-5 py-1">
+          <FaPhone className="text-xl w-8  mt-1 text-center"/>
+            023 80 44 97
+          </a>
+          <a href="tel:023 80 44 98" className="my-1 flex dark:text-white gap-2 mb-4 rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-custom-dark-blue dark:border-custom-light-blue border-2 w-fit  px-5 py-1 ">
+          <FaPhone className="text-xl w-8  mt-1  text-center"/>
+            023 80 44 98 
+          </a>
+          <div className="my-1  flex gap-2 w-fit  mb-4 dark:text-white md:w-full ">
+          <FaEnvelope className="text-xl w-8 mt-1 text-center dark:hover:text-custom-dark-bg"/>
             Contact@indexa-braille.com
           </div>
-          <div className="my-1 flex gap-1  md:w-full opacity-100 ">
-            <img
-              src="/imgs/position.svg"
-              width="25px"
-              alt="position icon"
-              className=""
-            ></img>
+          <div className="my-1 flex gap-1  md:w-full dark:text-white opacity-100 ">
+          <div className="text-center">
+            <FaMapMarkerAlt className="text-xl mt-1 w-8 text-center dark:hover:text-custom-dark-bg"/>
+            </div>
             {props.content.footer.location}
           </div>
         </div>
         <div className="relative h-full hidden md:block">
-            <img src="/imgs/nosInfo.png" className="absolute  -bottom-1 w-11/12"></img>
+           {/* <img src="/imgs/nosInfo.png" className="absolute  -bottom-1 w-11/12"></img> */}
             <img src="/imgs/smallCircles.svg" className="absolute  -bottom-10 w-20 left-14"></img>
         </div>
 

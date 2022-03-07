@@ -38,19 +38,18 @@ const onChange = (e) =>{
       <div className="font-bold text-center py-2 text-2xl mb-5">
         {props.content.contact.contacts.title}
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-4  md:gap-0 rounded-2xl shadow-md bg-custom-dark-blue dark:bg-custom-dark-green relative md:p-10 p-7">
-        <div className="">
+      <div className={`${props.locale === 'fr' ? 'md:flex-row text-left' : 'md:flex-row-reverse text-right'} md:flex grid gap-4 rounded-2xl shadow-md bg-custom-dark-blue dark:bg-custom-dark-green relative md:p-10 p-7`}>
+        <div className="w-full h-fit">
           <div className="text-white font-extrabold md:text-3xl text-2xl">{props.content.contact.contacts.bigdesc}</div>
-          <div className="text-white font-light text-xs mt-2 w-11/12">{props.content.contact.contacts.smalldesc}</div>
+          {/* <div className="text-white font-light text-xs mt-2 w-11/12">{props.content.contact.contacts.smalldesc}</div> */}
         </div>
-        <div className="relative h-fit my-auto w-full  md:pl-16">
-          <form onSubmit={onSubmit}>
-            <input  onChange={onChange} name="fullName" placeholder={props.content.contact.form.fullName} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
-            <input onChange={onChange} name="phoneNumber" placeholder={props.content.contact.form.PhoneNumber} type="phoneNumber" className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm"></input>
-            <textarea onChange={onChange} name = "message" placeholder={props.content.contact.form.maladie} className="font-light bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm h-20" ></textarea>
-            <button className="font-bold text-white px-3 py-2 text-sm bg-custom-green rounded-md float-right" type="submit">RAPPELEZ-NOUS</button>
+        <div className="relative h-fit my-auto w-full md:px-5">
+          <form onSubmit={onSubmit} >
+            <input  onChange={onChange} name="fullName" placeholder={props.content.contact.form.fullName} className={`${props.locale === 'fr' ? 'text-left' : 'text-right'} font-light   bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm`}></input>
+            <input onChange={onChange} name="phoneNumber" placeholder={props.content.contact.form.PhoneNumber} type="phoneNumber" className={`${props.locale === 'fr' ? 'text-left' : 'text-right'} font-light   bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm`}></input>
+            <textarea onChange={onChange} name = "message" placeholder={props.content.contact.form.maladie} className={`${props.locale === 'fr' ? 'text-left' : 'text-right'}  bg-custom-light-blue  p-2 w-full rounded-md mb-2 outline-none text-sm h-20`} ></textarea>
+            <button className={`${props.locale === 'fr' ? 'text-left' : 'text-right'}font-bold text-white px-3 py-2 text-sm bg-custom-green rounded-md   float-right`} type="submit">RAPPELEZ-NOUS</button>
           </form>
-           
         </div>
 
         {/* svgs */ }
