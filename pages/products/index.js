@@ -82,7 +82,7 @@ const Products = () => {
 
   return (
     <div>
-      <ProductsHeader content={content}></ProductsHeader>
+      <ProductsHeader content={content} locale={locale}></ProductsHeader>
       <div className="lg:px-32 lg:px-16 px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-2">
@@ -108,7 +108,7 @@ const Products = () => {
                 ["Matériels Pédagogique" , 6],
                 ["JEUX EDUCATIFS" , 5],
                 ["LOGICILE" , 3],
-                ["CALCULE" , 3],
+                ["CALCULE" , 3], 
                 ["Machine à écrire" , 5 ],
                 ["DESSINS" , 7],
                 ["Tablette et Accessoires" , 2],
@@ -118,7 +118,7 @@ const Products = () => {
                   key={key}
                   className="text-sm w-full flex justify-between py-2"
                 >
-                  {cat[0] } ( {cat[1]} )
+                  {cat[0].toUpperCase()} ( {cat[1]} )
                   <input
                     type="checkbox"
                     className="accent-custom-green rounded-full cursor-pointer"

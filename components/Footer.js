@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" bg-custom-dark-blue dark:bg-custom-dark-bg  text-center p-2 text-white">
-        2022 © CREATED BY EDRAAK
+        2022 © CREATED BY EDRAAK TECHNOLOGIES
       </div>
     </div>
   );

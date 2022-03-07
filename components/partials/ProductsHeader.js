@@ -25,7 +25,7 @@ const ProductsHeader = (props) => {
         </div>
       </div>
       <div className="lg:px-32 md:px-16 px-4">
-      <div className="py-2 border-b-2 lg:text-4xl text-xl font-bold border-custom-dark-blue dark:border-custom-green lg:flex justify-between ">
+      <div className={`${props.locale === 'fr' ? 'flex-row' : 'flex-row-reverse '} py-2 border-b-2 lg:text-4xl text-xl font-bold border-custom-dark-blue dark:border-custom-green lg:flex  justify-between ` }>
           <div>{ props.content.products.produits }</div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const NosInfo = (props) => {
           </a>
           <div className="my-1  flex gap-2 w-fit  mb-4 dark:text-white md:w-full ">
           <FaEnvelope className="text-xl w-8 mt-1 text-center dark:hover:text-custom-dark-bg"/>
-            Contact@indexa-braille.com
+            Contact@indexabraille.com
           </div>
           <div className="my-1 flex gap-1  md:w-full dark:text-white opacity-100 ">
           <div className="text-center">
