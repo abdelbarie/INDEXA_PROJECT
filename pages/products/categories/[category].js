@@ -24,12 +24,13 @@ return(
       <div className="grid md:grid-cols-12 grid-cols-1">
         <div className="col-span-12">
             <div className="font-semibold md:text-3xl text-xl text-center md:pt-8 md:pb-12 py-6"> {category}</div>
-           <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-y-8'>
+           <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-y-8 bg-gray-800 py-4 mb-4'>
            {ProductsData.map((product, key) => (
           <>
             {(product.category == category)&&(i++) &&(
 
               <ProductBox
+              grid={true}
                content = {content}
                 product={product}
                 category={category}

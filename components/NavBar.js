@@ -66,12 +66,12 @@ const NavBar = () => {
     scrollTo({ top: 650, left: 0, behavior: "smooth" })
   }
   const allezAuMenu = () =>{
-    scrollTo({ top: 20, left: 0, behavior: "smooth" })
+    scrollTo({ top: 35 , left: 0, behavior: "smooth" })
   }
   return (
     <div className="pt-1 pb-2 sticky top-0 left-0 right-0 bg-white dark:bg-custom-dark-bg z-50 md:relative">
       <div className="flex justify-between pr-2 md:hidden">
-        <div className="ml-auto">
+        <div className={`${locale === 'fr' ? 'ml-auto' : 'mr-auto'}`}>
           <LangSwitcher></LangSwitcher>
         </div>
       </div>
@@ -180,7 +180,8 @@ const NavBar = () => {
                       alt="chariot icon"
                       width="30px"
                       className="-mt-1"
-                    ></img>
+                    >
+                    </img>
                     {userOrder}
                   </a>
                 </Link>
@@ -214,16 +215,17 @@ const NavBar = () => {
         <div
           className={`${
             locale === "fr" ? "flex-row" : "flex-row-reverse"
-          } md:hidden flex gap-2`}
+          } md:hidden flex `}
         >
           <FaSearch
             onClick={openSearch}
-            className="text-custom-dark-blue mx-2 dark:text-custom-green text-3xl"
+            className="text-custom-dark-blue mx-5 dark:text-custom-green text-3xl"
           />
-          <div className="inline-flex   ">
+          <div className="inline-flex">
             <img
               src={isOpen ? "/imgs/greenX.png" : "/imgs/greenBurgre.png"}
-              width="28px"
+              width="35px"
+      
               onClick={handleClick}
               className="dark:block hidden"
             ></img>
@@ -231,7 +233,7 @@ const NavBar = () => {
           <div className="flex md:hidden dark:hidden ">
             <img
               src={isOpen ? "/imgs/X.png" : "/imgs/burger.png"}
-              width="28px"
+              width="35px"
               onClick={handleClick}
             ></img>{" "}
           </div>

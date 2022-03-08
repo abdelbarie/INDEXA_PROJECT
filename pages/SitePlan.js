@@ -15,22 +15,21 @@ const PlanSite = () => {
                   <div className='pl-10 font-light font-sm'>
                   HORLOGERIE                  </div>
                   <div className='pl-10 font-light font-sm'>
-                  Matériels Pédagogique
-                  </div>
+                  MATÉRIELS PÉDAGOGIQUE                   </div>
                   <div className='pl-10 font-light font-sm'>
-                  JEUX EDUCATIFS
+                  JEUX EDUCATIFS 
                   </div>
                   <div className='pl-10 font-light font-sm'>
                   CALCULE                  </div>
                   <div className='pl-10 font-light'>
                   LOGICILE                  </div>
                   <div className='pl-10 font-light font-sm'>
-                  Machine à écrire
+                  MACHINE À ÉCRIRE
                   </div>
                   <div className='pl-10 font-light font-sm'>
                   DESSINS                  </div>
                   <div className='pl-10 font-light font-sm' >
-                  Tablette et Accessoires                  </div>
+                  TABLETTE ET ACCESSOIRES              </div>
                   <div className='pl-10 font-light font-sm'>
                   DIVERS                  </div>
             </div>

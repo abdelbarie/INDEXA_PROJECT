@@ -15,7 +15,7 @@ const content = {
     catalogue: "CATALOGUE DE PRODUITS",
     centres: {
       sectionTitle: "NOS CENTRES",
-      centerName: "Indexa Braille  Alger",
+      centerName: "Indexa Braille - Alger",
       location:
         "Mohammadia Mall, cité Djénina N° 1183, 5ème étage - Mohammadia - Alger",
     },
@@ -25,7 +25,7 @@ const content = {
       seeMoreButton: "VOIR PLUS",
     },
     questions: {
-      sectionTitle: "QUESTION",
+      sectionTitle: "QUESTIONS",
       questionsList: [
         {
           id: 0,
@@ -94,6 +94,7 @@ const content = {
     content2: `
          Indexa braille œuvre avec ses partenaires afin d’apporter des solutions adaptées permettant aux malvoyants et aux non-voyants d’avoir des équipements répondants à leurs besoins et leurs permettant d’apprendre, de s’informer et de s’amuser malgré leurs déficiences visuelles.`,
   },
+
 };
 
 export default content;

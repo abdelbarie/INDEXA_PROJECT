@@ -9,22 +9,25 @@ const NosInfo = (props) => {
       </div>
       <div className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green " style={{background:'url(/imgs/contactBG.jpg)' , backgroundSize : 'cover'}}>
         <div className="md:w-12/12 w-full bg-custom-light-blue dark:bg-custom-dark-green rounded-2xl md:rounded-r-none mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
+          <div className="w-fit mx-auto md:w-full">
           <img src="/imgs/logo-indexa.png" className="w-64 mb-8 dark:hidden"></img>
           <img src="/imgs/indexaLogoWhite.png" className="w-64 mb-8 hidden dark:block"></img>
+          </div>
+    
 
-          <a href="tel:023 80 44 97" className="my-1 flex dark:text-white gap-2 mb-1  rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-2 border-custom-dark-blue dark:border-custom-light-blue w-fit  px-5 py-1">
+          <a href="tel:023 80 44 97" className="my-1 mx-auto  md:ml-1 flex dark:text-white gap-2 mb-1  rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-2 border-custom-dark-blue dark:border-custom-light-blue w-fit  px-5 py-1">
           <FaPhone className="text-xl w-8  mt-1 text-center"/>
             023 80 44 97
           </a>
-          <a href="tel:023 80 44 98" className="my-1 flex dark:text-white gap-2 mb-4 rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-custom-dark-blue dark:border-custom-light-blue border-2 w-fit  px-5 py-1 ">
+          <a href="tel:023 80 44 98" className="my-1 flex mx-auto  md:ml-1 dark:text-white gap-2 mb-4 rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-custom-dark-blue dark:border-custom-light-blue border-2 w-fit  px-5 py-1 ">
           <FaPhone className="text-xl w-8  mt-1  text-center"/>
             023 80 44 98 
           </a>
-          <div className="my-1  flex gap-2 w-fit  mb-4 dark:text-white md:w-full ">
+          <div className="my-1  flex gap-2 w-fit mx-auto mb-4 dark:text-white md:w-full ">
           <FaEnvelope className="text-xl w-8 mt-1 text-center dark:hover:text-custom-dark-bg"/>
             Contact@indexabraille.com
           </div>
-          <div className="my-1 flex gap-1  md:w-full dark:text-white opacity-100 ">
+          <div className="my-1 flex gap-1  md:w-full mx-auto w-fit dark:text-white opacity-100 ">
           <div className="text-center">
             <FaMapMarkerAlt className="text-xl mt-1 w-8 text-center dark:hover:text-custom-dark-bg"/>
             </div>

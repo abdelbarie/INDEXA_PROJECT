@@ -1,13 +1,13 @@
 const HomeProduct = [
   {
     id: 1,
-    productName: "Produit 1",
+    productName: "Memory Tactile",
     productImg: "/imgs/tactile.png",
     category: "JEUX EDUCATIFS",
   },
   {
     id: 2,
-    productName: "DBT 11.2",
+    productName: "DUXBURY BRAILLE TRANSLATOR",
     productImg: "/imgs/DBT.jpg",
     category: "LOGICILE",
   },

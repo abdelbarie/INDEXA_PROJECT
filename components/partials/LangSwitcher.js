@@ -17,7 +17,7 @@ const LangSwitcher = () => {
             <div className="flex">
                 <Link href={asPath} locale='fr' >
                     <a>
-            <div className={`${lang[0] ? 'block' : 'hidden'} md:gap-2 gap-1 text-sm text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(1)}>Fancais</div>
+            <div className={`${lang[0] ? 'block' : 'hidden'} md:gap-2 gap-1 text-sm  text-center ml-2 hover:text-custom-green`} onClick={()=>handleClick(1)}>Fancais</div>
             </a>
                 </Link>
                 <Link href={asPath} locale='arab' >

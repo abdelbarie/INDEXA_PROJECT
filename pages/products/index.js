@@ -80,16 +80,41 @@ const Products = () => {
   };
   let i=0 ;
 
+  // categories 
+  const categories = locale === 'fr' ? [
+    ["MATERIEL INFORMATIQUE" , 4],
+    ["HORLOGERIE", 3],
+    ["Matériels Pédagogique" , 6],
+    ["JEUX EDUCATIFS" , 5],
+    ["LOGICILE" , 3],
+    ["CALCULE" , 3], 
+    ["Machine à écrire" , 5 ],
+    ["DESSINS" , 7],
+    ["Tablette et Accessoires" , 2],
+    ["DIVERS" , 2],
+  ] : [
+    ["المعدات" , 4],
+    ["ساعات", 3],
+    ["المواد التعليمية" , 6],
+    ["الألعاب التعليمية" , 5],
+    ["البرمجيات" , 3],
+    ["حساب" , 3], 
+    ["آلة كاتبة" , 5 ],
+    ["الرسومات" , 7],
+    ["الكمبيوتر وملحقاته" , 2],
+    ["متنوع" , 2],
+  ] ; 
+
   return (
     <div>
       <ProductsHeader content={content} locale={locale}></ProductsHeader>
-      <div className="lg:px-32 lg:px-16 px-4">
+      <div className="lg:pl-12  px-4">
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-2">
-            <div className="flex font-semibold text-xl py-2 border-b-2 categories border-custom-dark-blue dark:border-custom-green w-fit gap-3">
+            <div className={`${locale === 'fr' ? 'flex-row mr-auto' : 'flex-row-reverse ml-auto'} flex font-semibold text-xl py-2 border-b-2 categories border-custom-dark-blue dark:border-custom-green w-fit gap-3 `}>
               {content.products.categories}
               <img
-                src={isCategoOpen ? "/imgs/up.png" : "/imgs/down.png"}
+                src={isCategoOpen ? "/imgs/up.png" : "/imgs/Down.png"}
                 className="mt-2 cursor-pointer dark:hidden block"
                 onClick={handleClick}
                 width="25px"
@@ -102,23 +127,16 @@ const Products = () => {
               ></img>
             </div>
             <div className={isCategoOpen ? "block" : "hidden"}>
-              {[
-                ["MATERIEL INFORMATIQUE" , 4],
-                ["HORLOGERIE", 3],
-                ["Matériels Pédagogique" , 6],
-                ["JEUX EDUCATIFS" , 5],
-                ["LOGICILE" , 3],
-                ["CALCULE" , 3], 
-                ["Machine à écrire" , 5 ],
-                ["DESSINS" , 7],
-                ["Tablette et Accessoires" , 2],
-                ["DIVERS" , 2],
-              ].map((cat, key) => (
+              
+              {categories.map((cat, key) => (
                 <div
                   key={key}
-                  className="text-sm w-full flex justify-between py-2"
+                  className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} text-sm w-full flex justify-between py-2`}
                 >
-                  {cat[0].toUpperCase()} ( {cat[1]} )
+                  <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} flex gap-1`} >
+                  <div>{cat[0].toUpperCase()} </div><div>( {cat[1]} )</div> 
+                    </div>
+                  
                   <input
                     type="checkbox"
                     className="accent-custom-green rounded-full cursor-pointer"
