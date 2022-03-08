@@ -1,4 +1,5 @@
 import react from "react";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import ProductsData from "../../Data/Products";
 import ProductsAR from '../../Data/ProductsAR' ; 
@@ -15,10 +16,17 @@ const ProductDetails = (props) => {
   const content = locale === 'fr' ? frContent : ArContent ; 
   const products = locale === 'fr' ? props.products : props.arProducts ; 
   
+  
+  
   const id = router.query.id;
   return (
     <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} md:px-36 px-4`}>
+       <div className="py-2 font-semibold text-lg">
+         <Link href="/products">PRODUITS</Link> / <Link href={`/products/categories/${products[id].category}`}>{products[id].category}</Link> / <span className="text-custom-green">{products[id].productName}</span>
+       </div>
+       <hr/>
       <div className="grid grid-cols-1 md:grid-cols-2 py-5 gap-2">
+       
         <div className='place-content-center grid'>
           <img src={products[id].producImg} className="mx-auto w-52"></img>
         </div>
@@ -33,11 +41,11 @@ const ProductDetails = (props) => {
       </div>
       
       <div className="md:w-12/12">
-          <div className="font-bold text-2xl mt-16">Détails<hr/></div>
+          <div className="font-bold text-2xl mt-16">{content.Productdetails.details}<hr/></div>
           <div className="productDetails text-xl">{products[id].details}</div>
       </div>
       <div>
-          <div className="font-bold text-2xl mt-16">Produits similaire </div>
+          <div className="font-bold text-2xl mt-16">{content.Productdetails.similaire} </div>
           <ProCatSection category ={products[id].category} content={content}></ProCatSection>
       </div>
     </div>

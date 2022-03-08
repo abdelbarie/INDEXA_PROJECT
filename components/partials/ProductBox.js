@@ -14,9 +14,9 @@ const ProductBox = (props) => {
     
       <div className=" w-full">
       <div className="text-center pt-2  mx-auto ">
-        <div className="font-semibold">{props.product.productName}</div>
-        <div className="text-sm text-gray-500 px-4">{props.product.description}</div>
-        <div className="text-xs"><label className="m-1 text-custom-green font-semibold">Category:</label>{props.product.category}</div>
+        <div className="font-semibold text-lg">{props.product.productName}</div>
+        <div className="text-md text-gray-500 px-4">{props.product.description}</div>
+        {/* <div className="text-xs"><label className="m-1 text-custom-green font-semibold">Category:</label>{props.product.category}</div> */}
         <div className="text-lg pt-4 text-center">{props.product.price} DA</div>
  
       </div>

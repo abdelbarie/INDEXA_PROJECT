@@ -86,7 +86,7 @@ export default function Home() {
         <div className="text-center font-bold text-4xl">
           {content.home.catalogue}
         </div>
-        <ProductsCatHomeSection id="content" />
+        <ProductsCatHomeSection locale={locale} />
         {/* <div className=" px-10 md:px-16 lg:px-32 gap-20 mt-20 md:hidden">
           <Swiper
             slidesPerView={1}

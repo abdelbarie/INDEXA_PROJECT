@@ -31,13 +31,13 @@ const HomeProduct = [
   },
   {
     id: 6,
-    productName: "Poinçon collerette",
+    productName: "Montre Parlante",
     productImg: "/imgs/smartwatch.png",
     category: "HORLOGERIE",
   },
   {
     id: 7,
-    productName: "Poinçon collerette",
+    productName: "Calculatrice parlante",
     productImg: "/imgs/calculatriceparlante.jpg",
     category: "CALCULE",
   },
@@ -49,13 +49,13 @@ const HomeProduct = [
   },
   {
     id: 9,
-    productName: "Poinçon collerette",
+    productName:"Podomètre / Radio FM",
     productImg: "/imgs/radio.png",
     category: "DIVERS",
   },
   {
     id: 10,
-    productName: "Poinçon collerette",
+    productName: "Ensemble d’équerres",
     productImg: "/imgs/kous.png",
     category: "DESSINS",
   },

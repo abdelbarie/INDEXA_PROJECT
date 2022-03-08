@@ -94,6 +94,18 @@ const content = {
     content2: `
          Indexa braille œuvre avec ses partenaires afin d’apporter des solutions adaptées permettant aux malvoyants et aux non-voyants d’avoir des équipements répondants à leurs besoins et leurs permettant d’apprendre, de s’informer et de s’amuser malgré leurs déficiences visuelles.`,
   },
+  Productdetails : {
+    details : 'Détails' , 
+    similaire : 'Produits similaire'
+  } ,
+  filtring : {
+    afficher : 'Afficher' , 
+    afficherEn : 'Afficher en' , 
+    filtrerpar : 'Filtere Par' , 
+    nom : 'Nom' , 
+    price : 'Prix' , 
+    cat : 'Catégorie'
+  }
 
 };
 

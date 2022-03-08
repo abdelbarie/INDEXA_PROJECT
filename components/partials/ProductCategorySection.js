@@ -23,7 +23,7 @@ const ProCatSection = (props) => {
       <div className="w-fit mx-auto font-semibold text-xl">
         {props.category}
       </div>
-      <div className=" py-6 mt-5">
+      <div className=" py-6 mt-5 bg-gray-50 dark:bg-gray-800">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -70,7 +70,6 @@ const ProCatSection = (props) => {
           </button>
         </Link>
       </div>
-      <hr />
     </div>
   );
 };

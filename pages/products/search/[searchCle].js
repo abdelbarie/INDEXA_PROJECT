@@ -26,7 +26,7 @@ const SearchProducts = ({ products }) => {
         <div className="grid md:grid-cols-12 grid-cols-1">
           <div className="col-span-12  xl:px-28 lg:px-2 md:px-4 ">
               <div className="py-5">Products ont une relation avec: <b className="text-custom-green">{searchCle}</b> </div>
-            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3">
+            <div className="grid grid-cols-1 bg-gray-50 dark:bg-gray-800 mb-4 lg:grid-cols-4 md:grid-cols-3">
               {products.map(
                 (product, key) =>
                   (product.productName
