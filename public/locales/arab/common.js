@@ -104,7 +104,10 @@ const content = {
     nom : 'الاسم' , 
     price : 'السعر' , 
     cat : 'الفئة'
-  }
+  } ,
+  Search :{
+    relation : 'المنتجات التي لها علاقة بـ:'
+  } 
 };
 
 export default content;

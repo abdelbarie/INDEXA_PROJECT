@@ -66,7 +66,7 @@ const NavBar = () => {
     scrollTo({ top: 650, left: 0, behavior: "smooth" })
   }
   const allezAuMenu = () =>{
-    scrollTo({ top: 35 , left: 0, behavior: "smooth" })
+    scrollTo({ top: 30 , left: 0, behavior: "smooth" })
   }
   return (
     <div className="pt-1 pb-2 sticky top-0 left-0 right-0 bg-white dark:bg-custom-dark-bg z-50 md:relative">

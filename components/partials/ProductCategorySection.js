@@ -20,9 +20,7 @@ const ProCatSection = (props) => {
   let i = 1;
   return (
     <div className="w-full py-5" id="contenue">
-      <div className="w-fit mx-auto font-semibold text-xl">
-        {props.category}
-      </div>
+
       <div className=" py-6 mt-5 bg-gray-50 dark:bg-gray-800">
         <Swiper
           slidesPerView={1}
@@ -48,7 +46,7 @@ const ProCatSection = (props) => {
         >
           {ProductsData.map((product, key) => (
             <>
-              {product.category == props.category && i++ && (
+              {(product.category == props.category) && (i++) &&(product.productName != props.productName ) && (
                 <SwiperSlide key={key}>
                   <ProductBox
                     product={product}
@@ -64,7 +62,7 @@ const ProCatSection = (props) => {
         </Swiper>
       </div>
       <div className={`w-fit mx-auto my-2 ${i < 4 ? "hidden" : "block"}`}>
-        <Link href={`products/categories/${props.category}`}>
+        <Link href={`/products/categories/${props.category}`}>
           <button className="text-lg font-semibold px-5 py-1 border-2 rounded-full hover:bg-custom-green border-custom-dark-blue dark:border-custom-green">
             {props.content.products.voirPlusButton}
           </button>

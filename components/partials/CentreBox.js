@@ -4,8 +4,8 @@ import { FaPhone } from 'react-icons/fa';
 
 const CentreBox = (props) => {
   return (
-    <div className={`xl:w-9/12  mx-auto pb-10 `}>
-      <div className="mx-auto mb-4 relative grid grid-cols-1 md:grid-cols-2 gap-4 rounded-3xl">
+    <div className={`xl:w-7/12  mx-auto pb-10 `}>
+      <div className="mx-auto mb-4 relative gap-4 rounded-3xl">
         <iframe
           src={props.location}
           width="100%"
@@ -13,13 +13,7 @@ const CentreBox = (props) => {
           loading="lazy"
           className="rounded-3xl shadow-xl "
         ></iframe>
-           <iframe
-          src='https://embed.waze.com/iframe?zoom=16&lat=36.735183&lon=3.175142&ct=livemap'
-          width="100%"
-          height="320px"
-          loading="lazy"
-          className="rounded-3xl shadow-xl "
-        ></iframe>
+
       </div>
       <div className="mt-2 w-5/6 text-center mx-auto">
         <div className="mt-2 w-5/6 text-center  mx-auto font-semibold text-xl md:text-2xl">

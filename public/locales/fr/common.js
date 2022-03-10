@@ -105,7 +105,10 @@ const content = {
     nom : 'Nom' , 
     price : 'Prix' , 
     cat : 'Catégorie'
-  }
+  },
+  Search :{
+    relation : 'Produits ont une relation avec:'
+  } 
 
 };
 

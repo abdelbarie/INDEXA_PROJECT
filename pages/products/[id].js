@@ -46,7 +46,7 @@ const ProductDetails = (props) => {
       </div>
       <div>
           <div className="font-bold text-2xl mt-16">{content.Productdetails.similaire} </div>
-          <ProCatSection category ={products[id].category} content={content}></ProCatSection>
+          <ProCatSection category ={products[id].category} productName={products[id].productName} content={content}></ProCatSection>
       </div>
     </div>
   );
