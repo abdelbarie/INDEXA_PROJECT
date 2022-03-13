@@ -7,13 +7,13 @@ const HomeProduct = [
     },
     {
       id: 2,
-      productName: "مترجم دوكسبيري بريل",
+      productName: "البرمجيات",
       productImg: "/imgs/DBT.jpg",
       category: "LOGICILE",
     },
     {
       id: 3,
-      productName: "آلة كاتبة",
+      productName: " أدوات الكتابة",
       productImg: "/imgs/papier.png",
       category: "Machine à écrire",
     },

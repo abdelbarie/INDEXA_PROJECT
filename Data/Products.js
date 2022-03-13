@@ -41,7 +41,7 @@ const ProductsData = [
   },
   {
     id: 2,
-    productName: "Cubes arithmétiques par 100",
+    productName: "Cubes Arithmétiques Par 100",
     description: "Ces cubes arithmétiques en plastique",
     longDescription: `Ces cubes arithmétiques en plastique, alourdis d'une bille en acier et marqués en relief sur chacune des faces, permettent d'écrire des chiffres braille en les positionnant sur le plateau (référence 15000).`,
     details: `
@@ -55,7 +55,7 @@ const ProductsData = [
   },
   {
     id: 3,
-    productName: "Feuille à dessin A4",
+    productName: "Feuille à Dessin A4",
     description: "Rames de 600 feuilles",
     longDescription:
       "En plastique transparent, ces feuilles sont utilisées pour la réalisation de dessins à l'aide de la planche référence.",
@@ -92,7 +92,7 @@ const ProductsData = [
   },
   {
     id: 5,
-    productName: "Compas à pointe sèche ",
+    productName: "Compas à Pointe Sèche ",
     description: "Ce compas est muni d'une pointe sèche ",
     longDescription:
       "Ce compas est muni d'une pointe sèche pour effectuer des tracés en relief sur des feuilles plastique références 16500 et 16503 et en prenant pour support la planche à dessiner référence 16000. La pointe sèche peut être remplacée par une mine de crayon ou un crayon.",
@@ -104,7 +104,7 @@ const ProductsData = [
   },
   {
     id: 6,
-    productName: "Planche à dessiner 25 x 35 cm",
+    productName: "Planche à Dessiner 25 x 35 cm",
     description: "en matière caoutchoutée antidérapante",
     longDescription:
       "Cette planche à dessiner, en matière caoutchoutée antidérapante, est utilisée pour effectuer des tracés en relief sur une feuille plastifiée, à l'aide d'un stylo, d'un crayon à dessiner, d'une roulette ou d'un poinçon.",
@@ -117,7 +117,7 @@ const ProductsData = [
   },
   {
     id: 7,
-    productName: "Triple Décimètre en plastique",
+    productName: "Triple Décimètre en Plastique",
     description: "Cette règle plate en plastique est graduée en relief",
     longDescription:
       "Cette règle plate en plastique est graduée en relief. Elle permet aussi aux personnes malvoyantes de se repérer grâce aux deux couleurs contrastées comme le jaune et le noir.",
@@ -158,7 +158,7 @@ const ProductsData = [
   },
   {
     id: 9,
-    productName: "Roulette à dessiner",
+    productName: "Roulette à Dessiner",
     description:
       "Cette roulette à dessiner est munie d'un petite roue métallique crantée fixée au bout d'un manche en bois",
     longDescription:
@@ -207,7 +207,7 @@ const ProductsData = [
   },
   {
     id: 12,
-    productName: "Réveil- Calendrier parlant ",
+    productName: "Réveil- Calendrier Parlant ",
     description:
       "Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.",
     longDescription: `Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.
@@ -250,7 +250,7 @@ const ProductsData = [
   },
   {
     id: 14,
-    productName: "Réveil parlant de chevet",
+    productName: "Réveil Parlant de Chevet",
     description: "Ce réveil en forme de demi-lune",
     longdescription:
       "Ce réveil en forme de demi-lune, simple d'utilisation et au design sobre, trouvera sa place dans votre intérieur",
@@ -286,7 +286,7 @@ const ProductsData = [
   },
   {
     id: 16,
-    productName: "BOITE A POIDS",
+    productName: "Boite A Poids",
     description: "(12 pièces)",
     longDescription: `Le jeu se compose de 12 pièces en bois de poids différent.
     Les 12 pièces sont rangées sur un socle en bois
@@ -303,7 +303,7 @@ const ProductsData = [
   },
   {
     id: 17,
-    productName: "BOITE A SON",
+    productName: "Boite A Son",
     description: "(12 pièces)",
     longDescription: `Le jeu se compose de 12 pièces en bois émettant chacune un son différent.
     Les 12 pièces sont rangées sur un socle en bois
@@ -321,7 +321,7 @@ const ProductsData = [
   },
   {
     id: 18,
-    productName: "Jeu de domino en bois Points en relief",
+    productName: "Jeu de Domino en Bois Points en Relief",
     description: "Pour 2 à 4 joueurs à partir de 6 ans.",
     longDescription: `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`,
     details: `
@@ -352,7 +352,7 @@ const ProductsData = [
   },
   {
     id: 20,
-    productName: "ZOOM Text Logiciel",
+    productName: "Zoom Text Logiciel",
     description: "des images claires, une navigation aisée",
     longDescription: `Grâce au logiciel de grossissement ZOOMTEXT édité par AiSquared, les utilisateurs mal-voyants vont découvrir un nouveau concept d'agrandissement et de lecture d’écran : l'accès aux documents, tableurs, pages web et courriers devient plus rapide, plus facile et plus précis que jamais.
 
@@ -378,7 +378,7 @@ const ProductsData = [
   },
   {
     id: 21,
-    productName: "Logiciel JAWS pour Windows FR/AR",
+    productName: "Logiciel JAWS Pour Windows FR/AR",
     description: "JAWS (Job Access With Speech)",
     longDescription: `un logiciel de revue d'écran pour déficients visuels édité par la société Freedom Scientific.
 
@@ -430,7 +430,7 @@ const ProductsData = [
   {
     id: 23,
     productName: "DBT 11.2",
-    description: "DUXBURY BRAILLE TRANSLATOR",
+    description: "Duxburi Braille Translator",
     longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
     details: `
     -	Deux modes disponibles pour la saisie du texte : Clavier AZERTY ou Clavier braille Perkins.
@@ -448,7 +448,7 @@ const ProductsData = [
   },
   {
     id: 24,
-    productName: "Papier non perforé ",
+    productName: "Papier Non Perforé ",
     description: "Format A4 160 G – 250 FEUILes ",
     longDescription: `
     Ce papier est recommandé pour l'écriture de documents à conserver. Il peut être utilisé avec la tablette format A3 ou avec une machine à écrire le braille ou avec les imprimantes braille acceptant le feuille à feuille.
@@ -467,7 +467,7 @@ const ProductsData = [
   },
   {
     id: 25,
-    productName: "Machine PERKINS Uni-manuelle",
+    productName: "Machine Perkins Uni-manuelle",
     description: "Machine à écrire le braille, mécanique et portable.",
     longDescription: `
     Mêmes caractéristiques que la machine Perkins référence 11000, mais permettant d'écrire d'une seule main, 2 frappes successives étant nécessaires pour écrire un caractère. `,
@@ -482,7 +482,7 @@ const ProductsData = [
   },
   {
     id: 26,
-    productName: "Papier listing",
+    productName: "Papier Listing",
     description: "170 G – 250 FEUILLES",
     longDescription: `
     Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
@@ -503,7 +503,7 @@ const ProductsData = [
   },
   {
     id: 27,
-    productName: "Feuille pour thermoformage A4",
+    productName: "Feuille Pour Thermoformage A4",
     description: "Rames de 200 feuilles ",
     longDescription: `Ces feuilles sont à utiliser avec la thermo formeuse.  Ce papier est à utiliser avec une imprimante braille exigeant ce type de papier pour l'édition de documents en continu.
     `,
@@ -523,7 +523,7 @@ const ProductsData = [
   },
   {
     id: 28,
-    productName: "INDEX EVREST DV5",
+    productName: "Index Evrest DV5",
     description:
       "Imprimante Braille feuille à feuille : L'impression rapide pour tous formats.",
     longDescription: `L’imprimante Index Evrest D-V5 est la dernière version des célèbres imprimantes Braille INDEX, réputées pour leur qualité et la haute résolution des points braille.
@@ -600,7 +600,7 @@ const ProductsData = [
   },
   {
     id: 30,
-    productName: "Imprimante braille Basic-D V5",
+    productName: "Imprimante Braille Basic-D V5",
     description:
       "L’imprimante-embosseuse braille Basic-D est fabriquée par INDEX Braille.",
     longDescription: `L’imprimante-embosseuse braille Basic-D est fabriquée par INDEX Braille.
@@ -644,7 +644,7 @@ const ProductsData = [
   },
   {
     id: 32,
-    productName: "PUZZLE Géométrique en bois",
+    productName: "Puzzle Géométrique En Bois",
     description: "Jeu éducatif pour enfant à partir de 3 ans.",
     longDescription: `Jeu éducatif pour enfant à partir de 3 ans.`,
     details: `
@@ -659,7 +659,7 @@ const ProductsData = [
   },
   {
     id: 33,
-    productName: "PUZZLE Chiffres",
+    productName: "Puzzle Chiffres",
     description: "En bois (10 pièces)",
     longDescription: `En bois, avec un logement séparé pour chaque chiffre `,
     details: ` 
@@ -675,7 +675,7 @@ const ProductsData = [
 
   {
     id: 34,
-    productName: "Xylophone pour enfant",
+    productName: "Xylophone Pour Enfant",
     description:
       "lames en acier de différentes couleurs et de différentes longueurs",
     longDescription: `Le xylophone est constitué de lames en acier de différentes couleurs et de différentes longueurs fixées sur un support en bois, qui sont frappées au moyen de mailloches terminées par une sphère. La disposition des lames est semblable à celle du clavier de piano.`,
@@ -687,7 +687,7 @@ const ProductsData = [
   },
   {
     id: 35,
-    productName: "PUZZLE Alphabet Majuscule ",
+    productName: "Puzzle Alphabet Majuscule ",
     description: "En bois (26 pièces)",
     longDescription: `En bois, avec un logement séparé pour chaque lettre majuscule. `,
     details: `-	Socle en bois naturel clair 
@@ -702,7 +702,7 @@ const ProductsData = [
   },
   {
     id: 36,
-    productName: "Loupe réglette",
+    productName: "Loupe Réglette",
     description: "avec ligne de repère rouge X2",
     longDescription: `Cette règle loupe de lecture avec un grossissement de 2x est parfaitement adaptée à la lecture d'un livre, de votre magazine, de votre journal et plus particulièrement pour les larges tableaux.
     Grâce à sa ligne de guidage rouge, la lecture se fait de manière plus agréable et prolongée sans fatigue.
@@ -726,7 +726,7 @@ const ProductsData = [
   },
   {
     id: 37,
-    productName: "Cube Algébriques par 100",
+    productName: "Cube Algébriques Par 100",
     description: "Chaque cube se compose de trois carrés mobiles en plastique",
     longDescription: `Chaque cube se compose de trois carrés mobiles en plastique, pivotant autour d'un axe central métallique. Sur chacun des côtés de ces carrés est représentée l'une des 4 possibilités de positionnement des points braille (1 point à gauche, 1 point à droite, 2 points ou rien), ce qui permet de former les 63 caractères braille.`,
     details: `•	Conditionnés par boîte de 100 cubes
@@ -741,7 +741,7 @@ const ProductsData = [
   },
   {
     id: 38,
-    productName: "Tablette à cuvettes ",
+    productName: "Tablette à Cuvettes ",
     description: "27 lignes x 30 caractères",
     longDescription: `C-	Lignes paires du cadre numérotées en braille
     -	Aux extrémités des lignes 9 et 19, fentes prévues pour le passage de rubans adhésifs de 9 et 12 mm.

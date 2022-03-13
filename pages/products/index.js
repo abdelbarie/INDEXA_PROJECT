@@ -13,6 +13,7 @@ import ProductsAR from "../../Data/ProductsAR";
 import ProductBox from "../../components/partials/ProductBox";
 
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Products = () => {
   const router = useRouter();
@@ -81,6 +82,18 @@ const Products = () => {
   let i = 0;
 
   // categories
+  const catNavigation = [
+    "MATERIEL INFORMATIQUE",
+    "HORLOGERIE",
+    "Matériels Pédagogique",
+    "JEUX EDUCATIFS",
+    "LOGICILE",
+    "CALCULE",
+    "Machine à écrire",
+    "DESSINS",
+    "Tablette et Accessoires",
+    "DIVERS",
+  ] ; 
   const categories =
     locale === "fr"
       ? [
@@ -143,14 +156,17 @@ const Products = () => {
                     locale === "fr" ? "flex-row" : "flex-row-reverse"
                   } text-sm w-full flex justify-between py-2`}
                 >
-                  <div
-                    className={`${
-                      locale === "fr" ? "flex-row" : "flex-row-reverse"
-                    } flex gap-1`}
-                  >
-                    <div>{cat[0].toUpperCase()} </div>
-                    <div>( {cat[1]} )</div>
-                  </div>
+                  <Link href={`/products/categories/${catNavigation[key]}`}>
+                    <div
+                      className={`${
+                        locale === "fr" ? "flex-row" : "flex-row-reverse"
+                      } flex gap-1 hover:px-2 cursor-pointer`}
+                    >
+                      <div>{cat[0].toUpperCase()} </div>
+                      <div>( {cat[1]} )</div>
+                    </div>
+                  </Link>
+
                   <label className="container">
                     <input
                       type="checkbox"
@@ -166,8 +182,18 @@ const Products = () => {
             <div className={`${isCategoOpen ? "block" : "hidden"}`}></div>
           </div>
           <div className="col-span-9  xl:pr-16 lg:px-8 md:px-4 ">
-            <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'}  dark:bg-gray-700 00 bg-gray-50 flex justify-between mt-4 px-4 py-2 `}>
-              <div className={locale === 'fr' ? 'flex flex-row gap-2' : 'flex flex-row-reverse gap-2'}>
+            <div
+              className={`${
+                locale === "fr" ? "flex-row" : "flex-row-reverse"
+              }  dark:bg-gray-700 00 bg-gray-50 flex justify-between mt-4 px-4 py-2 `}
+            >
+              <div
+                className={
+                  locale === "fr"
+                    ? "flex flex-row gap-2"
+                    : "flex flex-row-reverse gap-2"
+                }
+              >
                 <label>{content.filtring.filtrerpar}</label>
                 <select
                   id="filter"
@@ -180,7 +206,13 @@ const Products = () => {
                   <option value="category">{content.filtring.cat}</option>
                 </select>
               </div>
-              <div className={locale === 'fr' ? 'flex flex-row gap-2' : 'flex flex-row-reverse gap-2'}>
+              <div
+                className={
+                  locale === "fr"
+                    ? "flex flex-row gap-2"
+                    : "flex flex-row-reverse gap-2"
+                }
+              >
                 {content.filtring.afficher}
                 <input
                   type="number"
@@ -190,7 +222,11 @@ const Products = () => {
                   placeholder={filterNBRProducts}
                 ></input>
               </div>
-              <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'}  md:flex gap-1 hidden `}>
+              <div
+                className={`${
+                  locale === "fr" ? "flex-row" : "flex-row-reverse"
+                }  md:flex gap-1 hidden `}
+              >
                 {content.filtring.afficherEn}
                 <div>
                   <button onClick={() => handleGrid(true)}>

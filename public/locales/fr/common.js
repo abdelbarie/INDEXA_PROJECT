@@ -14,7 +14,7 @@ const content = {
     },
     catalogue: "CATALOGUE DE PRODUITS",
     centres: {
-      sectionTitle: "NOS CENTRES",
+      sectionTitle: "Nos Centres",
       centerName: "Indexa Braille - Alger",
       location:
         "Mohammadia Mall, cité Djénina N° 1183, 5ème étage - Mohammadia - Alger",

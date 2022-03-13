@@ -7,7 +7,7 @@ const HomeProductBox = (props) => {
           <div className="productBox hover:shadow-[2px_2px_10px_rgba(0,0,0,0.25)] shadow-white relative w-9/12 mx-auto grid place-content-center bg-white dark:bg-custom-dark-green">
             <img src={props.img} className="w-4/6 mx-auto"></img>
           </div>
-      <div className="text-center mt-8">
+      <div className="text-xl text-center mt-8">
       {props.productName}
       </div>
 

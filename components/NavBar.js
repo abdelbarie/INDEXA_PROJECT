@@ -98,6 +98,7 @@ const NavBar = () => {
         <Link className="md:px-2 hover:text-custom-green" href="/">
           <a className="hover:text-custom-green px-2" onClick={allezAuMenu}>{content.upHeader.menu}</a>
         </Link>
+        
         |<LangSwitcher></LangSwitcher>
       </div>
 
@@ -146,6 +147,11 @@ const NavBar = () => {
           <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
             <Link href="/contact">
               <a>{content.Navbar.contact}</a>
+            </Link>
+          </div>
+          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
+            <Link href="/centre">
+              <a>{content.home.centres.sectionTitle}</a>
             </Link>
           </div>
           {/* Search Input */}
