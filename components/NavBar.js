@@ -126,30 +126,30 @@ const NavBar = () => {
         <div
           className={`${
             locale === "fr" ? "flex-row" : "flex-row-reverse"
-          } w-fit  grid-cols-1 md:grid-cols-6 hidden md:inline-flex `}
+          } w-fit  grid-cols-1 md:grid-cols-6 hidden md:inline-flex`}
         >
-          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-lg  hover:text-custom-green">
             <Link href="/">
               <a>{content.Navbar.acceuil}</a>
             </Link>
           </div>
-          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-lg  hover:text-custom-green">
             <Link href="/products">
               <a>{content.Navbar.produits}</a>
             </Link>
           </div>
-          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-lg  hover:text-custom-green">
             {" "}
             <Link href="/about">
               <a>{content.Navbar.propos}</a>
             </Link>
           </div>
-          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-lg  hover:text-custom-green">
             <Link href="/centre">
               <a>{content.home.centres.sectionTitle}</a>
             </Link>
           </div>
-          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-lg  hover:text-custom-green">
             <Link href="/contact">
               <a>{content.Navbar.contact}</a>
             </Link>

@@ -228,7 +228,7 @@ const ProductsData = [
     -	Alimentation : 1 pile rectangulaire 9 volts type LR622
 
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/reveil.png",
     category: "HORLOGERIE",
@@ -243,7 +243,7 @@ const ProductsData = [
     -	Bracelet en plastique
     `,
     details: ``,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/smartwatch.png",
     category: "HORLOGERIE",
@@ -264,7 +264,7 @@ const ProductsData = [
     -	3 niveaux de volume sonore avec réglage par commutateur situé sur le dessous
     -	Alimentation : 3 piles rondes de type LR06 
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/reveilparlante.png",
     category: "HORLOGERIE",
@@ -279,7 +279,7 @@ const ProductsData = [
     -	Diamètre : 21 cm
     -	Poids : 500 g
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/redball.png",
     category: "JEUX EDUCATIFS",
@@ -330,7 +330,7 @@ const ProductsData = [
     Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
     Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/domino.png",
     category: "JEUX EDUCATIFS",
@@ -496,7 +496,7 @@ const ProductsData = [
     -	Poids : 3,3 kg
       
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/papers.png",
     category: "Machine à écrire",
@@ -570,7 +570,7 @@ const ProductsData = [
     -	Consommation : 140 W en impression et 5 W en veille 
        
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info2.png",
     category: "MATERIEL INFORMATIQUE",
@@ -593,7 +593,7 @@ const ProductsData = [
     Braille Box est une réussite d'INDEX Braille, donnant aux utilisateurs ce qu'ils ont demandent à l'impression de grands volumes
       
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info5.png",
     category: "MATERIEL INFORMATIQUE",
@@ -615,7 +615,7 @@ const ProductsData = [
     -	25 ans d’expérience 
       
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info1.png",
     category: "MATERIEL INFORMATIQUE",
@@ -637,7 +637,7 @@ const ProductsData = [
     Connexion USB	                    -Oui
        
 `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info6.png",
     category: "MATERIEL INFORMATIQUE",
@@ -667,7 +667,7 @@ const ProductsData = [
     -	Pièces en bois coloré de 6 couleurs différentes. 
     -	Dimensions : 22,2 x 29,6 cm
      `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/puzzleChiffres.jpg",
     category: "Matériels Pédagogique",
