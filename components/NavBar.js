@@ -128,32 +128,33 @@ const NavBar = () => {
             locale === "fr" ? "flex-row" : "flex-row-reverse"
           } w-fit  grid-cols-1 md:grid-cols-6 hidden md:inline-flex `}
         >
-          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/">
               <a>{content.Navbar.acceuil}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/products">
               <a>{content.Navbar.produits}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
             {" "}
             <Link href="/about">
               <a>{content.Navbar.propos}</a>
             </Link>
           </div>
-          <div className="lg:px-6 px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
-            <Link href="/contact">
-              <a>{content.Navbar.contact}</a>
-            </Link>
-          </div>
-          <div className="lg:px-6 px-4 font-normal lg:text-xl hover:text-custom-green">
+          <div className="lg:px-5 hover:underline px-4 font-normal lg:text-xl hover:text-custom-green">
             <Link href="/centre">
               <a>{content.home.centres.sectionTitle}</a>
             </Link>
           </div>
+          <div className="lg:px-5 hover:underline px-4 w-fit font-normal lg:text-xl hover:text-custom-green">
+            <Link href="/contact">
+              <a>{content.Navbar.contact}</a>
+            </Link>
+          </div>
+          
           {/* Search Input */}
           <div className="px-3 my-auto h-auto -mt-1">
             <SearchInput content={content} locale = {locale}/>
@@ -265,6 +266,12 @@ const NavBar = () => {
           {" "}
           <Link href="/about">
             <a onClick={handleClick}>{content.Navbar.propos}</a>
+          </Link>
+        </div>
+        <div className="px-6 w-fit font-normal text-xl  mx-auto">
+          {" "}
+          <Link href="/centre">
+            <a onClick={handleClick}>{content.home.centres.sectionTitle}</a>
           </Link>
         </div>
         <div className="px-6 w-fit font-normal text-xl  mx-auto">

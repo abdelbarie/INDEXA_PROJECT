@@ -10,7 +10,7 @@ const AboutUsBox = (props) => {
       ></img>
       <div className=" w-full md:w-1/2 h-fit relative float-right my-auto  pt-8 md:pt-12 pr-8 pl-4">
         <div className="text-white text-3xl font-bold ">{props.content.home.quiSommeNous.sectionTitle}</div>
-        <div className="text-white mt-4">
+        <div className="text-white mt-4 productDetails">
           {props.content.footer.description}
         </div>
         <Link href="/about">

@@ -32,7 +32,7 @@ const Footer = () => {
               className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:block hidden`}
             ></img>
           </div>
-          <div className="my-3 font-normal">
+          <div className="my-3 font-normal productDetails">
             {content.footer.description}
           </div>
         </div>

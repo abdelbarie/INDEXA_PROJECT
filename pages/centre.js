@@ -23,11 +23,11 @@ const Centre = () => {
       <div className="px-5 md:px-28">
       {Centres.map((centre, key) => (
         <CentreBox
-          location="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d1598.7651924490008!2d3.1749628!3d36.7338383!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x128e52016476d889%3A0xf8c3ddbbeaf84cd!2sINDEXA%20Centre%20d&#39;audiom%C3%A9trie%20et%20de%20proth%C3%A8se%20auditive%2C%20Mohammadia!3m2!1d36.734987!2d3.1752208!4m3!3m2!1d36.735119399999995!2d3.1750487!5e0!3m2!1sfr!2sdz!4v1646604548197!5m2!1sfr!2sdz"
+          location={centre.location}
           centerName={centre.centerName}
-          phoneNumber="023 80 44 97"
-          phoneNumber2="023 80 44 98"
+          phoneNumber={centre.phoneNumber}
           description={centre.description}
+          icon = {false}
           key={key}
         ></CentreBox>
       ))}
