@@ -20,7 +20,7 @@ const Centre = () => {
   ];
   const [filter, setFilter] = useState([
     false,
-    true,
+    false,
     false,
     false,
     false,
