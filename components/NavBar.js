@@ -128,6 +128,7 @@ const NavBar = () => {
               <img
                 src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
                 className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-36 dark:block hidden"
+                
               ></img></>
               }
               
