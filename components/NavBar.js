@@ -113,11 +113,11 @@ const NavBar = () => {
             <a>
               {
                 locale === "fr"? <><img
-                src="/imgs/logo/Logo_FullColour_Dark_French.svg"
+                src="/imgs/logo/logofullcolourdarkfrench.svg"
                 className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:hidden"
               ></img>
               <img
-                src="/imgs/logo/Logo_FullColour_Light_French.svg"
+                src="/imgs/logo/logofullcolourlightfrench.svg"
                 className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:block hidden"
               ></img>
               </>: <>
