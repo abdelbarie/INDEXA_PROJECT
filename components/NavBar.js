@@ -108,17 +108,30 @@ const NavBar = () => {
         }  flex  px-3 lg:px-6  md:py-5 py-3 justify-between clear-right `}
       >
         <div id="menu">
-          {" "}
+        
           <Link href="/" className="">
             <a>
-              <img
-                src="/imgs/indexaLogoBlue.png"
-                className="w-40 md:mx-12 md:-mt-3 md:w-52 dark:hidden"
+              {
+                locale === "fr"? <><img
+                src="/imgs/logo/Logo_FullColour_Dark_French.svg"
+                className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:hidden"
               ></img>
               <img
-                src="/imgs/indexaLogoWhite.png"
-                className="w-40 md:mx-12 md:-mt-3 md:w-52 dark:block hidden"
+                src="/imgs/logo/Logo_FullColour_Light_French.svg"
+                className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:block hidden"
               ></img>
+              </>: <>
+              <img
+                src="/imgs/logo/Logo_FullColour_Dark_Arabic.svg"
+                className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-36 dark:hidden"
+              ></img>
+              <img
+                src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
+                className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-36 dark:block hidden"
+              ></img></>
+              }
+              
+              
             </a>
           </Link>
         </div>
@@ -228,19 +241,21 @@ const NavBar = () => {
             onClick={openSearch}
             className="text-custom-dark-blue mx-5 dark:text-custom-green text-3xl"
           />
-          <div className="inline-flex">
+          <div className="">
             <img
               src={isOpen ? "/imgs/greenX.png" : "/imgs/greenBurgre.png"}
               width="35px"
+    
       
               onClick={handleClick}
-              className="dark:block hidden"
+              className="dark:block hidden h-8"
             ></img>
           </div>
-          <div className="flex md:hidden dark:hidden ">
+          <div className="md:hidden dark:hidden ">
             <img
               src={isOpen ? "/imgs/X.png" : "/imgs/burger.png"}
               width="35px"
+              className="h-8"
               onClick={handleClick}
             ></img>{" "}
           </div>

@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
 <meta property="og:image:height" content="400"></meta>
 
 <meta property="og:url" content="your_website_url_here"></meta>
+<title>Indexa Braille</title>
       </Head>
       <NavBar></NavBar>
       <Component {...pageProps}/>

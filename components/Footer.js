@@ -17,20 +17,42 @@ const Footer = () => {
       <div className="bg-custom-light-blue dark:bg-custom-dark-green grid md:grid-cols-3 grid-cols-1 lg:px-24 md:px-12 py-10 md:gap-32 gap-5 px-5">
         <div>
           <div className="w-fit md:w-full mx-auto">
-            <img
-              src="/imgs/logo-indexa.png"
+            {
+              locale === "fr" ?
+              <>
+                 <img
+              src="/imgs/logo/Logo_FullColour_Dark_French.svg"
               alt="logo-indexa"
               layout="fill"
               width="180px"
               className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:hidden`}
             ></img>
             <img
-              src="/imgs/indexaLogoWhite.png"
+              src="/imgs/logo/Logo_FullColour_Light_French.svg"
               alt="logo-indexa"
               layout="fill"
               width="180px"
               className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:block hidden`}
             ></img>
+              </> : 
+              <>
+                 <img
+              src="/imgs/logo/Logo_FullColour_Dark_Arabic.svg"
+              alt="logo-indexa"
+              layout="fill"
+              width="150px"
+              className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:hidden`}
+            ></img>
+            <img
+              src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
+              alt="logo-indexa"
+              layout="fill"
+              width="150px"
+              className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:block hidden`}
+            ></img>
+              </>
+            }
+         
           </div>
           <div className="my-3 font-normal productDetails">
             {content.footer.description}
