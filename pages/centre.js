@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CentresBox from "../components/partials/CentersBox";
-import Centres from "../Data/Centres";
+import CentresFr from "../Data/Centres";
+import CentresAr from "../Data/CentresAr";
 import frContent from "../public/locales/fr/common";
 import arContent from "../public/locales/arab/common";
 import { useRouter } from "next/router";
@@ -9,7 +10,8 @@ const Centre = () => {
   const router = useRouter();
   const { locale, locales, asPath } = useRouter();
   const content = locale === "fr" ? frContent : arContent;
-  const locations = [
+  const Centres = locale === "fr" ? CentresFr : CentresAr ; 
+  const locations = locale === 'fr' ?[
     "ALGER",
     "BLIDA",
     "TIZI OUZOU",
@@ -17,7 +19,15 @@ const Centre = () => {
     "ORAN",
     "CONSTANTINE",
     "EL OUED",
-  ];
+  ] :[
+    "الجزائر العاصمة" ,
+    "البليدة" ,
+    "تيزي وزو" ,
+    "سيدي بلعباس" ,
+    "وهران" ,
+    "قسنطينة" ,
+    "الوادي" ,
+  ] ;
   const [filter, setFilter] = useState([
     false,
     false,

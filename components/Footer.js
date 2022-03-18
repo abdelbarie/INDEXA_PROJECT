@@ -21,14 +21,14 @@ const Footer = () => {
               locale === "fr" ?
               <>
                  <img
-              src="/imgs/logo/Logo_FullColour_Dark_French.svg"
+              src="/imgs/logo/logofullcolourdarkfrench.svg"
               alt="logo-indexa"
               layout="fill"
               width="180px"
               className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:hidden`}
             ></img>
             <img
-              src="/imgs/logo/Logo_FullColour_Light_French.svg"
+              src="/imgs/logo/logofullcolourlightfrench.svg"
               alt="logo-indexa"
               layout="fill"
               width="180px"
@@ -37,14 +37,14 @@ const Footer = () => {
               </> : 
               <>
                  <img
-              src="/imgs/logo/Logo_FullColour_Dark_Arabic.svg"
+              src="/imgs/logo/logofullcolourdarkarabic.svg"
               alt="logo-indexa"
               layout="fill"
               width="150px"
               className={`${locale === 'fr' ? 'mr-auto' : 'ml-auto'} dark:hidden`}
             ></img>
             <img
-              src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
+              src="/imgs/logo/logofullcolourlightarabic.svg"
               alt="logo-indexa"
               layout="fill"
               width="150px"

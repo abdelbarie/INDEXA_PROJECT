@@ -43,7 +43,7 @@ const HomeProduct = [
     },
     {
       id: 8,
-      productName: "الكمبيوتر وملحقاته",
+      productName: "الملحقات",
       productImg: "/imgs/poincon.jpg",
       category: "Tablette et Accessoires",
     },

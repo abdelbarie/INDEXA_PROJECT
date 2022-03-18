@@ -23,7 +23,7 @@ const CentresBox = (props) => {
         <div className="gap-4 mt-3  w-fit mx-auto">
           {
             props.phoneNumber.map((phone , key)=>(
-              <a key={key} className="text-xl  py-2 rounded-full border-2 border-custom-dark-blue hover:border-custom-green dark:border-custom-white hover:text-custom-green dark:bor mb-2 hover:shadow-md w-fit px-4 mx-auto  flex gap-2" href={`tel:${phone}`}><FaPhone className="mt-1"/> {phone}</a>
+              <a key={key} className="text-md  py-2 rounded-full border-2 border-custom-dark-blue hover:border-custom-green dark:border-custom-white hover:text-custom-green dark:bor mb-2 hover:shadow-md w-fit px-4 mx-auto  flex gap-2" href={`tel:${phone}`}><FaPhone className="mt-1"/> {phone}</a>
             ))
           } </div> 
 

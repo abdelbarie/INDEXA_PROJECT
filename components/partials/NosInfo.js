@@ -28,22 +28,22 @@ const NosInfo = (props) => {
             {locale === "fr" ? (
               <>
                 <img
-                  src="/imgs/logo/Logo_FullColour_Dark_French.svg"
+                  src="/imgs/logo/logofullcolourdarkfrench.svg"
                   className="w-52 mx-auto mb-8 dark:hidden"
                 ></img>
                 <img
-                  src="/imgs/logo/Logo_FullColour_Light_French.svg"
+                  src="/imgs/logo/logofullcolourlightfrench.svg"
                   className="w-52 mx-auto mb-8 hidden dark:block"
                 ></img>
               </>
             ) : (
               <>
                 <img
-                  src="/imgs/logo/Logo_FullColour_Dark_Arabic.svg"
+                  src="/imgs/logo/logofullcolourdarkarabic.svg"
                   className="w-44 mx-auto mb-8 dark:hidden"
                 ></img>
                 <img
-                  src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
+                  src="/imgs/logo/logofullcolourlightarabic.svg"
                   className="w-44 mx-auto mb-8 hidden dark:block"
                 ></img>
               </>

@@ -122,11 +122,11 @@ const NavBar = () => {
               ></img>
               </>: <>
               <img
-                src="/imgs/logo/Logo_FullColour_Dark_Arabic.svg"
+                src="/imgs/logo/logofullcolourdarkarabic.svg"
                 className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-36 dark:hidden"
               ></img>
               <img
-                src="/imgs/logo/Logo_FullColour_Light_Arabic.svg"
+                src="/imgs/logo/logofullcolourlightarabic.svg"
                 className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-36 dark:block hidden"
                 
               ></img></>
