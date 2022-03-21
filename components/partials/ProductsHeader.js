@@ -3,6 +3,7 @@ import {useRouter} from "next/router";
 import SearchInput from '../partials/SearchInput' ;
 
 const ProductsHeader = (props) => {
+  const {locale , locales , isPath} = useRouter() ; 
     
   const [searchValue , setSearchValue] = useState(" ") ; 
   const router  = useRouter() ; 
@@ -18,7 +19,7 @@ const ProductsHeader = (props) => {
     return (
         <div className="mb-4">
       <div className="productsHeader">
-        <div className="w-1/2 md:float-right mx-auto md:text-5xl text-4xl  font-extrabold pt-16">
+        <div className={`${locale === 'fr' ? "text-4xl pt-16" : 'text-6xl pt-16'} w-1/2 md:pt-16 md:float-right mx-auto md:text-5xl  font-extrabold` }>
           <div className="w-fit mx-auto text-custom-dark-blue dark:text-custom-dark-green productDetails">
             {props.content.products.header} <label className="greenText">!!</label>
           </div>

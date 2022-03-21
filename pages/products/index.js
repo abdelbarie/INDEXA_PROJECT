@@ -198,7 +198,7 @@ const Products = () => {
                 <select
                   id="filter"
                   name="filter"
-                  className="mx-2 bg-white dark:bg-gray-700 border-2 outline-none"
+                  className="mx-2 rounded-full px-1 bg-white dark:bg-gray-700 border-2 outline-none"
                   onChange={handleFilterBy}
                 >
                   <option value="productName">{content.filtring.nom}</option>
@@ -217,7 +217,7 @@ const Products = () => {
                 <input
                   type="number"
                   name="Numberproducts"
-                  className="w-20 pl-2 border-2"
+                  className="w-20 pl-2 border-2 rounded-full"
                   onChange={handleNBRpro}
                   placeholder={filterNBRProducts}
                 ></input>

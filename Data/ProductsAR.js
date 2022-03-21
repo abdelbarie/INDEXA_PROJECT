@@ -237,7 +237,7 @@ const ProductsData = [
     - حزام بلاستيك
       `,
     details: ` `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/smartwatch.png",
     category: "HORLOGERIE",
@@ -258,7 +258,7 @@ const ProductsData = [
     - 3 مستويات من حجم الصوت مع الضبط بالمفتاح الموجود في الأسفل
     - مصدر الطاقة: 3 بطاريات دائرية نوع LR06
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/reveilparlante.png",
     category: "HORLOGERIE",
@@ -273,7 +273,7 @@ const ProductsData = [
     - القطر: 21 سم
     - الوزن: 500 جرام
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/redball.png",
     category: "JEUX EDUCATIFS",
@@ -321,7 +321,7 @@ const ProductsData = [
       سلمت في صندوق خشبي أقلام الرصاص.
       أبعاد دومينو (عرض × طول × سماكة): 2.5 × 5 × 1 سم
       أبعاد الصندوق (عرض × طول × سماكة): 14 × 20.7 × 4.5 سم`,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/domino.png",
     category: "JEUX EDUCATIFS",
@@ -464,7 +464,7 @@ const ProductsData = [
       - الأبعاد مع شرائط كارول: 24 × 30.5 سم
       - شريط كارول الأيمن والأيسر القابل للفصل
       - الوزن: 3.3 كجم`,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/papers.png",
     category: "Machine à écrire",
@@ -531,7 +531,7 @@ const ProductsData = [
       - الاستهلاك: 140 واط في الطباعة و 5 واط في وضع الاستعداد
          
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info2.png",
     category: "MATERIEL INFORMATIQUE",
@@ -553,7 +553,7 @@ const ProductsData = [
       يعتبر صندوق برايل أفضل مزخرف لإنتاج كميات كبيرة من لغة بريل باستخدام ورق نسخ عادي. كما أن لديها أفضل وضع للطاقة تم استخدامه على الإطلاق في طابعة برايل.
       تعد Braille Box إحدى قصص نجاح INDEX Braille ، حيث تمنح المستخدمين ما يطلبونه في الطباعة بكميات كبيرة  
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info5.png",
     category: "MATERIEL INFORMATIQUE",
@@ -573,7 +573,7 @@ const ProductsData = [
       - جرار التغذية الذاتية: أكثر طرق تغذية الورق موثوقية.
       - خبرة 25 سنة 
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info1.png",
     category: "MATERIEL INFORMATIQUE",
@@ -593,7 +593,7 @@ const ProductsData = [
       اتصال RS232
       اتصال USB ، نعم    
   `,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/info6.png",
     category: "MATERIEL INFORMATIQUE",
@@ -619,7 +619,7 @@ const ProductsData = [
     details: ` - قاعدة خشبية طبيعية فاتحة
       - قطع خشبية ملونة بستة ألوان مختلفة.
       - الأبعاد: 22.2 × 29.6 سم`,
-    price: "500.00",
+    price: "-",
     stars: "4",
     producImg: "/imgs/puzzleChiffres.jpg",
     category: "Matériels Pédagogique",

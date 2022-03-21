@@ -19,7 +19,7 @@ const HomeProduct = [
     },
     {
       id: 4,
-      productName: "المعدات",
+      productName: "اعلام الي",
       productImg: "/imgs/info6.png",
       category: "MATERIEL INFORMATIQUE",
     },
@@ -43,7 +43,7 @@ const HomeProduct = [
     },
     {
       id: 8,
-      productName: "الملحقات",
+      productName: "!! الملحقات",
       productImg: "/imgs/poincon.jpg",
       category: "Tablette et Accessoires",
     },

@@ -11,7 +11,7 @@ const content = {
       description: "معدات و خدمات مكيفة وموجهة للكبار والصغار",
       shopButton: "تسوق الآن",
     },
-    catalogue: "قائمة المنتجات",
+    catalogue:"فهرس المنتجات",
     centres: {
       sectionTitle: "مراكزنا",
       centerName: "انديكسا برايل-الجزائر",

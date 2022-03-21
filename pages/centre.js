@@ -48,11 +48,11 @@ const Centre = () => {
           <div className="w-full h-2 -mt-1 bg-custom-green"></div>
         </div>
         <img
-          src="/imgs/CenterHeader2.png"
+          src="/imgs/CenterHeader.png"
           className="h-full ml-auto absolute md:hidden opacity-10 md:opacity-10"
         ></img>
         <img
-          src="/imgs/CenterHeader2.png"
+          src="/imgs/CenterHeader.png"
           className="h-full ml-auto hidden md:block"
         ></img>
       </div>

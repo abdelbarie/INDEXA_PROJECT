@@ -5,7 +5,7 @@ import { FaPhone } from 'react-icons/fa';
 const CentresBox = (props) => {
   return (
     <div className={`xl:w-9/12 md:grid md:grid-cols-2 my-20 mx-auto`}>
-      <div className=" w-fit mx-auto mb-4 relative  rounded-3xl">
+      <div className="w-full mx-auto mb-4 relative  rounded-3xl">
         <iframe
           src={props.location}
           width="100%"
@@ -14,7 +14,7 @@ const CentresBox = (props) => {
           className="rounded-3xl shadow-xl "
         ></iframe>
       </div>
-      <div className=" text-center h-fit my-auto ">
+      <div className=" text-center h-fit my-auto mx-5">
         <div className=" w-5/6 text-center  mx-auto font-semibold text-xl md:text-2xl">
           {props.centerName}
         </div>
