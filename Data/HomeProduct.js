@@ -7,7 +7,7 @@ const HomeProduct = [
   },
   {
     id: 2,
-    productName: "LOGICILE",
+    productName: "LOGICIELE",
     productImg: "/imgs/DBT.jpg",
     category: "LOGICILE",
   },
