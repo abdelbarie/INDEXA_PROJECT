@@ -771,6 +771,46 @@ const ProductsData = [
     producImg: "/imgs/poincon.jpg",
     category: "Tablette et Accessoires",
   },
+  {
+    id: 40,
+    productName: "Efface points ",
+    description:
+      " Accessoire en bois permettant d'effacer soit un point grâce à son extrémité fine",
+    longDescription: `
+    Accessoire en bois permettant d'effacer soit un point grâce à son extrémité fine, soit un ou plusieurs caractères en utilisant son extrémité plate.`,
+    details: `
+    -	Longueur : 7,8 cm
+-	Diamètre de la partie la plus large : 2,1 cm
+-	Diamètre de la partie la plus fine : 0,15 cm
+-	Poids : 15 g
+
+    `,
+    price: "-",
+    stars: "4",
+    producImg: "/imgs/effacepoints.jpg",
+    category: "Tablette et Accessoires",
+  },
+  {
+    id: 41,
+    productName: "Tablette",
+    description:
+      "24 lignes x 23 caractères",
+    longDescription: `
+    Cette tablette en plastique, pour écriture braille sur papier épais. Grammage conseillé : entre 120 et 180 g, permet l'écriture en inter point.`,
+    details: `
+    -	Ouverture par charnière horizontale en haut
+-	Réglette de 2 lignes, remplaçable, que l'on déplace au fur et à mesure de l'écriture, avec 1 point toutes les 5 cases.
+-	Cases du cadre munies chacune de 6 encoches facilitant l'écriture avec le poinçon
+-	Fentes prévues aux extrémités des lignes 9 et 17 pour le passage de rubans adhésifs de 9 et 12 mm.
+-	Dimensions (largeur x longueur x épaisseur) : 19 x 30 x 0,5 cm
+-	Poids : 285 g
+
+    `,
+    price: "-",
+    stars: "4",
+    producImg: "/imgs/tablette2.png",
+    category: "Tablette et Accessoires",
+  },
 ];
 
 export default ProductsData;

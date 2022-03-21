@@ -40,7 +40,8 @@ function MyApp({ Component, pageProps }) {
       <NavBar></NavBar>
       <Component {...pageProps} />
       <Footer></Footer>
-      <MessengerCustomerChat pageId="103957322240886" appId="507368634067637" />
+
+    <MessengerCustomerChat pageId="103957322240886" appId="507368634067637" />
   
     </ThemeProvider>
   );
