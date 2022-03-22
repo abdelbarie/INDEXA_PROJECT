@@ -39,6 +39,7 @@ const Centre = () => {
   ]);
   const handleFilter = (e)=>{
     setFilter({ ...filter, [e]: !filter[e] });
+ 
   }
   return (
     <div>
@@ -49,22 +50,22 @@ const Centre = () => {
         </div>
         <img
           src="/imgs/CenterHeader.png"
-          className="h-full ml-auto absolute md:hidden opacity-10 md:opacity-10"
+          className="h-full right-0  absolute md:hidden opacity-10"
         ></img>
         <img
           src="/imgs/CenterHeader.png"
           className="h-full ml-auto hidden md:block"
         ></img>
       </div>
-      <div className="px-5 md:px-28">
-        <div className="w-fit mx-auto">
+      <div className="px-5 md:px-28 ">
+        <div className="w-fit mx-auto grid grid-cols-2 gap-2 md:flex">
           {locations.map((loc, key) => (
             <button
               key={key}
               onClick={()=>handleFilter(key)}
               className={`${
                 filter[key] ? "bg-custom-green" : "bg-gray-100 dark:bg-gray-700"
-              } md:px-8 py-2 rounded-full  shadow-xl  text-sm my-2 w-36 md:w-fit md:text-md mx-2  md:mx-3 hover:bg-custom-green dark:hover:bg-custom-green `}
+              } md:px-8 py-2 rounded-full  shadow-xl  text-sm my-2 w-36 md:w-fit md:text-md mx-  md:mx-3 md:hover:bg-custom-green md:dark:hover:bg-custom-green `}
             >
               {loc}
             </button>

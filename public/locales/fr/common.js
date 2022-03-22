@@ -57,7 +57,7 @@ const content = {
   },
   products: {
     header: `COMMANDEZ 
-    MAINTENAT`,
+    MAINTENANT`,
     produits: "Produits",
     categories: "CATEGORIES",
     research: "Chercher un produit",

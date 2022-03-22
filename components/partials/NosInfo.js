@@ -17,13 +17,10 @@ const NosInfo = (props) => {
         {props.content.contact.title1}
       </div>
       <div
-        className="grid md:grid-cols-2  rounded-2xl shadow-md bg-custom-light-blue relative text-custom-dark-blue dark:text-custom-dark-green "
-        style={{
-          background: "url(/imgs/contactBG.jpg)",
-          backgroundSize: "cover",
-        }}
+        className="grid md:grid-cols-2  rounded-3xl shadow-md dark:border-custom-dark-green border-custom-light-blue md:border-4 relative text-custom-dark-blue dark:text-custom-dark-green "
+        
       >
-        <div className="md:w-12/12 w-full bg-custom-light-blue dark:bg-custom-dark-green rounded-2xl md:rounded-r-none mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
+        <div className="md:w-12/12 w-full bg-custom-light-blue  dark:bg-custom-dark-green rounded-2xl md:rounded-r-none mx-auto py-12 md:px-10 px-4 text-lg opacity-100">
           <div className="w-fit mx-auto md:w-full">
             {locale === "fr" ? (
               <>
@@ -64,29 +61,32 @@ const NosInfo = (props) => {
             <FaPhone className="text-xl w-8  mt-1  text-center" />
             023 80 44 98
           </a>
-          <div className="my-1  flex gap-2 w-fit mx-auto mb-4 dark:text-white md:w-full ">
+          <div className="my-1   flex gap-1 w-fit mx-auto mb-4 dark:text-white md:w-full ">
+            <div className=" ">
             <FaEnvelope className="text-xl w-8 mt-1 text-center dark:hover:text-custom-dark-bg" />
-            Contact@indexabraille.com
+            </div>Contact@indexabraille.com
           </div>
-          <div className="my-1 flex gap-1 text-center md:text-left  md:w-full mx-auto w-fit dark:text-white opacity-100 ">
-            <div className="text-center">
+          <div className="my-1  flex gap-1 text-center md:text-left  md:w-full mx-auto w-fit dark:text-white opacity-100 ">
+            <div className=" text-center">
               <FaMapMarkerAlt className="text-xl mt-1 w-8 text-center dark:hover:text-custom-dark-bg" />
             </div>
             {props.content.footer.location}
           </div>
         </div>
-        <div className="relative h-full hidden md:block">
+        <div className="relative h-full hidden md:block px-10">
           {/* <img src="/imgs/nosInfo.png" className="absolute  -bottom-1 w-11/12"></img> */}
+          
+          <img src="/imgs/contactMen.png" className="absolute bottom-0"></img>
           <img
             src="/imgs/smallCircles.svg"
-            className="absolute  -bottom-10 w-20 left-14"
+            className="absolute  -bottom-5 w-20 left-14"
           ></img>
         </div>
 
         {/* svgs */}
         <img
           src="/imgs/borderCircle.svg"
-          className="absolute md:-top-12 md:-right-12 md:w-28 w-16 -top-6 -right-2"
+          className="absolute md:-top-5 md:-right-5 md:w-28 w-16 -top-6 -right-2"
         ></img>
       </div>
     </div>

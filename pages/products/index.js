@@ -88,12 +88,12 @@ const Products = () => {
     "Matériels Pédagogique",
     "JEUX EDUCATIFS",
     "LOGICILE",
-    "CALCULE",
+    "CALCUL",
     "Machine à écrire",
-    "DESSINS",
+    "DESSIN",
     "Tablette et Accessoires",
     "DIVERS",
-  ] ; 
+  ];
   const categories =
     locale === "fr"
       ? [
@@ -102,9 +102,9 @@ const Products = () => {
           ["Matériels Pédagogique", 6],
           ["JEUX EDUCATIFS", 5],
           ["LOGICILE", 3],
-          ["CALCULE", 3],
+          ["CALCUL", 3],
           ["Machine à écrire", 5],
-          ["DESSINS", 7],
+          ["DESSIN", 7],
           ["Tablette et Accessoires", 2],
           ["DIVERS", 2],
         ]
@@ -117,7 +117,7 @@ const Products = () => {
           ["حساب", 3],
           ["آلة كاتبة", 5],
           ["الرسومات", 7],
-          ["الكمبيوتر وملحقاته", 2],
+          ["الكمبيوتر وملحقاته", 4],
           ["متنوع", 2],
         ];
 
@@ -254,9 +254,9 @@ const Products = () => {
                       "Matériels Pédagogique",
                       "JEUX EDUCATIFS",
                       "LOGICILE",
-                      "CALCULE",
+                      "CALCUL",
                       "Machine à écrire",
-                      "DESSINS",
+                      "DESSIN",
                       "Tablette et Accessoires",
                       "DIVERS",
                     ].indexOf(pro.category)
@@ -285,9 +285,9 @@ const Products = () => {
                       "Matériels Pédagogique",
                       "JEUX EDUCATIFS",
                       "LOGICILE",
-                      "CALCULE",
+                      "CALCUL",
                       "Machine à écrire",
-                      "DESSINS",
+                      "DESSIN",
                       "Tablette et Accessoires",
                       "DIVERS",
                     ].indexOf(pro.category)

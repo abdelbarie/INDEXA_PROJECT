@@ -7,7 +7,7 @@ const HomeProduct = [
   },
   {
     id: 2,
-    productName: "LOGICIELE",
+    productName: "LOGICIEL",
     productImg: "/imgs/DBT.jpg",
     category: "LOGICILE",
   },
@@ -25,39 +25,39 @@ const HomeProduct = [
   },
   {
     id: 5,
-    productName: "MATÉRIELS PÉDAGOGIQUE",
+    productName: "MATÉRIEL PÉDAGOGIQUE",
     productImg: "/imgs/PUZZLE.png",
     category: "Matériels Pédagogique",
   },
   {
     id: 6,
-    productName: "HORLOGERI",
+    productName: "HORLOGERIE",
     productImg: "/imgs/smartwatch.png",
     category: "HORLOGERIE",
   },
   {
     id: 7,
-    productName: "CALCULE",
+    productName: "CALCUL",
     productImg: "/imgs/calculatriceparlante.jpg",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 8,
-    productName: "TABLETTE ET ACCESSOIRES",
+    productName: "TABLETTES ET ACCESSOIRES",
     productImg: "/imgs/poincon.jpg",
     category: "Tablette et Accessoires",
   },
   {
     id: 9,
-    productName:"DIVERS",
+    productName: "DIVERS",
     productImg: "/imgs/radio.png",
     category: "DIVERS",
   },
   {
     id: 10,
-    productName: "DESSINS",
+    productName: "DESSIN",
     productImg: "/imgs/kous.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
 ];
 

@@ -94,10 +94,6 @@ const NavBar = () => {
         <Link href="/">
           <a className="hover:text-custom-green px-2" onClick={allezAuContenue} > {content.upHeader.content}</a> 
         </Link>
-        |
-        <Link className="md:px-2 hover:text-custom-green" href="/">
-          <a className="hover:text-custom-green px-2" onClick={allezAuMenu}>{content.upHeader.menu}</a>
-        </Link>
         
         |<LangSwitcher></LangSwitcher>
       </div>

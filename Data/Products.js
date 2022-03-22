@@ -20,7 +20,7 @@ const ProductsData = [
     price: "14 000.00",
     stars: "4",
     producImg: "/imgs/calculatriceparlante.jpg",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 1,
@@ -37,7 +37,7 @@ const ProductsData = [
     price: "4500.00",
     stars: "4",
     producImg: "/imgs/CUBARITHME.png",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 2,
@@ -51,20 +51,20 @@ const ProductsData = [
     price: "12 000.00",
     stars: "4",
     producImg: "/imgs/cubesArith.png",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 3,
     productName: "Feuille à Dessin A4",
     description: "Rames de 600 feuilles",
     longDescription:
-      "En plastique transparent, ces feuilles sont utilisées pour la réalisation de dessins à l'aide de la planche référence.",
+      "En plastique transparent, ces feuilles sont utilisées pour la réalisation de DESSIN à l'aide de la planche référence.",
     details: `
     -	Conditionnées par 600 feuilles environ`,
     price: "20 000.00",
     stars: "4",
     producImg: "/imgs/A4.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 4,
@@ -88,7 +88,7 @@ const ProductsData = [
     price: "5000.00",
     stars: "4",
     producImg: "/imgs/kous.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 5,
@@ -100,7 +100,7 @@ const ProductsData = [
     price: "14 000.00",
     stars: "4",
     producImg: "/imgs/compa.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 6,
@@ -113,7 +113,7 @@ const ProductsData = [
     price: "5500.00",
     stars: "4",
     producImg: "/imgs/dessinBlanc.jpg",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 7,
@@ -136,7 +136,7 @@ const ProductsData = [
     price: "1800.00",
     stars: "4",
     producImg: "/imgs/regle.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 8,
@@ -154,7 +154,7 @@ const ProductsData = [
     price: "800.00",
     stars: "4",
     producImg: "/imgs/RAPPORTEUR.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 9,
@@ -170,7 +170,7 @@ const ProductsData = [
     price: "1500.00",
     stars: "4",
     producImg: "/imgs/roullete.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 10,
@@ -793,8 +793,7 @@ const ProductsData = [
   {
     id: 41,
     productName: "Tablette",
-    description:
-      "24 lignes x 23 caractères",
+    description: "24 lignes x 23 caractères",
     longDescription: `
     Cette tablette en plastique, pour écriture braille sur papier épais. Grammage conseillé : entre 120 et 180 g, permet l'écriture en inter point.`,
     details: `

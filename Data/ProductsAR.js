@@ -19,7 +19,7 @@ const ProductsData = [
     price: "14 000.00",
     stars: "4",
     producImg: "/imgs/calculatriceparlante.jpg",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 1,
@@ -34,7 +34,7 @@ const ProductsData = [
     price: "4500.00",
     stars: "4",
     producImg: "/imgs/CUBARITHME.png",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 2,
@@ -48,20 +48,20 @@ const ProductsData = [
     price: "12 000.00",
     stars: "4",
     producImg: "/imgs/cubesArith.png",
-    category: "CALCULE",
+    category: "CALCUL",
   },
   {
     id: 3,
     productName: "A4 ورقة رسم",
     description: "رزم 600 ورقة",
     longDescription:
-      "En plastique transparent, ces feuilles sont utilisées pour la réalisation de dessins à l'aide de la planche référence.",
+      "En plastique transparent, ces feuilles sont utilisées pour la réalisation de DESSIN à l'aide de la planche référence.",
     details: `
       - معبأة في حوالي 600 ورقة`,
     price: "20 000.00",
     stars: "4",
     producImg: "/imgs/A4.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 4,
@@ -85,7 +85,7 @@ const ProductsData = [
     price: "5000.00",
     stars: "4",
     producImg: "/imgs/kous.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 5,
@@ -97,7 +97,7 @@ const ProductsData = [
     price: "14 000.00",
     stars: "4",
     producImg: "/imgs/compa.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 6,
@@ -110,7 +110,7 @@ const ProductsData = [
     price: "5500.00",
     stars: "4",
     producImg: "/imgs/dessinBlanc.jpg",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 7,
@@ -133,7 +133,7 @@ const ProductsData = [
     price: "1800.00",
     stars: "4",
     producImg: "/imgs/regle.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 8,
@@ -149,7 +149,7 @@ const ProductsData = [
     price: "800.00",
     stars: "4",
     producImg: "/imgs/RAPPORTEUR.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 9,
@@ -165,7 +165,7 @@ const ProductsData = [
     price: "1500.00",
     stars: "4",
     producImg: "/imgs/roullete.png",
-    category: "DESSINS",
+    category: "DESSIN",
   },
   {
     id: 10,
@@ -182,7 +182,7 @@ const ProductsData = [
   },
   {
     id: 11,
-    productName:"FM  عداد الخطوات وجهاز راديو",
+    productName: "FM  عداد الخطوات وجهاز راديو",
     description: "",
     longDescription: "",
     details: `
@@ -203,8 +203,7 @@ const ProductsData = [
   {
     id: 12,
     productName: "منبه وساعة ناطقة ",
-    description:
-      "تم تصميم هذا الجهاز بدون شاشة خصيصًا للأشخاص ضعاف البصر.",
+    description: "تم تصميم هذا الجهاز بدون شاشة خصيصًا للأشخاص ضعاف البصر.",
     longDescription: `تم تصميم هذا الجهاز بدون شاشة خصيصًا للأشخاص ضعاف البصر.
     يأتي على شكل علبة سوداء مع قمة بيج وحمراء. أربعة مفاتيح توفر الوصول إلى
     جميع وظائف الجهاز.
@@ -297,7 +296,7 @@ const ProductsData = [
   },
   {
     id: 17,
-    productName:"عبوات الصوت ",
+    productName: "عبوات الصوت ",
     description: "(12 قطعة)",
     longDescription: `تتكون اللعبة من 12 قطعة خشبية تصدر كل منها صوتًا مختلفًا.
     يتم تخزين 12 قطعة على قاعدة خشبية
@@ -410,7 +409,7 @@ const ProductsData = [
   },
   {
     id: 23,
-    productName:"مترجم دوكسبيري بريل",
+    productName: "مترجم دوكسبيري بريل",
     description: "مترجم دوكسبيري بريل",
     longDescription: `DBT Win هو برنامج يسمح بالنسخ بطريقة برايل الكاملة أو المختصرة للنصوص التي تم إدخالها "باللون الأسود". يستخدمه غالبية منتجي طريقة برايل في جميع أنحاء العالم. `,
     details: `- وضعان متاحان لإدخال النص: لوحة مفاتيح QWERTY أو لوحة مفاتيح Perkins برايل.
@@ -471,7 +470,7 @@ const ProductsData = [
   },
   {
     id: 27,
-    productName:  "A4 ورقة للتشكيل الحراري",
+    productName: "A4 ورقة للتشكيل الحراري",
     description: "رزم 200 ورقة",
     longDescription: `تستخدم هذه الأوراق مع المشكل الحراري. سيتم استخدام هذا الورق مع طابعة برايل تتطلب هذا النوع من الورق لإصدار المستندات المستمرة.`,
     details: `• السماكة: ناعم 0.12 مم
@@ -560,7 +559,7 @@ const ProductsData = [
   },
   {
     id: 30,
-    productName: "طابعة برايل" ,
+    productName: "طابعة برايل",
     description:
       "تم تصنيع آلة الزخرفة بالطابعة برايل Basic-D بواسطة INDEX Braille.",
     longDescription: `تم تصنيع آلة الزخرفة بالطابعة برايل Basic-D بواسطة INDEX Braille.
@@ -600,7 +599,7 @@ const ProductsData = [
   },
   {
     id: 32,
-    productName:"لعبة الغاز للأشكال الهندسية ",
+    productName: "لعبة الغاز للأشكال الهندسية ",
     description: "لعبة تعليمية للأطفال من سن 3 سنوات.",
     longDescription: `لعبة تعليمية للأطفال من سن 3 سنوات.`,
     details: `الهدف من اللعبة:
@@ -742,7 +741,8 @@ const ProductsData = [
     productName: "لوحة ",
     description:
       "هذا الجهاز اللوحي البلاستيكي للكتابة بطريقة بريل على الورق المقوى بين 120 و180 غرام، يتيح الكتابة البينية",
-    longDescription: "هذا الجهاز اللوحي البلاستيكي للكتابة بطريقة بريل على الورق المقوى بين 120 و180 غرام، يتيح الكتابة البينية",
+    longDescription:
+      "هذا الجهاز اللوحي البلاستيكي للكتابة بطريقة بريل على الورق المقوى بين 120 و180 غرام، يتيح الكتابة البينية",
     details: `
     الفتح بمفصلة أفقية في الأعلى
     مسطرة من سطرين، قابلة للاستبدال، تتحرك أثناء الكتابة، بنقطة واحدة كل 5 مربعات.

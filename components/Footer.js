@@ -71,7 +71,9 @@ const Footer = () => {
             
           </div>
           <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} my-4 font-normal  flex  gap-2 w-fit md:w-full mx-auto  `}>
+          <div className="text-center">
             <FaEnvelope className="text-xl w-8 text-center  text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
+            </div>
             <Link href="/contact"><a  className="w-full">Contact@indexabraille.com</a></Link>
             
           </div>

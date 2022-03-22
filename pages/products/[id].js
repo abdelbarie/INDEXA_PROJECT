@@ -15,14 +15,47 @@ const ProductDetails = (props) => {
 
   const content = locale === 'fr' ? frContent : ArContent ; 
   const products = locale === 'fr' ? props.products : props.arProducts ; 
+    const id = router.query.id;
+  let Category ; 
+    switch(products[id].category){
+      case "MATERIEL INFORMATIQUE" : 
+        Category =  locale === 'fr' ? "MATERIEL INFORMATIQUE" : 'اعلام الي' ; 
+      break ;
+      case "JEUX EDUCATIFS" : 
+        Category =  locale === 'fr' ? "JEUX EDUCATIFS" : "الألعاب التعليمية" ; 
+      break ;
+      case "LOGICILE" : 
+        Category =  locale === 'fr' ? "LOGICIEL" : "البرمجيات" ; 
+      break ;
+      case "Machine à écrire" : 
+        Category =  locale === 'fr' ? "MACHINE À ÉCRIRE" : "أدوات الكتابة" ; 
+      break ;
+      case "HORLOGERIE" : 
+        Category =  locale === 'fr' ? "HORLOGERIE" : "ساعات" ; 
+      break ;
+      case "CALCUL" : 
+        Category =  locale === 'fr' ? "CALCUL" : "حساب" ; 
+      break ;
+      case "Tablette et Accessoires" : 
+        Category =  locale === 'fr' ? "TABLETTES ET ACCESSOIRES" : ' الواح و ملحقات' ; 
+      break ;
+      case "DIVERS" : 
+        Category =  locale === 'fr' ? "DIVERS" : "متنوع" ; 
+      break ;
+      case "DESSIN" : 
+        Category =  locale === 'fr' ? "DESSIN" : ' رسم' ; 
+      break ;
+      case "Matériels Pédagogique" : 
+        Category =  locale === 'fr' ? "Matériels Pédagogique" : "المواد التعليمية" ; 
+      break ;
+
+    }
   
-  
-  
-  const id = router.query.id;
+
   return (
     <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} md:px-36 px-4`}>
-       <div className="py-2 font-semibold text-lg">
-         <Link href="/products">PRODUITS</Link> / <Link href={`/products/categories/${products[id].category}`}>{products[id].category}</Link> / <span className="text-custom-green">{products[id].productName}</span>
+       <div className={`${locale === 'fr' ? 'flex-row text-xl ' : ' flex-row-reverse text-xl' } py-2 font-semibold flex gap-2`}>
+         <Link href="/products">{content.Navbar.produits}</Link> / <Link href={`/products/categories/${products[id].category}`}>{Category}</Link> / <span className="text-custom-green">{products[id].productName}</span>
        </div>
        <hr/>
       <div className="grid grid-cols-1 md:grid-cols-2 py-5 gap-2">

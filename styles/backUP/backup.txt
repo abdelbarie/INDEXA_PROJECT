@@ -5,9 +5,9 @@
                 "Matériels Pédagogique",
                 "JEUX EDUCATIFS",
                 "LOGICILE",
-                "CALCULE",
+                "CALCUL",
                 "Machine à écrire",
-                "DESSINS",
+                "DESSIN",
                 "Tablette et Accessoires",
                 "DIVERS",
               ].map((category, key) => (
