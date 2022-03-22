@@ -54,7 +54,7 @@ const ProductDetails = (props) => {
 
   return (
     <div className={`${locale === 'fr' ? 'text-left' : 'text-right'} md:px-36 px-4`}>
-       <div className={`${locale === 'fr' ? 'flex-row text-xl ' : ' flex-row-reverse text-xl' } py-2 font-semibold flex gap-2`}>
+       <div className={`${locale === 'fr' ? 'flex-row text-md md:text-xl ' : ' flex-row-reverse text-md md:text-xl' } py-2 font-semibold flex gap-2`}>
          <Link href="/products">{content.Navbar.produits}</Link> / <Link href={`/products/categories/${products[id].category}`}>{Category}</Link> / <span className="text-custom-green">{products[id].productName}</span>
        </div>
        <hr/>

@@ -56,7 +56,7 @@ return(
       <ProductsHeader content = {content}></ProductsHeader>
 
     <div className="lg:px-32 lg:px-16 px-4">
-    <div className={`${locale === 'fr' ? 'flex-row text-xl ' : ' flex-row-reverse text-2xl' } py-2 font-semibold flex gap-2`}>
+    <div className={`${locale === 'fr' ? 'flex-row text-md md:text-xl ' : ' flex-row-reverse text-xl md:text-2xl' } py-2 font-semibold flex gap-2`}>
          <Link href="/products">{content.Navbar.produits}</Link> / <span className='text-custom-green'>{Category}</span> 
        </div>
        <hr/>
