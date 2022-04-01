@@ -174,8 +174,8 @@ const ProductsData = [
   },
   {
     id: 10,
-    productName: "Canne Française",
-    description: "1,20 M – Embout Tournant",
+    productName: "Canne fine pliante",
+    description: "Canne fine pliante avec elastique interchangeable-120cm",
     longDescription: `Élastique interchangeable reliant les segments entre eux Dragonne interchangeable
     `,
     details:
@@ -207,7 +207,7 @@ const ProductsData = [
   },
   {
     id: 12,
-    productName: "Réveil- Calendrier Parlant ",
+    productName: "Réveil Calendrier Parlant ",
     description:
       "Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.",
     longDescription: `Cet appareil sans afficheur est spécialement conçu pour les personnes déficientes visuelles.
@@ -271,22 +271,22 @@ const ProductsData = [
   },
   {
     id: 15,
-    productName: "Ballon de Cécifoot – Torball ",
-    description: "Ce ballon de Cécifoot",
+    productName: "Ballon Torball ",
+    description: "Ballon Torball en plastique",
     longDescription:
       "Ce ballon de Cécifoot / torball, en plastique rouge, est munie de grelots à l'intérieur permettant aux non-voyants de le localiser lorsqu'il roule.",
     details: `
     -	Diamètre : 21 cm
     -	Poids : 500 g
 `,
-    price: "-",
+    price: "12000",
     stars: "4",
     producImg: "/imgs/redball.png",
     category: "JEUX EDUCATIFS",
   },
   {
     id: 16,
-    productName: "Boite A Poids",
+    productName: "Boite à poids",
     description: "(12 pièces)",
     longDescription: `Le jeu se compose de 12 pièces en bois de poids différent.
     Les 12 pièces sont rangées sur un socle en bois
@@ -320,25 +320,29 @@ const ProductsData = [
     category: "JEUX EDUCATIFS",
   },
   {
-    id: 18,
-    productName: "Jeu de Domino en Bois Points en Relief",
-    description: "Pour 2 à 4 joueurs à partir de 6 ans.",
-    longDescription: `Le but du jeu est de parvenir le premier à placer tous ses dominos sur la table. Le jeu comprend 28 dominos en bois naturel clair marqués en relief par des points couleur acajou.`,
+    id:18,
+    productName: "Tablette",
+    description: "24 lignes x 23 caractères",
+    longDescription: `
+    Cette tablette en plastique, pour écriture braille sur papier épais. Grammage conseillé : entre 120 et 180 g, permet l'écriture en inter point.`,
     details: `
-    Caractéristiques :
-    Livré dans un plumier en bois.
-    Dimensions d'un domino (largeur x longueur x épaisseur) : 2,5 x 5 x 1 cm
-    Dimensions de la boîte (largeur x longueur x épaisseur) : 14 x 20,7 x 4,5 cm    
-`,
+    -	Ouverture par charnière horizontale en haut
+-	Réglette de 2 lignes, remplaçable, que l'on déplace au fur et à mesure de l'écriture, avec 1 point toutes les 5 cases.
+-	Cases du cadre munies chacune de 6 encoches facilitant l'écriture avec le poinçon
+-	Fentes prévues aux extrémités des lignes 9 et 17 pour le passage de rubans adhésifs de 9 et 12 mm.
+-	Dimensions (largeur x longueur x épaisseur) : 19 x 30 x 0,5 cm
+-	Poids : 285 g
+
+    `,
     price: "-",
     stars: "4",
-    producImg: "/imgs/domino.png",
-    category: "JEUX EDUCATIFS",
+    producImg: "/imgs/tablette2.png",
+    category: "Tablette et Accessoires",
   },
   {
     id: 19,
     productName: "Memory Tactile",
-    description: "Ce Jeu éducatif est destiné aux enfants à partir de 5 ans.",
+    description: "10 piéces rondes en bois formant 5 paires de textures differentes",
     longDescription: `Le jeu se compose de 32 pièces rondes en bois formant 16 paires de textures différentes.`,
     details: `
     Utilisation du jeu :
@@ -410,7 +414,7 @@ const ProductsData = [
   },
   {
     id: 22,
-    productName: "DBT 11.2",
+    productName: "DUXBURY BRAILLE TRANSLATOR",
     description: "DUXBURY BRAILLE TRANSLATOR",
     longDescription: `DBT Win est un logiciel permettant la transcription en braille intégral ou abrégé de textes saisis « en noir ». Utilisé par la Majorité des producteurs de braille dans le monde. `,
     details: `
@@ -425,7 +429,7 @@ const ProductsData = [
     price: "185 000.00",
     stars: "4",
     producImg: "/imgs/DBT.jpg",
-    category: "LOGICILE",
+    category: "Machine à écrire",
   },
   {
     id: 23,
@@ -737,7 +741,7 @@ const ProductsData = [
     price: "24 000.00",
     stars: "4",
     producImg: "/imgs/cubalg.png",
-    category: "Matériels Pédagogique",
+    category: "CALCUL",
   },
   {
     id: 38,
@@ -788,26 +792,6 @@ const ProductsData = [
     price: "-",
     stars: "4",
     producImg: "/imgs/effacepoints.jpg",
-    category: "Tablette et Accessoires",
-  },
-  {
-    id: 41,
-    productName: "Tablette",
-    description: "24 lignes x 23 caractères",
-    longDescription: `
-    Cette tablette en plastique, pour écriture braille sur papier épais. Grammage conseillé : entre 120 et 180 g, permet l'écriture en inter point.`,
-    details: `
-    -	Ouverture par charnière horizontale en haut
--	Réglette de 2 lignes, remplaçable, que l'on déplace au fur et à mesure de l'écriture, avec 1 point toutes les 5 cases.
--	Cases du cadre munies chacune de 6 encoches facilitant l'écriture avec le poinçon
--	Fentes prévues aux extrémités des lignes 9 et 17 pour le passage de rubans adhésifs de 9 et 12 mm.
--	Dimensions (largeur x longueur x épaisseur) : 19 x 30 x 0,5 cm
--	Poids : 285 g
-
-    `,
-    price: "-",
-    stars: "4",
-    producImg: "/imgs/tablette2.png",
     category: "Tablette et Accessoires",
   },
 ];

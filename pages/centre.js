@@ -19,6 +19,7 @@ const Centre = () => {
     "ORAN",
     "CONSTANTINE",
     "EL OUED",
+    "SETIF"
   ] :[
     "الجزائر العاصمة" ,
     "البليدة" ,
@@ -27,6 +28,7 @@ const Centre = () => {
     "وهران" ,
     "قسنطينة" ,
     "الوادي" ,
+    "سطيف"
   ] ;
   const [filter, setFilter] = useState([
     false,
@@ -58,7 +60,7 @@ const Centre = () => {
         ></img>
       </div>
       <div className="px-5 md:px-28 ">
-        <div className="w-fit mx-auto grid grid-cols-2 gap-2 md:flex">
+        <div className="w-fit mx-auto grid grid-cols-2 gap-1 md:flex">
           {locations.map((loc, key) => (
             <button
               key={key}
@@ -79,7 +81,8 @@ const Centre = () => {
               !filter[3] &&
               !filter[4] &&
               !filter[5] &&
-              !filter[6]) ||
+              !filter[6] &&
+              !filter[7]) ||
               filter[locations.indexOf(centre.wilaya)]) && (
               <CentresBox
                 location={centre.location}

@@ -4,7 +4,7 @@ const CentresAr = [
       centerName: "مركز السمع المحمدية - الجزائر العاصمة",
       description:
         "مركز الأعمال التجارية، المحمدية مول ، رقم 935     شارع الكونغو الديمقراطية ، حي جنينة ، المحمدية",
-      phoneNumber: ["+213 23 80 44 97","+213 23 80 44 98", "+213 560 60 89 28" , "+213 23 80 40 63"] , 
+      phoneNumber: ["023 804 497","023 804 498"] , 
       wilaya : 'الجزائر العاصمة' , 
       location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102319.30953720413!2d3.012907869645209!3d36.7350858992618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3f6e0666141%3A0x4e7ae433da574068!2sCENTRE%20INDEXA%20PHONAK%20EL%20MOURADIA!5e0!3m2!1sfr!2sit!4v1647445119967!5m2!1sfr!2sit"},
     {
@@ -28,10 +28,10 @@ const CentresAr = [
       id: 4,
       centerName: "مركز السمع البليدة",
       description:
-        "45 ، شارع كريتلي مختار 9000",
+        "بوليفارد كريتلي مختار 9000 البليدة",
       phoneNumber: ["+213 5 60 67 57 88" , "+213 5 60 67 99 90" , "+213 5 60 71 05 35"],
       wilaya : 'البليدة' , 
-      location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6416.775811128043!2d2.823811!3d36.472346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc570c0af6f457201!2sToilettes%20publiques%20%22Bab%20Essebt%22!5e0!3m2!1sfr!2sus!4v1647444670743!5m2!1sfr!2sus"},
+      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.0013621623825!2d2.8344532152385495!3d36.48168318001538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128f0c7325290d0b%3A0xf68b92a999cdcc6d!2sAv.%20Kritli%20Mokhtar%2C%20Blida!5e0!3m2!1sfr!2sdz!4v1648819722798!5m2!1sfr!2sdz"},
     {
       id: 5,
       centerName: "مركز السمع وهران",
@@ -52,10 +52,10 @@ const CentresAr = [
       id: 7,
       centerName: "مركز السمع تيزي وزو",
       description:
-        "تحصيص بكار زيدان ، محل رقم 1",
+        "قطعة رقم 13 ب د كريم بلقاسم تيزي وزو 15000",
       phoneNumber: ["+213 561 63 07 62" , "+213 561 64 13 90"],
       wilaya : 'تيزي وزو' , 
-      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6397.659277157554!2d4.055483534887701!3d36.702631499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128dc91591f1bf87%3A0x3601342c0c563275!2sTizi%20Agency!5e0!3m2!1sfr!2sus!4v1647444834082!5m2!1sfr!2sus"},
+      location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.232170494082!2d4.0549137!3d36.7031504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd71324214135e83!2sINDEXA%20SOLUTIONS%20AUDITIVES%20TIZI%20OUZOU!5e0!3m2!1sfr!2sdz!4v1648819898006!5m2!1sfr!2sdz"},
     {
       id: 8,
       centerName: "مركز السمع سطيف",
@@ -63,7 +63,7 @@ const CentresAr = [
         "رقم 187 ، حي أول نوفمبر 54",
       phoneNumber: ["+213 5 60 23 42 79" , "+213 5 60 14 67 95" , "+213 5 60 23 42 79"],
       wilaya : 'سطيف' , 
-      location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6439.578582000096!2d5.433348!3d36.196006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f315b2f00a6085%3A0x50d1a3537b648a6a!2sCite%20du%201er%20Novembre%201954%2C%20S%C3%A9tif%2C%20Alg%C3%A9rie!5e0!3m2!1sfr!2sus!4v1647444866314!5m2!1sfr!2sus"},
+      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3219.8522214790137!2d5.431196615230394!3d36.194475680077794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f315ae0937fe95%3A0x51b9233fff9f8344!2sABC%20BANK%20SETIF!5e0!3m2!1sfr!2sdz!4v1648820323600!5m2!1sfr!2sdz"},
     {
       id: 9,
       centerName: "مركز السمع قسنطينة",
