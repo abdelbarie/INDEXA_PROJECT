@@ -17,14 +17,6 @@ const Centres = [
     location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6394.131737213237!2d3.057341!3d36.74499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e7ae433da574068!2sCENTRE%20INDEXA%20PHONAK%20EL%20MOURADIA!5e0!3m2!1sfr!2sus!4v1647444369363!5m2!1sfr!2sus" 
   },
   {
-    id: 3,
-    centerName: "CENTRE AUDITIF BAB EZZOUAR - ALGER",
-    description:
-      "03, Cité douzi, Lot N°459 – Bab Ezzouar",
-    phoneNumber: [],
-    wilaya : 'ALGER' , 
-    location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6395.209977920512!2d3.184584!3d36.732047!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e51a87213faa3%3A0x62589087993d9f8d!2sImprimerie%20Le%20Signe%20-%20Boite%20de%20communication%20babezzouar%20-%20imprimerie%20babezzouar%20-%20Agence%20de%20Publicit%C3%A9%20-%20Babezzouar%20-%20Alger%20-%20Alg%C3%A9rie%20-%20imprimerie%20alger%20-%20boite%20de%20communication%20alger%20-%20agence%20de%20publicit%C3%A9%20babezzaour!5e0!3m2!1sfr!2sus!4v1647444593936!5m2!1sfr!2sus"},
-  {
     id: 4,
     centerName: "CENTRE AUDITIF BLIDA",
     description:
