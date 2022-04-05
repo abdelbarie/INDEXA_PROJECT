@@ -7,7 +7,7 @@ const ProductBox = (props) => {
   <Link href={`/products/${props.id}`}>
           <a>
       <div className="ProductBox bg-white  dark:bg-custom-dark-bg elative mx-auto  grid place-content-center">
-        <img src={props.product.producImg} className="w-4/6 mx-auto"></img>
+        <img src={props.product.producImg} className="w-4/6 mx-auto" alt={props.product.productName}></img>
       </div>
       </a>
         </Link>
