@@ -79,6 +79,7 @@ const content = {
     form: {
       fullName: "NOM ET PRENOM",
       PhoneNumber: "NUMERO DE TELEPHONE...",
+      Email: 'E-MAIL' , 
       maladie: "DE QUOI SOUFFREZ-VOUS ?",
       submit: "RAPPELEZ-NOUS",
     },

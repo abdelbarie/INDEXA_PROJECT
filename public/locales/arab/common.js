@@ -81,6 +81,7 @@ const content = {
     form: {
       fullName: "الإسم واللقب",
       PhoneNumber: "...رقم الهاتف",
+      Email: 'البريد الإلكتروني' , 
       maladie: "من ماذا تعاني؟",
       submit: "اتصل بنا",
     },

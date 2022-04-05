@@ -17,7 +17,7 @@ const NosInfo = (props) => {
         {props.content.contact.title1}
       </div>
       <div
-        className="grid md:grid-cols-2  rounded-3xl shadow-md dark:border-custom-dark-green border-custom-light-blue md:border-4 relative text-custom-dark-blue dark:text-custom-dark-green "
+        className="grid md:grid-cols-2  rounded-3xl  bg-custom-light-blue  dark:bg-custom-dark-green shadow-md  relative text-custom-dark-blue dark:text-custom-dark-green "
         
       >
         <div className="md:w-12/12 w-full bg-custom-light-blue  dark:bg-custom-dark-green rounded-2xl md:rounded-r-none mx-auto py-12 md:px-10 px-4 text-lg opacity-100">

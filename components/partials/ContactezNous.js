@@ -47,6 +47,7 @@ const onChange = (e) =>{
           <form onSubmit={onSubmit} >
             <input  onChange={onChange} name="fullName" placeholder={props.content.contact.form.fullName} className={`${props.locale === 'fr' ? 'text-left' : 'text-right'} font-light   bg-custom-light-blue  text-custom-dark-blue p-2 w-full rounded-md mb-2 outline-none text-sm`}></input>
             <input onChange={onChange} name="phoneNumber" placeholder={props.content.contact.form.PhoneNumber} type="phoneNumber" className={`${props.locale === 'fr' ? 'text-left' : 'text-right'} font-light text-custom-dark-blue   bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm`}></input>
+            <input onChange={onChange} name="email" placeholder={props.content.contact.form.Email} type="email" className={`${props.locale === 'fr' ? 'text-left' : 'text-right'} font-light text-custom-dark-blue   bg-custom-light-blue p-2 w-full rounded-md mb-2 outline-none text-sm`}></input>
             <textarea onChange={onChange} name = "message" placeholder={props.content.contact.form.maladie} className={`${props.locale === 'fr' ? 'text-left' : 'text-right'}  bg-custom-light-blue  text-custom-dark-blue p-2 w-full rounded-md mb-2 outline-none text-sm h-20`} ></textarea>
             <button className={`${props.locale === 'fr' ? 'text-left' : 'text-right'}font-bold text-white px-3 py-2 text-md hover:bg-custom-dark-bg bg-custom-green rounded-md   float-right`} type="submit">{props.content.contact.form.submit}</button>
           </form>

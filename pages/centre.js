@@ -14,7 +14,6 @@ const Centre = () => {
   const locations = locale === 'fr' ?[
     "ALGER",
     "BLIDA",
-    "TIZI OUZOU",
     "SIDI BEL ABBES",
     "ORAN",
     "CONSTANTINE",
@@ -23,7 +22,6 @@ const Centre = () => {
   ] :[
     "الجزائر العاصمة" ,
     "البليدة" ,
-    "تيزي وزو" ,
     "سيدي بلعباس" ,
     "وهران" ,
     "قسنطينة" ,
@@ -81,8 +79,7 @@ const Centre = () => {
               !filter[3] &&
               !filter[4] &&
               !filter[5] &&
-              !filter[6] &&
-              !filter[7]) ||
+              !filter[6] ) ||
               filter[locations.indexOf(centre.wilaya)]) && (
               <CentresBox
                 location={centre.location}
