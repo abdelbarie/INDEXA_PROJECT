@@ -61,7 +61,7 @@ const ProductDetails = (props) => {
       <div className="grid grid-cols-1 md:grid-cols-2 py-5 gap-2">
        
         <div className='place-content-center grid'>
-          <img src={products[id].producImg} className="mx-auto w-52"></img>
+          <img src={products[id].producImg} className="mx-auto w-52" alt={products[id].productName}></img>
         </div>
         <div className="h-fit my-auto md:px-20 px-4 ">
           <div className="font-bold text-2xl py-2">

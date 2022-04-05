@@ -27,10 +27,12 @@ const NosInfo = (props) => {
                 <img
                   src="/imgs/logo/logofullcolourdarkfrench.svg"
                   className="w-52 mx-auto mb-8 dark:hidden"
+                  alt="indexa logo"
                 ></img>
                 <img
                   src="/imgs/logo/logofullcolourlightfrench.svg"
                   className="w-52 mx-auto mb-8 hidden dark:block"
+                  alt="indexa logo"
                 ></img>
               </>
             ) : (
@@ -38,10 +40,12 @@ const NosInfo = (props) => {
                 <img
                   src="/imgs/logo/logofullcolourdarkarabic.svg"
                   className="w-44 mx-auto mb-8 dark:hidden"
+                  alt="indexa logo"
                 ></img>
                 <img
                   src="/imgs/logo/logofullcolourlightarabic.svg"
                   className="w-44 mx-auto mb-8 hidden dark:block"
+                  alt="indexa logo"
                 ></img>
               </>
             )}
@@ -76,10 +80,11 @@ const NosInfo = (props) => {
         <div className="relative h-full hidden md:block px-10">
           {/* <img src="/imgs/nosInfo.png" className="absolute  -bottom-1 w-11/12"></img> */}
           
-          <img src="/imgs/contactMen.png" className="absolute bottom-0"></img>
+          <img src="/imgs/contactMen.png" className="absolute bottom-0" alt="contact"></img>
           <img
             src="/imgs/smallCircles.svg"
             className="absolute  -bottom-5 w-20 left-14"
+            alt='icon'
           ></img>
         </div>
 
@@ -87,6 +92,7 @@ const NosInfo = (props) => {
         <img
           src="/imgs/borderCircle.svg"
           className="absolute md:-top-5 md:-right-5 md:w-28 w-16 -top-6 -right-2"
+          alt='icon'
         ></img>
       </div>
     </div>

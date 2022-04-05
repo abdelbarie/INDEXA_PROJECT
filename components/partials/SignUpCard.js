@@ -32,21 +32,21 @@ const SignUpCard = () => {
             className="bg-transparent w-full outline-none text-sm text-white font-light"
             placeholder="Nom  d’utilisateur"
           ></input>
-          <img src="/imgs/user.png" width="20px"></img>
+          <img src="/imgs/user.png" width="20px" alt="user icon"></img>
         </div>
         <div className="flex justify-between border-b-2 py-2 mt-2">
           <input
             className="bg-transparent w-full outline-none text-sm text-white font-light"
             placeholder="Email"
           ></input>
-          <img src="/imgs/whiteMail.png" width="20px"></img>
+          <img src="/imgs/whiteMail.png" width="20px" alt="mail icon"></img>
         </div>
         <div className="flex justify-between border-b-2 py-2 my-2">
           <input
             className="bg-transparent w-full outline-none text-sm text-white font-light"
             placeholder="Email ou Nom  d’utilisateur"
           ></input>
-          <img src="/imgs/lock.png" width="15px"></img>
+          <img src="/imgs/lock.png" width="15px" alt="lockIcon"></img>
         </div>
         <div className="flex justify-between">
           <div className="text-white flex font-light text-xs gap-2">

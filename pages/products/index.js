@@ -140,12 +140,14 @@ const Products = () => {
                 className="mt-2 cursor-pointer dark:hidden block"
                 onClick={handleClick}
                 width="25px"
+                alt="open"
               ></img>
               <img
                 src={isCategoOpen ? "/imgs/greenUp.png" : "/imgs/greenDown.png"}
                 className="mt-2 cursor-pointer hidden dark:block"
                 onClick={handleClick}
                 width="22px"
+                alt="close"
               ></img>
             </div>
             <div className={isCategoOpen ? "block " : "hidden"}>

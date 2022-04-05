@@ -54,8 +54,8 @@ const onChange = (e) =>{
         </div>
 
         {/* svgs */ }
-        <img src="/imgs/greenCircle.svg" className="absolute top-32 -right-6 w-12"></img>
-        <img src="/imgs/smallCircles.svg" className="absolute -bottom-6 -left-6 w-16"></img>
+        <img alt="icons" src="/imgs/greenCircle.svg" className="absolute top-32 -right-6 w-12"></img>
+        <img alt="icons" src="/imgs/smallCircles.svg" className="absolute -bottom-6 -left-6 w-16"></img>
       </div>
     </div>
   );

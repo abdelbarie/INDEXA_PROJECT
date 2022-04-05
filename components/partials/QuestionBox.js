@@ -15,7 +15,7 @@ const QuestionBox = (props) => {
             <div className={`${isOpen?'block':'hidden'} ${locale === 'fr' ? 'text-left' : 'text-right'} text-md md:text-lg font-light pt-2 productDetails`}>{props.answer}</div>
             </div>
             <div className="relative w-fit ml-auto col-span-1 cursor-pointer">
-                <img src={isOpen?'/imgs/greenUp.png':'/imgs/greenDown.png'} width="25px" className="float-right  top-2 " onClick={handleClick}></img>
+                <img alt="open" src={isOpen?'/imgs/greenUp.png':'/imgs/greenDown.png'} width="25px" className="float-right  top-2 " onClick={handleClick}></img>
             </div>
         </div>
     );

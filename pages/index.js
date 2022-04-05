@@ -125,6 +125,7 @@ export default function Home() {
         <img
           src="/imgs/smallCircles.svg"
           className="absolute -bottom-10 -right-10 -z-50 w-20"
+          alt="icon"
         ></img>
       </div>
 
@@ -155,6 +156,7 @@ export default function Home() {
         <img
           src="/imgs/greenCircle.svg"
           className="absolute -bottom-2 -left-10 -z-50 w-20"
+          alt="icon"
         ></img>
       </div>
 
@@ -178,10 +180,12 @@ export default function Home() {
         <img
           src="/imgs/questionMark.svg"
           className="absolute -top-40 md:bottom-20 md:-right-28 lg:-right-28 -right-20 md:w-2/12 w-5/12 -z-50"
+          alt="question icon"
         ></img>
         <img
           src="/imgs/smallCircles.svg"
           className="absolute bottom-5 -left-10 -z-50 w-20"
+          alt="icon"
         ></img>
       </div>
     </div>

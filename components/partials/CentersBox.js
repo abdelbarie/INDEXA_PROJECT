@@ -12,6 +12,7 @@ const CentresBox = (props) => {
           height="350px"
           loading="lazy"
           className="rounded-3xl shadow-xl "
+          title={props.centerName}
         ></iframe>
       </div>
       <div className=" text-center h-fit my-auto mx-5">

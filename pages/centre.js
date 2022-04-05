@@ -51,10 +51,12 @@ const Centre = () => {
         <img
           src="/imgs/CenterHeader.png"
           className="h-full right-0  absolute md:hidden opacity-10"
+          alt='center header'
         ></img>
         <img
           src="/imgs/CenterHeader.png"
           className="h-full ml-auto hidden md:block"
+          alt="center Header"
         ></img>
       </div>
       <div className="px-5 md:px-28 ">

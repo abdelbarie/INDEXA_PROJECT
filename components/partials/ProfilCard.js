@@ -9,7 +9,7 @@ const ProfilCard = (props) => {
       <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
         <div className="grid grid-cols-2 h-fit my-auto pt-4">
           <div>
-            <img src={props.profil.photo} className="rounded-full w-1/2 mx-auto"></img>
+            <img src={props.profil.photo} className="rounded-full w-1/2 mx-auto" alt="profil image"></img>
             <div className="w-fit mx-auto"> <button className="bg-custom-green px-6 mt-3 py-1 rounded-full">
               Chargez
             </button></div>

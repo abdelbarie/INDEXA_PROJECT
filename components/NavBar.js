@@ -111,19 +111,23 @@ const NavBar = () => {
                 locale === "fr"? <><img
                 src="/imgs/logo/logofullcolourdarkfrench.svg"
                 className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:hidden"
+                alt="Indexa logo"
               ></img>
               <img
                 src="/imgs/logo/logofullcolourlightfrench.svg"
                 className="w-32 -mt-3 md:mx-12 md:-mt-6 md:w-44 dark:block hidden"
+                alt="Indexa logo"
               ></img>
               </>: <>
               <img
                 src="/imgs/logo/logofullcolourdarkarabic.svg"
                 className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-28 dark:hidden"
+                alt="Indexa logo"
               ></img>
               <img
                 src="/imgs/logo/logofullcolourlightarabic.svg"
                 className="w-28 -mt-6 md:mx-12 md:-mt-6 md:w-28 dark:block hidden"
+                alt="Indexa logo"
                 
               ></img></>
               }
@@ -183,6 +187,7 @@ const NavBar = () => {
                       alt="profilPic"
                       className="rounded-full"
                       width="30px"
+                      alt="profil Pic"
                     ></img>
                     profil
                   </a>
@@ -242,8 +247,7 @@ const NavBar = () => {
             <img
               src={isOpen ? "/imgs/greenX.png" : "/imgs/greenBurgre.png"}
               width="35px"
-    
-      
+              alt="x"
               onClick={handleClick}
               className="dark:block hidden h-8"
             ></img>
@@ -254,6 +258,7 @@ const NavBar = () => {
               width="35px"
               className="h-8"
               onClick={handleClick}
+              alt="x"
             ></img>{" "}
           </div>
         </div>

@@ -6,6 +6,7 @@ const AboutUsBox = (props) => {
     <div className= "aboutUs bg-custom-dark-blue dark:bg-custom-dark-green w-11/12 md:w-9/12 lg:w-7/12 rounded-3xl relative mx-auto overflow-hidden shadow-xl">
       <img
         src="/imgs/aboutbg.png"
+        alt="aboutUS"
         className="absolute -left-20 md:left-0 top-0 aboutimg rounded-l-3xl "
       ></img>
       <div className=" w-full md:w-1/2 h-fit relative float-right my-auto  pt-8 md:pt-12 pr-8 pl-4">

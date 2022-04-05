@@ -33,12 +33,12 @@ const About = () => {
          <div className='text-lg productDetails mt-2 font-light'>
         {content.NosRubrique.content2}  
         <div className="flex gap-10 mt-4 mx-auto w-fit">
-          <img src="/imgs/marque1.jpg" className="md:w-56 w-36 "></img>
-          <img src="/imgs/marque2.jpg" className="md:w-56 w-36 "></img>
+          <img src="/imgs/marque1.jpg" className="md:w-56 w-36 " alt="indexa brands"></img>
+          <img src="/imgs/marque2.jpg" className="md:w-56 w-36 " alt="indexa brands"></img>
         </div>
         <div className="flex flex gap-10 mt-4 mx-auto w-fit">
-          <img src="/imgs/marque3.jpg" className="md:w-64 w-36 "></img>
-          <img src="/imgs/marque4.jpg" className="md:w-56 w-36 "></img>
+          <img src="/imgs/marque3.jpg" className="md:w-64 w-36 " alt="indexa brands"></img>
+          <img src="/imgs/marque4.jpg" className="md:w-56 w-36 " alt="indexa brands"></img>
         </div>
          </div>
         {/* <img src="/imgs/greenCircle.svg" className="absolute -bottom-6 -left-6  w-12"></img>
