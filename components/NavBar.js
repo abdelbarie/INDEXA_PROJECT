@@ -187,7 +187,6 @@ const NavBar = () => {
                       alt="profilPic"
                       className="rounded-full"
                       width="30px"
-                      alt="profil Pic"
                     ></img>
                     profil
                   </a>
