@@ -65,8 +65,8 @@ const Footer = () => {
           <div className={`${locale === 'fr' ? 'flex-row' : 'flex-row-reverse'} my-4 font-normal  flex  gap-2 w-fit md:w-full mx-auto `}>
             <FaPhone className="text-xl w-8 text-center mt-3 text-custom-dark-blue dark:text-white hover:text-custom-green dark:hover:text-custom-dark-bg"/>
             <div>
-            <a href="tel:023 80 44 97" className="w-full block">023 80 44 97</a>
-            <a href="tel:023 80 44 98" className="w-full block">023 80 44 98</a>
+            <a href="tel:0560 68 65 72" className="w-full block">0560 68 65 72</a>
+            <a href="tel:0560 68 23 78" className="w-full block">0560 68 23 78</a>
             </div>
             
           </div>

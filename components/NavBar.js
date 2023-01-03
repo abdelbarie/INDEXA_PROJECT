@@ -82,7 +82,8 @@ const NavBar = () => {
         } md:flex  w-fit mr-2 text-xs md:text-sm  font-normal hidden `}
       >
         <div className="md:px-2 hover:text-custom-green " >
-          <a href="tel:023 80 44 97">023 80 44 97-98</a>
+          <a href="tel:0560 68 65 72">0560 68 65 72</a>
+          <a href="0560 68 65 78">0560 68 65 78</a>
         </div>
         |
         <Link  href="/SitePlan">

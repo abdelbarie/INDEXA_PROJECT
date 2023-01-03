@@ -52,18 +52,18 @@ const NosInfo = (props) => {
           </div>
 
           <a
-            href="tel:023 80 44 97"
+            href="tel:0560 68 65 72"
             className="my-1 mx-auto   flex dark:text-white gap-2 mb-1  rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-2 border-custom-dark-blue dark:border-custom-light-blue w-fit  px-5 py-1"
           >
             <FaPhone className="text-xl w-8  mt-1 text-center" />
-            023 80 44 97
+            0560 68 65 72
           </a>
           <a
-            href="tel:023 80 44 98"
+            href="tel:0560 68 23 78"
             className="my-1 flex mx-auto   dark:text-white gap-2 mb-4 rounded-full hover:text-custom-green dark:hover:text-custom-green hover:border-custom-green border-custom-dark-blue dark:border-custom-light-blue border-2 w-fit  px-5 py-1 "
           >
             <FaPhone className="text-xl w-8  mt-1  text-center" />
-            023 80 44 98
+            0560 68 23 78
           </a>
           <div className="my-1   flex gap-1 w-fit mx-auto mb-4 dark:text-white md:w-full ">
             <div className=" ">
