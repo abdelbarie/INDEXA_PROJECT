@@ -19,6 +19,7 @@ const Centre = () => {
     "CONSTANTINE",
     "EL OUED",
     "SETIF"
+    "ANNABA"
   ] :[
     "الجزائر العاصمة" ,
     "البليدة" ,
@@ -27,8 +28,10 @@ const Centre = () => {
     "قسنطينة" ,
     "الوادي" ,
     "سطيف"
+    "عنابة"
   ] ;
   const [filter, setFilter] = useState([
+    false,
     false,
     false,
     false,
@@ -81,7 +84,8 @@ const Centre = () => {
               !filter[3] &&
               !filter[4] &&
               !filter[5] &&
-              !filter[6] ) ||
+              !filter[6] &&
+              !filter[7] ) ||
               filter[locations.indexOf(centre.wilaya)]) && (
               <CentresBox
                 location={centre.location}

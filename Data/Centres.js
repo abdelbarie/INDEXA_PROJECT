@@ -4,10 +4,18 @@ const Centres = [
     centerName: "INDEXA MOHAMMADIA - ALGER",
     description:
       "Centre Commercial et d’Affaire Mohammadia Mall, N°935, RDC. Cité djénina, Mohammadia",
-    phoneNumber: ["023 804 497","023 804 498"] , 
+    phoneNumber: ["0560 68 65 72","0560 68 65 78"] , 
     wilaya : 'ALGER' , 
     location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102319.30953720413!2d3.012907869645209!3d36.7350858992618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3f6e0666141%3A0x4e7ae433da574068!2sCENTRE%20INDEXA%20PHONAK%20EL%20MOURADIA!5e0!3m2!1sfr!2sit!4v1647445119967!5m2!1sfr!2sit"},
-  ,
+  ,{
+    id: 2,
+    centerName: "INDEXA ANNABA",
+    description:
+      "Axe Nord-Sud Sainte Thérèse Villa N° 01 RDC – Annaba",
+    phoneNumber: ["023 804 497","023 804 498"] , 
+    wilaya : 'ANNABA' , 
+    location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12759.372354656043!2d7.7576565!3d36.9180159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc32ce18d72d2bc03!2sINDEXA%20SOLUTIONS%20AUDITIVES%20ANNABA!5e0!3m2!1sen!2sdz!4v1672784676194!5m2!1sen!2sdz%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"},
+
   {
     id: 4,
     centerName: "INDEXA BLIDA",

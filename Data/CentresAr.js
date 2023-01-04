@@ -4,18 +4,10 @@ const CentresAr = [
       centerName: "مركز السمع المحمدية - الجزائر العاصمة",
       description:
         "مركز الأعمال التجارية، المحمدية مول ، رقم 935     شارع الكونغو الديمقراطية ، حي جنينة ، المحمدية",
-      phoneNumber: ["023 804 497","023 804 498"] , 
+      phoneNumber: ["0560 68 65 72","0560 68 65 78"] , 
       wilaya : 'الجزائر العاصمة' , 
       location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102319.30953720413!2d3.012907869645209!3d36.7350858992618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3f6e0666141%3A0x4e7ae433da574068!2sCENTRE%20INDEXA%20PHONAK%20EL%20MOURADIA!5e0!3m2!1sfr!2sit!4v1647445119967!5m2!1sfr!2sit"},
-    {
-      id: 2,
-      centerName: "مركز السمع المرادية - الجزائر العاصمة",
-      description:
-        "74 ، طريق عبد القادر ، المرادية الجزائر العاصمة",
-      phoneNumber: ["+213 560 68 66 39", "+213 560 68 66 39"],
-      wilaya : 'الجزائر العاصمة' , 
-      location:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6394.131737213237!2d3.057341!3d36.74499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e7ae433da574068!2sCENTRE%20INDEXA%20PHONAK%20EL%20MOURADIA!5e0!3m2!1sfr!2sus!4v1647444369363!5m2!1sfr!2sus" 
-    },
+    ,
     {
       id: 4,
       centerName: "مركز السمع البليدة",

@@ -106,16 +106,17 @@ const Footer = () => {
           </div>
           <div className="mx-auto w-fit md:w-full my-4">
           <div className={`${locale === 'fr' ? 'md:mr-auto' : 'md:ml-auto'} mt-3 flex w-fit  text-3xl gap-4`}>
-            <FaFacebookSquare className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/>
-            <FaLinkedinIn className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/>
-            <FaInstagram className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/>
+            <
+            <a href="https://www.facebook.com/indexabraille" ><FaFacebookSquare className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/></a>
+            //<FaLinkedinIn className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/>
+            //<FaInstagram className="text-custom-dark-blue dark:text-white dark:hover:text-custom-dark-bg hover:text-custom-green hover:text-4xl cursor-pointer"/>
           </div>
           </div>
          
         </div>
       </div>
       <div className=" bg-custom-dark-blue dark:bg-custom-dark-bg  text-center p-2 text-white">
-        2022 © CREATED BY EDRAAK TECHNOLOGIES
+        2022 © CREATED BY <a href="https://edraak.io">EDRAAK TECHNOLOGIES</a>
       </div>
     </div>
   );

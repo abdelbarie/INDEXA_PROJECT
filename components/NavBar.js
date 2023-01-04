@@ -83,7 +83,7 @@ const NavBar = () => {
       >
         <div className="md:px-2 hover:text-custom-green " >
           <a href="tel:0560 68 65 72">0560 68 65 72</a>
-          <a href="tel:0560 68 65 78"> 0560 68 65 78</a>
+          <a href="tel:0560 68 65 78">   0560 68 65 78</a>
         </div>
         |
         <Link  href="/SitePlan">

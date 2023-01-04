@@ -15,7 +15,7 @@ const ContactezNous = (props) => {
 const onSubmit = (e) => {
   e.preventDefault();
   send(
-    'service_bvtg2hj',
+    'service_lizwjjg',
     'template_4jlk32s',
     toSend,
     'zH0VSxnqTz0tymbqL'
