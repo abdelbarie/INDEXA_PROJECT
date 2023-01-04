@@ -81,9 +81,9 @@ const NavBar = () => {
           locale === "fr" ? "ml-auto" : "mr-auto flex-row-reverse"
         } md:flex  w-fit mr-2 text-xs md:text-sm  font-normal hidden `}
       >
-        <div className="md:px-2 hover:text-custom-green " >
-          <a href="tel:0560 68 65 72">0560 68 65 72</a>
-          <a href="tel:0560 68 65 78">   0560 68 65 78</a>
+        <div  >
+          <a href="tel:0560 68 65 72" className="md:px-2 hover:text-custom-green ">0560 68 65 72</a>
+          <a href="tel:0560 68 65 78" className="md:px-2 hover:text-custom-green ">   0560 68 65 78</a>
         </div>
         |
         <Link  href="/SitePlan">

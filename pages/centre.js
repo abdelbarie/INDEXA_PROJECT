@@ -18,7 +18,7 @@ const Centre = () => {
     "ORAN",
     "CONSTANTINE",
     "EL OUED",
-    "SETIF"
+    "SETIF" , 
     "ANNABA"
   ] :[
     "الجزائر العاصمة" ,
@@ -27,7 +27,7 @@ const Centre = () => {
     "وهران" ,
     "قسنطينة" ,
     "الوادي" ,
-    "سطيف"
+    "سطيف" , 
     "عنابة"
   ] ;
   const [filter, setFilter] = useState([
