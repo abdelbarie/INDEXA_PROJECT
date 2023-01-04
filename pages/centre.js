@@ -29,6 +29,7 @@ const Centre = () => {
     "الوادي" ,
     "سطيف" , 
     "عنابة"
+    
   ] ;
   const [filter, setFilter] = useState([
     false,
