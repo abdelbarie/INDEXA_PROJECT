@@ -16,9 +16,9 @@ const onSubmit = (e) => {
   e.preventDefault();
   send(
     'service_lizwjjg',
-    'template_4jlk32s',
+    'template_bmbnioa',
     toSend,
-    'zH0VSxnqTz0tymbqL'
+    'ANav842erAHIq9cP-'
   )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
